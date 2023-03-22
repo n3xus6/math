@@ -49,3 +49,7 @@ $$t^{'2} - Du^{'2} = (Du - \lambda t)^2 - D(t - \lambda u)^2 = D(Du^2 - t^2) + \
 $$D=\frac{t^{2}}{u^{2}}$$
 
 $$D=\frac{t^{'2}}{u^{'2}}$$
+
+![FRACT1](./1_cut.png)
+![FRACT1](./2_proof.png)
+![FRACT1](./3_commensurable.png)
