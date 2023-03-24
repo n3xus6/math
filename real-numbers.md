@@ -1,4 +1,32 @@
-Beweis für die Existenz der reellen Zahlen nach Dedekind
+# Die Existenz irrationaler Zahlen
+## Vorbemerkung
+Die Menge der rationalen Zahlen hat Lücken, eine gewisse Unvollständigkeit oder auch Diskontinuität. Auf einer Geraden gibt es unendlich viele Punkte die keiner rationalen Zahl entsprechen. Schon die alten Griechen wussten, dass die Seite eines Quadrats und seiner Diagonale nicht kommensurabel sind, d.h., man kann sie nicht mit gleichem Maß messen, wie der folgende geometrische Beweis zeigt.
+
+![FRACT1](./2_proof.png)
+
+1) Nach pythagoreischer Formel ist $a=\sqrt{2}b$.
+2) Der eingezeichnete Kreisbogen teil die Diagonale in zwei Teilstrecken der Länge $b$ und $a-b$.
+3) Das kleinere Quadrat mit der Seitenlänge $a-b$ hat eine Diagonal der Länge $\sqrt{2(a-b)^2}=\sqrt{2}(a-b)=\sqrt{2}(\sqrt{2}b-b)=2b-\sqrt{2}b=2b-a$.
+
+Wir behaupten nun $\sqrt{2}=\frac{a}{b}$ ist kommensurabel, und damit eine rationale Zahl. Kommensurabilität bedeutet veranschaulicht:
+
+![FRACT1](./3_commensurable.png)
+
+$\frac{a}{b}=\frac{mc}{nc}=$, $m$ und $n$ ganze Zahlen und wir dürfen annehmen, dass $c$ das kleinste gemeinsame Vielfache ist und somit $b$ minimal.
+
+Konstruktionsschritt 3) zeigt, dass $\sqrt{2}$ auch als $\frac{2b-a}{a-b}$ ausgedrückt werden kann. Das widerspricht jedoch der Annahme, dass $b$ minimal ist, denn $a-b < b$. Es gibt also kein kleinstes Maß $c$ für $\sqrt{2}$. Somit ist $\sqrt{2}$ nicht kommensurabel also keine rationale Zahl.
+
+Als Ergänzung geben wir hier noch einen algebraischen Beweis für diese Tatsache an. Wieder behaupten wir, dass $\sqrt{2}$ eine Bruchzahl $\frac{a}{b}$ ist und nicht weiter gekürzt werden kann.
+$$\sqrt{2}=\frac{a}{b}$$
+$$2=\frac{a^2}{b^2}$$
+$$2a^2=b^2$$ $a^2$ ist gerade und somit auch $a$ gerade. $a$ dürfen wir daher fortan als $2k$ schreiben.
+$$2b^2=(2k)^2=4k^2$$ $2b^2$ ist damit ein Vielfaches von 4 und daher q ebenfalls gerade.
+
+Das steht im Widerspruch zur Aussage vom Anfang, dass $\frac{a}{b}$ nicht weiter kürzbar ist. Wir haben also gezeigt, dass $\sqrt{2}$ nicht als Bruch dargestellt werden kann und damit auch keine rationale Zahl ist.
+
+## Motivation
+
+![FRACT1](./1_cut.png)
 
 $(A_1,A_2)$
 
@@ -50,6 +78,4 @@ $$D=\frac{t^{2}}{u^{2}}$$
 
 $$D=\frac{t^{'2}}{u^{'2}}$$
 
-![FRACT1](./1_cut.png)
-![FRACT1](./2_proof.png)
-![FRACT1](./3_commensurable.png)
+
