@@ -34,14 +34,20 @@ Essenz von Kontinuität: Wenn alle Punkte einer Geraden in zwei Klassen fallen, 
 
 Ein Dedekind Schnitt wird angegeben mit $(A_1,A_2)$ mit $A_1, A_2$ unendlich große Mengen rationaler Zahlen, wobei jede Zahl $a_1$ in $A_1$ kleiner ist als jede Zahl $a_2$ in $A_2$. Es gibt genau ein Zahl $\alpha$ die zu einem Schnitt (cut) führt. Dieses $\alpha$ unterteilt dann die Menge der rationalen Zahlen in die zwei Klassen $A_1$ und $A_2$. Ist $\alpha$ eine rationale Zahl, so ist es entweder die größte Zahl von $A_1$ oder die kleinste Zahl von $A_2$.
 
+## Beweis der Existenz irrationaler Zahlen mit Dedekind Schnitten
+
+Die rationalen Zahlen und die irrationalen Zahlen bilden zusammen die reellen Zahlen $\Re$. Wir zeigen nun anhand von Dedekind Schnitten, dass die irrationalen Zahlen existieren und somit die reelen Zahlen die gewünschte Eigenschaft der Kontinuität besitzen, die wir bei den rationalen Zahlen vermissen. Die Schnitte sind dabei wie oben beschrieben einzig und allein über die rationalen Zahlen definiert. Alle Zahlen in $\Re$ werden durch genau einen Schnitt repräsentiert.
+
+Ausgangspunkt für den Beweis ist der Schnitt $(A_1,A_2)$, $A_1=$\{ $a_1$ \}, $A_2=$\{ $a_2$ \} mit der Eigenschaft ${a_1^2} <= D$ und ${a_2^2} > D$. $D$ ist eine rationale Zahl die kein Quadrat einer anderen rationalen Zahl ist. Beispiel zur Veranschaulichung:
+
 ![FRACT1](./1_cut.png)
 
-$(A_1,A_2)$
+**Wir behaupten, dass dieser Schnitt $(A_1,A_2) = \alpha$ ebenfalls eine rationale Zahl ist.**
 
-**Gleichung 1**
+Da $D$ kein Quadrat einer anderen rationalen Zahl ist können wir schreiben (mit $\lambda$ rationale Zahl):
 $$\lambda^2 < D < (\lambda + 1)^2$$
 
-**Gleichung 2**
+
 $$d=\frac{t}{u}$$
 
 $$du=t$$
