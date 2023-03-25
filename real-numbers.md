@@ -26,6 +26,14 @@ Das steht im Widerspruch zur Aussage vom Anfang, dass $\frac{a}{b}$ nicht weiter
 
 ## Motivation
 
+Die Arithmetik soll aus sich selbst heraus entwickelt werden. So lassen sich die Rechengesetze für negative und rationale Zahlen auf die Gesetze der positiven ganzen Zahlen zurückführen. Die irrationalen Zahlen müssen folglich einzig und alleine mit Hilfe der Rechengesetze für die rationalen Zahlen definiert werden. Aber wie? Hierzu muss die Frage beantwortet werden was man unter Kontinuität versteht.
+
+Essenz von Kontinuität: Wenn alle Punkte einer Geraden in zwei Klassen fallen, sodass jeder Punkt der ersten Klasse sich auf der linken Seite befindet von jedem Punkt aus der zweiten Klasse, dann existiert ein und genau ein Punkt, der diese Unterteilung erzeugt.
+
+## Dedekind Schnitt
+
+Ein Dedekind Schnitt wird angegeben mit $(A_1,A_2)$ mit $A_1, A_2$ unendlich große Mengen rationaler Zahlen, wobei jede Zahl $a_1$ in $A_1$ kleiner ist als jede Zahl $a_2$ in $A_2$. Es gibt genau ein Zahl $\alpha$ die zu einem Schnitt (cut) führt. Dieses $\alpha$ unterteilt dann die Menge der rationalen Zahlen in die zwei Klassen $A_1$ und $A_2$. Ist $\alpha$ eine rationale Zahl, so ist es entweder die größte Zahl von $A_1$ oder die kleinste Zahl von $A_2$.
+
 ![FRACT1](./1_cut.png)
 
 $(A_1,A_2)$
