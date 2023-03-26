@@ -32,21 +32,19 @@ Essenz von Kontinuität: Wenn alle Punkte einer Geraden in zwei Klassen fallen, 
 
 ## Dedekind Schnitt
 
-Ein Dedekind Schnitt wird angegeben mit $(A_1,A_2)$ mit $A_1, A_2$ unendlich große Mengen rationaler Zahlen, wobei jede Zahl $a_1$ in $A_1$ kleiner ist als jede Zahl $a_2$ in $A_2$. Es gibt genau ein Zahl $\alpha$ die zu einem Schnitt (cut) führt. Dieses $\alpha$ unterteilt dann die Menge der rationalen Zahlen in die zwei Klassen $A_1$ und $A_2$. Ist $\alpha$ eine rationale Zahl, so ist es entweder die größte Zahl von $A_1$ oder die kleinste Zahl von $A_2$.
+Ein Dedekind Schnitt wird angegeben mit $\alpha = (A_1,A_2)$, $A_1$ und $A_2$ egeben zusammen die rationalen Zahlen, wobei jede Zahl $a_1$ in $A_1$ kleiner ist als jede Zahl $a_2$ in $A_2$. Dieses $\alpha$ unterteilt dann die Menge der rationalen Zahlen in die zwei Klassen $A_1$ und $A_2$. Ist $\alpha$ eine rationale Zahl, so ist es entweder die größte Zahl von $A_1$ oder die kleinste Zahl von $A_2$. Die Zuordnung Schnitt $\alpha$ zu einer rationalen Zahl ist eindeutig.
 
 ## Beweis der Existenz irrationaler Zahlen mit Dedekind Schnitten
 
-Die rationalen Zahlen und die irrationalen Zahlen bilden zusammen die reellen Zahlen $\Re$. Wir zeigen nun anhand von Dedekind Schnitten, dass die irrationalen Zahlen existieren und somit die reelen Zahlen die gewünschte Eigenschaft der Kontinuität besitzen, die wir bei den rationalen Zahlen vermissen. Die Schnitte sind dabei wie oben beschrieben einzig und allein über die rationalen Zahlen definiert. Alle Zahlen in $\Re$ werden durch genau einen Schnitt repräsentiert.
+Die rationalen Zahlen und die irrationalen Zahlen bilden zusammen die reellen Zahlen $\Re$. Wir zeigen nun anhand eines Dedekind Schnitts, dass irrationale Zahlen existieren und somit die reelen Zahlen die gewünschte Eigenschaft der Kontinuität besitzen, die wir bei den rationalen Zahlen vermisst haben. Es gibt unendlich viele Schnitte die nicht einer rationalen Zahl zugehören wie folgendes Beispiel zeigt.
 
-Ausgangspunkt für den Beweis ist der Schnitt $(A_1,A_2)$, $A_1=$\{ $a_1$ \}, $A_2=$\{ $a_2$ \} mit der Eigenschaft ${a_1^2} <= D$ und ${a_2^2} > D$. $D$ ist eine rationale Zahl die kein Quadrat einer anderen rationalen Zahl ist. Beispiel zur Veranschaulichung:
+Ausgangspunkt ist der Schnitt $(A_1,A_2)$, $A_1=$\{ $a_1$ \}, $A_2=$\{ $a_2$ \} mit der Eigenschaft ${a_1^2} <= D$ und ${a_2^2} > D$. Veranschaulichung:
 
 ![FRACT1](./1_cut.png)
 
-**Wir behaupten, dass dieser Schnitt $(A_1,A_2) = \alpha$ ebenfalls eine rationale Zahl ist.**
-
-Da $D$ kein Quadrat einer anderen rationalen Zahl ist können wir schreiben (mit $\lambda$ rationale Zahl):
+$D$ sei eine positive Ganzzahl die keine Quadratzahl ist. Wir können dann schreiben
 $$\lambda^2 < D < (\lambda + 1)^2$$
-
+mit $\lambda$ ebenfalls eine positive Ganzzahl. Um zu zeigen, dass der sich daraus ergebende Schnitt $\alpha = (A_1,A_2)$ keiner rationale Zahl zugeordnet werden kann, muss die Tatsache bewiesen werden, dass es keine rationale Zahl gibt, deren Quadart $D$ ist. Um das zu tun, gehen wir von der gegenteiligen Annahme aus. Wir führen positive Ganzzahlen $t$ und $u$ ein und schreiben
 
 $$d=\frac{t}{u}$$
 
@@ -58,7 +56,7 @@ $$t^2-d^2u^2=0$$
 
 $$t^2-Du^2=0$$
 
-Wir dürfen annehmen $u$ ist kleinste positive Ganzzahl die diese Gleichung erfüllt.
+Wir dürfen dabei annehmen, $u$ ist kleinste positive Ganzzahl die diese Gleichung erfüllt.
 
 **Gleichung 3-1**
 $$\lambda^2 < \frac{t^2}{u^2} < (\lambda + 1)^2$$
@@ -92,4 +90,4 @@ $$D=\frac{t^{2}}{u^{2}}$$
 
 $$D=\frac{t^{'2}}{u^{'2}}$$
 
-
+Die Schnitte sind dabei wie oben beschrieben einzig und allein über die rationalen Zahlen definiert. Alle Zahlen in $\Re$, seien es rationale oder irrationale Zahlen, werden durch genau einen Schnitt repräsentiert.
