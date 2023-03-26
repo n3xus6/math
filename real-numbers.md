@@ -56,9 +56,8 @@ $$t^2-d^2u^2=0$$
 
 $$t^2-Du^2=0$$
 
-Wir dürfen dabei annehmen, $u$ ist kleinste positive Ganzzahl die diese Gleichung erfüllt.
+Wir dürfen dabei annehmen, $u$ ist kleinste positive Ganzzahl die diese Gleichung erfüllt. Durch Einsetzen erhalten wir
 
-**Gleichung 3-1**
 $$\lambda^2 < \frac{t^2}{u^2} < (\lambda + 1)^2$$
 
 $$\lambda u < t < (\lambda + 1)u$$
@@ -67,9 +66,7 @@ $$0 < t - \lambda u < u$$
 
 $$u^{'} = t - \lambda u$$
 
-Man bemerke $u^{'} < u$.
-
-**Gleichung 3-2**
+Man bemerke $u^{'} < u$. Und auf ähnliche Weise erhalten wir
 
 $$\lambda < \frac{t}{u} < (\lambda + 1)$$
 
@@ -81,13 +78,11 @@ $$0 < Du - \lambda t < t$$
 
 $$t^{'} = Du - \lambda t$$
 
-Man bemerke $t^{'} < t$.
+Nun schreiben wir aus
 
-**Gleichung 4**
 $$t^{'2} - Du^{'2} = (Du - \lambda t)^2 - D(t - \lambda u)^2 = D(Du^2 - t^2) + \lambda^2(t^2 - Du^2) = (\lambda^2 - D)(t^2-Du^2)=0$$
 
-$$D=\frac{t^{2}}{u^{2}}$$
+und erkennen den Widerspruch, dass $t^{'2} - Du^{'2} = 0$. Denn wir durften annehmen, dass $u$ die kleinste Zahl ist deren Quadrat multipliziert mit $D$ in eine andere Quadratzahl überführt werden kann. Jedoch ist $u^{'} < u$. Daher ist unser Schnitt $\alpha$ keiner rationalen Zahl zuordenbar.
 
-$$D=\frac{t^{'2}}{u^{'2}}$$
-
+TODO
 Die Schnitte sind dabei wie oben beschrieben einzig und allein über die rationalen Zahlen definiert. Alle Zahlen in $\Re$, seien es rationale oder irrationale Zahlen, werden durch genau einen Schnitt repräsentiert.
