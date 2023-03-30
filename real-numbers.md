@@ -32,7 +32,7 @@ Essenz von Kontinuität: Wenn alle Punkte einer Geraden in zwei Klassen fallen, 
 
 ## Dedekind Schnitt
 
-Ein Dedekind Schnitt wird angegeben mit $\alpha = (A_1,A_2)$, $A_1$ und $A_2$ egeben zusammen die rationalen Zahlen, wobei jede Zahl $a_1$ in $A_1$ kleiner ist als jede Zahl $a_2$ in $A_2$. Dieses $\alpha$ unterteilt dann die Menge der rationalen Zahlen in die zwei Klassen $A_1$ und $A_2$. Ist $\alpha$ eine rationale Zahl, so ist es entweder die größte Zahl von $A_1$ oder die kleinste Zahl von $A_2$. Die Zuordnung Schnitt $\alpha$ zu einer rationalen Zahl ist eindeutig.
+Ein Dedekind Schnitt wird angegeben mit $\alpha = (A_1,A_2)$, $A_1$ und $A_2$ ergeben zusammen die rationalen Zahlen, wobei jede Zahl $a_1$ in $A_1$ kleiner ist als jede Zahl $a_2$ in $A_2$. Dieses $\alpha$ unterteilt dann die Menge der rationalen Zahlen in die zwei Klassen $A_1$ und $A_2$. Ist $\alpha$ eine rationale Zahl, so ist es entweder die größte Zahl von $A_1$ oder die kleinste Zahl von $A_2$. Die Zuordnung Schnitt $\alpha$ zu einer rationalen Zahl ist eindeutig.
 
 ## Beweis der Existenz irrationaler Zahlen mit Dedekind Schnitten
 
@@ -44,7 +44,7 @@ Ausgangspunkt ist der Schnitt $(A_1,A_2)$, $A_1=$\{ $a_1$ \}, $A_2=$\{ $a_2$ \} 
 
 $D$ sei eine positive Ganzzahl die keine Quadratzahl ist. Wir können dann schreiben
 $$\lambda^2 < D < (\lambda + 1)^2$$
-mit $\lambda$ ebenfalls eine positive Ganzzahl. Um zu zeigen, dass der sich daraus ergebende Schnitt $\alpha = (A_1,A_2)$ keiner rationale Zahl zugeordnet werden kann, muss die Tatsache bewiesen werden, dass es keine rationale Zahl gibt, deren Quadart $D$ ist. Um das zu tun, gehen wir von der gegenteiligen Annahme aus. Wir führen positive Ganzzahlen $t$ und $u$ ein und schreiben
+mit $\lambda$ ebenfalls eine positive Ganzzahl. Um zu zeigen, dass der sich daraus resultierende Schnitt $\alpha = (A_1,A_2)$ keiner rationale Zahl zugeordnet werden kann, muss die Tatsache bewiesen werden, dass es keine rationale Zahl gibt, deren Quadart $D$ ist. Um das zu tun, gehen wir von der gegenteiligen Annahme aus. Wir führen positive Ganzzahlen $t$ und $u$ ein und schreiben
 
 $$d=\frac{t}{u}$$
 
@@ -82,7 +82,7 @@ Nun schreiben wir aus
 
 $$t^{'2} - Du^{'2} = (Du - \lambda t)^2 - D(t - \lambda u)^2 = D(Du^2 - t^2) + \lambda^2(t^2 - Du^2) = (\lambda^2 - D)(t^2-Du^2)=0$$
 
-und erkennen den Widerspruch, dass $t^{'2} - Du^{'2} = 0$. Denn wir durften annehmen, dass $u$ die kleinste Zahl ist deren Quadrat multipliziert mit $D$ in eine andere Quadratzahl überführt werden kann. Jedoch ist $u^{'} < u$. Daher kann D keine Quadratzahl sein und unser Schnitt $\alpha$ keiner rationalen Zahl zuordenbar.
+und erkennen den Widerspruch, $t^{'2} - Du^{'2} = 0$. Denn wir durften annehmen, dass $u$ die kleinste Zahl ist deren Quadrat multipliziert mit $D$ in eine andere Quadratzahl überführt werden kann. Jedoch ist $u^{'} < u$. Daher kann D keine Quadratzahl sein und der Schnitt $\alpha$ ist somit keiner rationalen Zahl zuordenbar.
 
 TODO
 Die Schnitte sind dabei wie oben beschrieben einzig und allein über die rationalen Zahlen definiert. Alle Zahlen in $\Re$, seien es rationale oder irrationale Zahlen, werden durch genau einen Schnitt repräsentiert.
