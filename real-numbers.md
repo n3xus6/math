@@ -19,10 +19,10 @@ Konstruktionsschritt 3) zeigt, dass $\sqrt{2}$ auch als $\frac{2b-a}{a-b}$ ausge
 Als Ergänzung geben wir hier noch einen algebraischen Beweis für diese Tatsache an. Wieder behaupten wir, dass $\sqrt{2}$ eine Bruchzahl $\frac{a}{b}$ ist und nicht weiter gekürzt werden kann.
 $$\sqrt{2}=\frac{a}{b}$$
 $$2=\frac{a^2}{b^2}$$
-$$2a^2=b^2$$ $a^2$ ist gerade und somit auch $a$ gerade. $a$ dürfen wir daher fortan als $2k$ schreiben.
-$$2b^2=(2k)^2=4k^2$$ $2b^2$ ist damit ein Vielfaches von 4 und daher q ebenfalls gerade.
+$$2b^2=a^2$$ $a^2$ ist gerade und somit auch $a$ gerade. $a$ dürfen wir daher fortan als $2k$ schreiben.
+$$2b^2=(2k)^2=4k^2$$ $2b^2$ ist damit ein Vielfaches von 4 und daher b ebenfalls gerade.
 
-Das steht im Widerspruch zur Aussage vom Anfang, dass $\frac{a}{b}$ nicht weiter kürzbar ist. Wir haben also gezeigt, dass $\sqrt{2}$ nicht als Bruch dargestellt werden kann und damit auch keine rationale Zahl ist.
+Das steht im Widerspruch zur Aussage vom Anfang, dass $\frac{a}{b}$ nicht weiter kürzbar ist. Wir haben also gezeigt, dass $\sqrt{2}$ nicht als Bruch dargestellt werden kann und damit keine rationale Zahl ist.
 
 ## Motivation
 
