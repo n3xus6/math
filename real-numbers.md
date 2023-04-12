@@ -96,6 +96,27 @@ Ausformulieren zeigt
 
 $$t^{'2} - Du^{'2} = (Du - \lambda t)^2 - D(t - \lambda u)^2 = D(Du^2 - t^2) + \lambda^2(t^2 - Du^2) = (\lambda^2 - D)(t^2-Du^2)=0$$
 
-, wegen $(t^2-Du^2)=0$. Wir erkennen den Widerspruch zur Annahme, dass $u$ die kleinste Zahl ist deren Quadrat multipliziert mit $D$ in eine andere Quadratzahl überführt werden kann. Jedoch ist $u^{'} < u$. Daher kann D keine Quadratzahl sein und für alle $x$ gilt $x^2 < D$ oder $x^2>D$.
+, wegen $(t^2-Du^2)=0$. Wir erkennen hier den Widerspruch zur Annahme, dass $u$ die kleinste Zahl ist deren Quadrat multipliziert mit $D$ in eine andere Quadratzahl überführt werden kann, denn $u^{'} < u$. Daher kann D keine Quadratzahl sein und für alle $x$ gilt $x^2 < D$ oder $x^2>D$.
 
-TODO
+Jetzt müssen wir noch zeigen, dass weder $A_1$ eine größte Zahl, noch $A_2$ eine kleinste Zahl besitzt.
+
+Schreiben wir
+
+$$y = \frac{x(x^2+3D)}{3x^2+D}$$
+
+Dann haben wir (a)
+
+$$y-x=\frac{2x(D-x^2)}{3x^2+D}$$
+
+und (b)
+
+$$y^2-D=\frac{(x^2-D)^3}{(3x^2+D)^2}$$
+
+Ist $x \in A_1$ dann $x^2 < D$. Nach (a) ist $y > x$ und nach (b) $y^2 < D$, somit auch $y \in A_1$. Ist $x \in A_2$ dann $x^2 > D$. Nach (a) ist $y < x$ und nach (b) $y^2 > D$, somit auch $y \in A_2$. Das ist was wir noch zeigen mussten. Der Schnitt $(A_1,A_2)$ ist keiner rationalen Zahl zuordenbar, $\alpha \notin Q$.
+
+In dieser Eigenschaft, dass nicht alle Schnitte durch eine rationale Zahl erzeugt werden, besteht die Unvollständigkeit oder Diskontinuität der rartionalen Zahlen. Wann immer wir es mit einem Schnitt zu tun haben der von keiner retionalen Zahl erzeugt wird, erstellen wir eine neue, **irrtaionale Zahl** $\alpha$, die vollständig durch den Schnitt $(A_1,A_2)$ definiert ist. Zu jedem Schnitt gehört eine rationale oder irrationale Zahl. Zwei Zahlen sind genau dann und nur dann voneinander verschieden oder ungleich, wenn sie zu verschiedenen Schnitten gehören.
+
+Quellen:
+
+* ESSAY ON THE THEORY OF NUMBERS, I. CONTINUITY AND IRRATIONAL NUMBERS, BY RICHARD DEDEKIND
+* Book ANALYSIS, 5. Auflage, Walter Rudin
