@@ -6,7 +6,7 @@ Die Menge der rationalen Zahlen hat Lücken, eine gewisse Unvollständigkeit ode
 
 1) Nach pythagoreischer Formel ist $a=\sqrt{2}b$.
 2) Der eingezeichnete Kreisbogen teil die Diagonale in zwei Teilstrecken der Länge $b$ und $a-b$.
-3) Das kleinere Quadrat mit der Seitenlänge $a-b$ hat eine Diagonal der Länge $\sqrt{2(a-b)^2}=\sqrt{2}(a-b)=\sqrt{2}(\sqrt{2}b-b)=2b-\sqrt{2}b=2b-a$.
+3) Das kleinere Quadrat mit der Seitenlänge $a-b$ hat eine Diagonale der Länge $\sqrt{2(a-b)^2}=\sqrt{2}(a-b)=\sqrt{2}(\sqrt{2}b-b)=2b-\sqrt{2}b=2b-a$.
 
 Wir behaupten nun $\sqrt{2}=\frac{a}{b}$ ist kommensurabel, und damit eine rationale Zahl. Kommensurabilität bedeutet veranschaulicht:
 
@@ -32,19 +32,33 @@ Essenz von Kontinuität: Wenn alle Punkte einer Geraden in zwei Klassen fallen, 
 
 ## Dedekind Schnitt
 
-Ein Dedekind Schnitt wird angegeben mit $\alpha = (A_1,A_2)$, $A_1$ und $A_2$ ergeben zusammen die rationalen Zahlen, wobei jede Zahl $a_1$ in $A_1$ kleiner ist als jede Zahl $a_2$ in $A_2$. Dieses $\alpha$ unterteilt dann die Menge der rationalen Zahlen in die zwei Klassen $A_1$ und $A_2$. Ist $\alpha$ eine rationale Zahl, so ist es entweder die größte Zahl von $A_1$ oder die kleinste Zahl von $A_2$. Die Zuordnung Schnitt $\alpha$ zu einer rationalen Zahl ist eindeutig.
+Ein Dedekind Schnitt $\alpha = (A_1,A_2)$ unterscheidet zwei Klassen $A_1$ und $A_2$ dadurch, dass jede Zahl $a_1$ in $A_1$ kleiner ist als jede Zahl $a_2$ in $A_2$. $a_1$ und $a_2$ sind rationale Zahlen. Es gibt genau eine Zahl $\alpha$ die einen Schnitt eindeutig bestimmt, sodass gilt $a_1 < \alpha < a_2$. Ist $\alpha$ eine rationale Zahl, kann diese entweder zu $A_1$ oder zu $A_2$ zugeordnet werden. Dann ist sie entweder die größte Zahl von $A_1$ oder die kleinste Zahl von $A_2$. Unabhängig davon betrachten wir beide Fälle als wesentlich identisch.
 
-## Beweis der Existenz irrationaler Zahlen mit Dedekind Schnitten
+## Vorhaben
 
-Die rationalen Zahlen und die irrationalen Zahlen bilden zusammen die reellen Zahlen $\Re$. Wir zeigen nun anhand eines Dedekind Schnitts, dass irrationale Zahlen existieren und somit die reelen Zahlen die gewünschte Eigenschaft der Kontinuität besitzen, die wir bei den rationalen Zahlen vermisst haben. Es gibt unendlich viele Schnitte die nicht einer rationalen Zahl zugehören wie folgendes Beispiel zeigt.
+Die rationalen Zahlen und die irrationalen Zahlen bilden zusammen die reellen Zahlen $\Re$. Wir zeigen nun anhand eines Dedekind-Schnitts, dass irrationale Zahlen existieren. Die reelen Zahlen besitzen die gewünschte Eigenschaft der Kontinuität, die wir bei den rationalen Zahlen vermisst haben. Es gibt unendlich viele Schnitte die nicht einer rationalen Zahl zugeordnet werden können.
 
-Ausgangspunkt ist der Schnitt $(A_1,A_2)$, $A_1=$\{ $a_1$ \}, $A_2=$\{ $a_2$ \} mit der Eigenschaft ${a_1^2} <= D$ und ${a_2^2} > D$. Veranschaulichung:
+## Erstellen einer irrationalen Zahl
+
+Ausgangspunkt ist der Schnitt $\alpha = (A_1,A_2)$:
+
+$$A_1=\\{a_1\\}=\\{x|x\leq0 \lor (x>0 \land x^2\leq D)\\}$$
+
+$$A_2=\\{a_2\\}=\\{x|x>0 \land x^2>D\\}$$
+
+Veranschaulichung:
 
 ![FRACT1](./1_cut.png)
 
-$D$ sei eine positive Ganzzahl die keine Quadratzahl ist. Wir können dann schreiben
-$$\lambda^2 < D < (\lambda + 1)^2$$
-mit $\lambda$ ebenfalls eine positive Ganzzahl. Um zu zeigen, dass der sich daraus resultierende Schnitt $\alpha = (A_1,A_2)$ keiner rationale Zahl zugeordnet werden kann, muss die Tatsache bewiesen werden, dass es keine rationale Zahl gibt, deren Quadart $D$ ist. Um das zu tun, gehen wir von der gegenteiligen Annahme aus. Wir führen positive Ganzzahlen $t$ und $u$ ein und schreiben
+Mit $x$ rationale Zahl, $D$ positive ganze Zahl. $a_1 < a_2$ für alle $a_1$ und alle $a_2$.
+
+Zu zeigen: $\alpha \notin Q$, wenn $D$ **nicht** das Quadrat einer ganzen Zahl ist. Wäre $\alpha$ eine rationale Zahl, so hätte $A_1$ eine größte Zahl oder $A_2$ eine kleinste Zahl, nämlich $\alpha$.
+
+Erlaubt der Schnitt, dass $D$ nicht das Quadrat einer ganzen Zahl sein kann? Das hieße, $D$ befindet sich zwischen zwei Quadratzahlen
+
+$$\lambda^2 < D < (\lambda + 1)^2, \lambda \in N$$
+
+Wäre nun $D$ eine Quadrat einer ganzen Zahl könnte man schreiben ($t, u$ positive ganze Zahlen)
 
 $$d=\frac{t}{u}$$
 
@@ -56,7 +70,7 @@ $$t^2-d^2u^2=0$$
 
 $$t^2-Du^2=0$$
 
-Wir dürfen dabei annehmen, $u$ ist kleinste positive Ganzzahl die diese Gleichung erfüllt. Durch Einsetzen erhalten wir
+$u$ soll hierbei **minimal** sein. Durch Einsetzen erhält man
 
 $$\lambda^2 < \frac{t^2}{u^2} < (\lambda + 1)^2$$
 
@@ -78,11 +92,10 @@ $$0 < Du - \lambda t < t$$
 
 $$t^{'} = Du - \lambda t$$
 
-Nun schreiben wir aus
+Ausformulieren zeigt
 
 $$t^{'2} - Du^{'2} = (Du - \lambda t)^2 - D(t - \lambda u)^2 = D(Du^2 - t^2) + \lambda^2(t^2 - Du^2) = (\lambda^2 - D)(t^2-Du^2)=0$$
 
-und erkennen den Widerspruch, $t^{'2} - Du^{'2} = 0$. Denn wir durften annehmen, dass $u$ die kleinste Zahl ist deren Quadrat multipliziert mit $D$ in eine andere Quadratzahl überführt werden kann. Jedoch ist $u^{'} < u$. Daher kann D keine Quadratzahl sein und der Schnitt $\alpha$ ist somit keiner rationalen Zahl zuordenbar.
+, wegen $(t^2-Du^2)=0$. Wir erkennen den Widerspruch zur Annahme, dass $u$ die kleinste Zahl ist deren Quadrat multipliziert mit $D$ in eine andere Quadratzahl überführt werden kann. Jedoch ist $u^{'} < u$. Daher kann D keine Quadratzahl sein und für alle $x$ gilt $x^2 < D$ oder $x^2>D$.
 
 TODO
-Die Schnitte sind dabei wie oben beschrieben einzig und allein über die rationalen Zahlen definiert. Alle Zahlen in $\Re$, seien es rationale oder irrationale Zahlen, werden durch genau einen Schnitt repräsentiert.
