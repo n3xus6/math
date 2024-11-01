@@ -1,0 +1,439 @@
+# Beweise
+
+## Vorkenntnisse
+
+Die ganzen Zahlen sind die natürlichen Zahlen erweitert um die negativen
+Zahlen. Rationale Zahl bedeutet das gleiche wie Bruchzahl und man kann diese
+als Verhältnis ganzer Zahlen ausdrücken. Kann man dies nicht spricht man von
+einer irrationalen Zahl. Der Dezimalbruch einer rationalen Zahl bricht
+irgendwann ab oder wird irgendwann periodisch.
+
+Eine positive ganze Zahl mit genau zwei verschiedenen Teilern, nämlich der
+Eins und der Zahl selbst, wird als Primzahl bezeichnet.
+
+Die kleinste Primzahl ist somit die Zwei. Die Null gehört nicht dazu, da sie
+keine positive ganze Zahl ist. Die Eins gehört nicht dazu, denn sie hat nicht
+zwei verschiedene Teiler. Die Zwei ist auch die einzige gerade Primzahl, denn
+alle nachfolgenden geraden Zahlen können zusätzlich durch zwei geteilt werden.
+
+Der Fundamentalsatz der Arithmetik liefert die Erkenntnis, dass jede positive
+ganze Zahl auf eindeutige Weise als Produkt von Primzahlen gekennzeichnet ist.
+Die Eins ist durch das leere Produkt gegeben. Eine Primzahl ist gegeben durch
+das einstellige Produkt, dessen Faktor die Primzahl ist.
+
+## Beweis für "Es gibt unendlich viele Primzahlen"
+
+Es seien die Primzahlen endlich und deren Anzahl k. Weil alle Primzahlen
+bekannt sind, muss wegen dem Fundamentalsatz der Arithmetik die Zahl
+(p1 * p2 * p3 * ... * pk) + 1 durch eine Primzahl p teilbar sein, die in dem
+Produkt in Klammern vorkommt. Es muss also ((p1 * p2 * p3 * ... * pk) + 1) / p
+und zugleich (p1 * p2 * p3 * ... * pk) / p möglich sein. Die Differenz beider
+Zahlen ist 1 / p. Dies ist aber unmöglich, weil kein p Teiler von Eins ist.
+Also ist die Zahl (p1 * p2 * p3 * ... * pk) + 1 durch keine Primzahl p teilbar.
+Sie muss aber durch eine Primzahl teilbar sein, wie der Fundamentalsatz der
+Arithmetik besagt. Also gibt es noch eine weitere Primzahl. Jede Behauptung
+über endlich viele Primzahlen kann somit widerlegt werden. Also gibt es
+unendlich viele Primzahlen.
+
+## Beweis für "Wurzel Zwei ist keine rationale Zahl"
+
+Ist Wurzel Zwei eine rationale Zahl, gibt es unendlich viele Möglichkeiten sie
+als Bruch zu repräsentieren. Sie kann also als Bruch a / b ausgedrückt werden,
+der durch Kürzen hervorgegangen ist, so dass a und b keinen gemeinsamen Teiler
+mehr besitzen. Wurzel 2 = a / b, also 2 = a^2 / b^2, also a^2 = 2b^2.
+Da a^2 gerade, ist auch a gerade, denn sonst würde gelten ungerade mal
+ungerade, was keinen geraden Faktor enthält. Da a gerade, gilt a = 2c.
+a^2 = 2b^2, also (2c)^2 = 2b^2, also 4c^2 = 2b^2, also b^2 = 2c^2.
+Da b^2 gerade, ist auch b gerade. Da b gerade, gilt b = 2d. Das a und b beide
+gerade sind, steht im Widerspruch dazu, dass Wurzel Zwei als nicht kürzbarer
+Bruch a / b ausgedrückt werden kann. Aber kann sie das nicht, ist Wurzel 2
+keine rationale Zahl, was zu zeigen war.
+
+# Notizen und Zitate
+
+Die folgenden Sätze habe ich bei der Lektüre von Aufsätzen und Lehrbüchern
+unterstrichen. Sie dienen mir als Vergewisserung, dass meine Gedankengänge
+an fundamentiertem und gesichertem Wissen entlanglaufen und nicht dagegen
+verstoßen.
+
+## On proof and progress in mathematics, William P. Thurston (1946 - 2012)
+
+There is a continuing desire for human understanding of a proof, in addition to
+knowledge that the theorem is true.
+
+What people really want is usually not some collection of answers - what they
+want is understanding.
+
+Mathematicians generally find it difficult to give a good direct definition
+what mathematics is. For me, the theory of formal patterns has come to the
+closest.
+
+If what we are doing is constructing better ways of thinking, then
+psychological and social dimensions are essential to a good model for
+mathematical progress. These dimensions are absent from the popular model.
+
+Popular model:
+Definition - start from few basic mathematical structures and a collection of
+             axioms "given" about these structures
+Theorem    - there are various important questions to be answered about these
+             structures that can be stated as formal mathematical propositions
+             (Aussagen)
+Proof      - the task is to seek a deductive pathway from the axioms to the
+             prepositions or to their denials (Deduktion = logische Folgerung)
+
+The difficulty with the popular model is that it doesn't explain the source of
+the questions.
+
+The measure of our success is whether what we do enables people to understand
+and think more clearly and effectively about mathematics.
+
+People have very different ways of understanding particular pieces of
+mathematics. The differences start to evaporate as soon as the mental concepts
+are translated into precise, formal and explicit definitions.
+
+In fact, it is common for excellent mathematicians not even to know the
+standard formal usage of quantifiers (for all and there exists), yet all
+mathematicians certainly perform the reasoning that they encode.
+
+Basic concepts used every day in one subfield are often foreign to another
+subfield. Mathematicians give up on trying to understand the basic concepts
+even from neighboring subfields, unless they were glued in as graduate
+students.
+
+In Papers, people are still more formal. Writers translate their ideas into
+symbols and logic, and readers try to translate back.
+
+When the idea is clear, the formal setup is usually unnecessary and redundant.
+
+Within any field, there are certain theorems and certain techniques that are
+generally known and generally accepted. When you write a paper, you refer to
+these without proof.
+
+The kind of change I would advocate is that mathematicians take more care with
+their proofs, making them really clear and as simple as possible so that if any
+weakness is present it will be easy to detect.
+
+Mathematics as we practice it is much more formally complete and precise than
+other sciences, but it is much less formally complete and precise for its
+content than computer programs.
+
+The proportion of energy spent on the working part of a large program, as
+distinguished from the bookkeeping part, is surprisingly small.
+
+However, we should recognize that the humanly understandable and humanly
+checkable proofs that we actually do are what is most important to us, and
+that they are quite different from formal proofs.
+
+It was hard to fond the time to write to keep up with what I could prove, and I
+built up a backlog.
+
+Parts of this proof I could communicate in two minutes to the topologists, but
+the analysts would need an hour lecture before they would begin to understand
+it. Similarly, there were some things that could be said in two minutes to the
+analysts that would take an hour before the topologists would begin to get it.
+And there were many other parts of the proof which should take two minutes in
+the abstract, but that none of the audience at the time had the mental
+infrastructure to get in less than an hour.
+
+What mathematicians most wanted from me was to learn my ways of thinking, and
+not in fact to learn my proof of the geometrization conjecture for Haken
+manifolds.
+
+## Zahlen - Geschichte, Gesetze, Geheimnisse - Albrecht Beutelspacher
+
+Die Zahlen sind freie Schöpfungen des menschlichen Geistes, sie dienen als
+Mittel, um die Verschiedenheit der Dinge leichter und schärfer
+aufzufassen. Richard Dedekind, Was sind und was sollen Zahlen? (1888)
+
+Der Zahlensinn ist uns Menschen angeboren. Das Zählen muss jeder Mensch
+lernen, es ist ihm nicht angeboren. Tiere haben einen Zahlensinn,
+können aber nicht zählen.
+
+Die zugrunde liegende Idee der figurierten Zahlen ist, eine geometrische Figur
+gleichmäßig mit Steinchen auszulegen und die Anzahlen der benutzten Steinchen
+zu betrachten.
+
+Primzahlen sind Zahlen, die man nicht in einem Rechteck auslegen kann, sondern
+nur als Linie.
+
+Die n-te Quadratzahl entsteht, indem man zur vorhergehenden Quadratzahl die
+n-te ungerade Zahl addiert. Beispiel. Die dritte Quadratzahl ist 9. Die vierte
+ungerade Zahl ist 7. Also ist die vierte Quadratzahl 9 + 7 = 16.
+
+Die n-te Dreieckszahl entsteht aus der vorhergehenden Dreieckszahl, indem man
+sie um n vergrößert. Beispiel. Die dritte Dreieckszahl ist 6. Also ist die
+vierte Dreieckszahl 6 + 4 = 10.
+
+Diese Art der Einsichtsgewinnung wird auch als Beweis ohne Worte bezeichnet.
+
+Bei einem magischen Quadrat geht es darum, die Zahlen 1 bis n^2 so in ein
+quadratisches Schema zu schreiben, dass die Summer der Zahlen in jeder Zeile,
+in jeder Spalte und in jeder Diagonale die gleiche ist. Für jede natürliche
+Zahl n, die mindestens 3 ist, gibt es mindestens ein magisches n x n-Quadrat.
+Das älteste magische Quadrat ist das chinesische Lo Shu. Ein magisches
+4 x 4-Quadrat taucht auf in Albrecht Dürers Kupferstich Melencolia I von 1514.
+
+Eine gute Approximation für die Anzahl der Primzahlen bis n wird dargestellt
+durch die Formel n geteilt durch 2 mal die Stellenanzahl von n. Primzahlsatz.
+
+Man kennt über 400 Beweise für den Satz des Pythagoras. Werden in einem
+rechtwinkligen Dreieck die Längen der kurzen Seiten mit a und b und die Länge
+der langen Seite mit c bezeichnet, dann gilt a^2 + b^2 = c^2. Natürliche
+Zahlen a, b, c, die diese Gleichung erfüllen, nennt man ein pythagoräisches
+Zahlentripel. Unter anderem haben Albert Einstein, Arthur Schopenhauer und
+James A. Garfield Beweise gefunden.
+
+Fermat'sche Vermutung (Pierre de Fermat, 1607-1665). Die Gleichung
+c^n = a^n + b^n für n > 2 mit natürlichen Zahlen a, b, c > 0 hat keine Lösung.
+Andrew Wiles zeigte 1993 einen Beweis für die Vermutung. Er arbeitete heimlich
+und mit allen Kräften daran. Aus der fermat'schen Vermutung wurde nach über
+350 Jahren endlich ein Satz, der letzte Satz von Fermat. Der Beweis ist lang,
+komplex und benutzt die fortgeschrittensten Methoden der Mathematik.
+Spezialisten können ihn nachvollziehen. Er wurde vielfach kontrolliert und ist
+korrekt.
+
+Peano'sches Axiomensystem (Giuseppe Peano, 1858-1932). Die fünf Peano-Axiome:
+
+1. 0 ist eine natürliche Zahl.
+2. Jede natürliche Zahl hat eine natürliche Zahl als Nachfolger.
+3. 0 ist kein Nachfolger einer natürlichen Zahl.
+4. Natürliche Zahlen mit gleichem Nachfolger sind gleich.
+5. Wenn eine Menge X von natürlichen Zahlen die Zahl 0 und mit jeder
+   natürlichen Zahl auch deren Nachfolger enthält, dann ist X gleich der Menge
+   aller natürlichen Zahlen.
+
+Dabei handelt es sich um das adaptierte Axiomensystem der natürlichen Zahlen
+von Richard Dedekind (1831-1916).
+
+Ist es so, dass es die unendlich vielen natürlichen Zahlen wirklich gibt?
+
+Die größte real existierende Zahl ist 10^80. Das ist die Anzahl der Atome in
+dem von uns beobachtbaren Universum. Man kann nicht mehr Symbole für Zahlen
+hinschreiben als diese Zahl weil dafür der Platz fehlt.
+
+Die Peano-Axiome stellen eine Präzisierung und Formalisierung des schrittweisen
+Weiterzählens dar. Sie beschreiben die natürlichen Zahlen, aber sie
+konstruieren sie nicht, und sie garantieren auch ansonsten nicht ihre Existenz.
+
+Leopold Kronecker (1823-1891): "Die ganzen Zahlen hat der liebe Gott gemacht,
+alles andere ist Menschenwerk." Das bedeutet, dass wenn wir die Unendlichkeit
+wollen, müssen wir sie fordern. Das Unendlichkeitsaxiom garantiert die Existenz
+der Menge der natürlichen Zahlen. Aus den natürlichen Zahlen kann man alle
+möglichen Zahlensorten konstruieren.
+
+Sollen die Zahlen das abstrakte Modell für das Zählen sein, dann bedeutet Zahl
+entweder natürliche Zahl oder ganze Zahl.
+
+Bis 1976 war man davon überzeugt, dass Verschlüsseln nur mit einem gemeinsamen
+geheimen Schlüssel geht. In diesem Jahr stellten Whitfield Diffie und Martin
+Hellman die Frage, ob es möglich wäre, auch ohne vorherigen Schlüsselaustausch
+vertraulich zu kommunizieren. Die Lösung lieferten zwei Jahre später Ron Rivest,
+Adi Shamir und Len Adleman mit dem nach ihnen benannten RSA-Algorithmus. Das
+ist ein Public-Key-Verfahren bei der die Frage, wie schwierig es ist aus dem
+öffentlichen den privaten Schlüssel zu berechnen, mit der Frage gekoppelt ist,
+wie schwierig es ist eine Zahl in ihre Primfaktoren zu zerlegen. Im Dezember
+2009 ist die Faktorisierung einer Zahl mit 232 Dezimalstellen gelungen, die das
+Produkt von zwei Primzahlen mit je 116 Dezimalzahlen ist. Heute wählt man
+Primzahlen mit 300 Dezimalstellen damit man aus ihrem Produkt nicht auf sie
+zurückschließen kann.
+
+Mit einem Zahlensystem sollte man beliebig große Zahlen beschreiben und mit den
+dargestellten Zahlen effizient rechnen können. Die Mesopotamier verwendeten ein
+Stellenwertsystem zur Basis 60. Die Maya verwendeten ein Stellenwertsystem zur
+Basis 20. Das heute weltweit konkurrenzlose Dezimalsystem hat seinen Ursprung
+in Indien. In Indien wurde die Ziffer Null erfunden. In Bagdad lebte Abu
+Dscha'far Muhammad ibn Musa al-Chwarizmi (780-850), der bedeutendste
+Mathematiker seiner Zeit. Der Name al-Chwarizmi wurde als al-gorismi
+latinisiert. Daraus entwickelte sich das Wort Algorithmus, das ganz allgemein
+für (Rechen-)Verfahren steht, die nach festen Regeln ablaufen. Aus dem Titel
+al-dschabr eines Buches von al-Chwarizmi entstand das Wort Algebra.
+
+1703 veröffentlichte Gottfried Wilhelm Leibnitz als Erster das Dualsystem bzw.
+Binärsystem. 1948 veröffentlichte Claude E. Shannon (1916-2001) seine Einsicht,
+dass man mit Bits (binary digits) jede Art von Information darstellen kann.
+
+Bernard Bolzano (1781-1848) entwickelte eine Theorie der Zahlenmenge, die
+gegenüber den vier Grundrechenarten abgeschlossen ist. Die Addition,
+Subtraktion, Multiplikation und Division (durch 0 teilen ausgeschlossen) von je
+zwei natürlichen Zahlen muss wieder eine natürliche Zahl ergeben. Mathematiker
+nennen eine solche Struktur einen Körper und sprechen zum Beispiel vom Körper
+der rationalen Zahlen.
+
+Der Wahlspruch der Pythagoräer war "Alles ist Zahl!".
+
+Satz vom Neunerrest: Jede natürliche Zahl hat den gleichen Neunerrest wie ihre
+Quersumme.
+
+Die Definition einer gerade Zahl ist, dass man sie ohne Rest durch 2 teilen
+kann.
+
+Strecken mit einem gemeinsamen Maß nennt man kommensurabel. Mit Hilfe des
+euklidischen Algorithmus kann man den größten gemeinsamen Teiler auch sehr
+großer Zahlen leicht berechnen.
+
+Ein Verhältnis kann man als eine Zahl auffassen, also als ein Objekt und nicht
+als eine Relation zwischen zwei Objekten. Eine Bruchzahl wird durch unendlich
+viele Brüche repräsentiert. Für Bruchzahlen hat sich der Begriff rationale Zahl
+eingebürgert. Diese Bezeichnung kommt vom lateinischen Wort ratio, welches
+unter anderem Verhältnis bedeutet. Zwischen je zwei verschiedenen rationalen
+Zahlen liegen unendlich viele rationale Zahlen. Die rationalen Zahlen liegen
+beliebig dicht beieinander. Jede rationale Zahl lässt sich als Dezimalbruch
+darstellen, der irgendwann abbricht oder der irgendwann periodisch wird.
+
+Sollen die vier Grundrechenarten uneingeschränkt durchführbar sein (abgesehen
+durch 0 teilen), dann bedeutet Zahl eine rationale Zahl.
+
+Das Pentagramm war das Erkennungszeichen der Pythagoräer. Sie fragten sich, in
+welchem Verhältnis die Strecke von der rechten bis zur linken Spitze von einer
+inneren Ecke in zwei Strecken geteilt wird. Das Verhältnis dieser beiden
+Strecken kann nicht als Verhältnis ganzer Zahlen ausgedrückt werden. Die beiden
+Strecken sind nicht kommensurabel, sie sind inkommensurabel. Ein
+inkommensurables Verhältnis wird irrationale Zahl genannt. Das ist eine Zahl,
+die keine Bruchzahl ist. Das ominöse Verhältnis im Pentagramm ist übrigens
+(Quadratwurzel(5)+1)/2, also etwa 1,618. Diese Zahl nennt man den goldenen
+Schnitt.
+
+Entweder ist eine Wurzel aus einer natürlichen Zahl ebenfalls eine natürliche
+Zahl oder sie ist irrational.
+
+Wurzel(2) eine irrationale Zahl (s. Beweis), daher ist ihr Dezimalbruch
+unendlich und nicht periodisch. Solche Dezimalbrüche führen in das Zahlenreich
+der reellen Zahlen.
+
+Den Pythagoräern wurde im 6. Jahrhundert v. Chr. die Existent irrationaler
+Zahlen bewusst.
+
+Die Kreiszahl Pi zeigt, dass es irrationale Zahlen gibt, die sich nicht durch
+Wurzeln oder Gleichungen definieren lassen, das heißt transzendieren. Im Jahr
+1761 bewies Heinrich Lambert, dass Pi eine irrationale Zahl ist. Im Jahr 1882
+bewies Ferdinand Lindemann, dass Pi transzendent ist.
+
+Wir sagen nicht was transzendente Zahlen sind, sondern nur was sie nicht sind,
+nämlich sie sind nicht Lösungen einer algebraischen Gleichung.
+
+Eine Gleichung mit einer Unbekannten und rationalen Koeffizienten nennt man
+algebraische Gleichung. Ihre Lösungen nennt man algebraische Zahlen. Wurzel(2)
+ist eine algebraische Zahl, da sie eine Lösung der algebraischen Gleichung
+x^2 = 2 ist.
+
+Im Allgemeinen lassen sich irrationale Zahlen nur als Grenzwerte beschreiben.
+
+Die Zahlenfolge 1/2, 1/4, 1/5, 1/6, ... (oder auch die Folge -1/2, -1/3, -1/4,
+-1/5, -1/6, ...) hat den Grenzwert 0, denn die Zahlen dieser Folge kommen der
+Zahl 0 nicht nur immer näher, sondern sie kommen der Zahl 0 näher als jede noch
+so kleine Distanz.
+
+(Eine Suchmaschine für Zahlenfolgen bietet https://oeis.org/. Dort findet man
+z.B. Zahlenfolgen die mit 2, 4, 5, 6, ... beginnen und deren Bezeichnung.)
+
+Archimedes (287 - 212 v. Chr.) wusste, dass die unendliche Summe
+1 + 1/2 + 1/4 + 1/8 + ... gleich 2 ist. Nicolaus Oresme (1330-1382) stellte
+fest, dass die unendliche Summe 1/2 + 2/4 + 3/8 + 4/16 + ... gleich der Summe
+1 + 1/2 + 1/4 + 1/8 + .. ist, also auch den Grenzwert 2 hat. Das Musterbeispiel
+für eine unendliche Summe die nicht konvergiert ist 1/2 + 1/3 + 1/4 + 1/5 + ...
+
+Jede reelle Zahl ist Grenzwert einer konvergenten Folge, und jede konvergente
+Folge hat eine reelle Zahl als Grenzwert. In den reellen Zahlen sind die
+rationalen und alle irrationalen Zahlen (algebraische und transzendente)
+vereinigt. Die meisten reellen Zahlen kann man nur indirekt, nämlich durch
+andere Zahlen beschreiben.
+
+Die Folge aus Bruchzahlen 1/2, 2/3, 3/4, 4/5, ... konvergiert gegen die
+Zahl 1. Die Grenzwerte fast aller Folgen rationaler Zahlen sind aber
+irrational. Man kann alle irrationalen Zahlen als Grenzwerte von Folgen
+rationaler Zahlen definieren. Also sind die reellen Zahlen die Grenzwerte
+konvergenter Folgen aus rationalen Zahlen. Grenzwerte von Folgen reeller Zahlen
+sind auch reelle Zahlen. Mit Grenzwerten reeller Zahlen kommt man nicht über
+reelle Zahlen hinaus.
+
+Der Grenzwert der Folge (1+1/n)^n ist die Euler'sche Zahl und wird
+mit e abgekürzt. Sie ist die Basis des natürlichen Logarithmus.
+
+Jede reelle Zahl ist ein Dezimalbruch und jeder Dezimalbruch ist eine
+reelle Zahl. Also kann man sich die reellen Zahlen als Dezimalbrüche vorstellen
+und alle Dezimalbrüche als Grenzwerte. Jeder unendliche Dezimalbruch ist eine
+konvergente Zahlenfolge. Zum Beispiel konvergiert die Zahlenfolge
+3, 3.1, 3.14, 3.141, 3.1415, 3.14159, ... gegen die Kreiszahl Pi.
+
+Zwei verschiedene Dezimalbrüche können die gleiche reelle Zahl darstellen.
+Zum Beispiel ist 0.999... gleich 1.0.  Einsehen kann man das indem man den
+Grenzwert der Folge 0.9, 0.99, 0.999, 0.9999, 0.99999, ... betrachtet. Dieser
+ist sowohl 0.9 Periode als auch exakt gleich die Zahl 1. (Ein falsches Argument
+lautet, dass sich 0.999... der Zahl 1 annähert aber darunter bleibt. Keine
+Zahl nähert sich einer anderen Zahl an, sie kann nur kleiner, größer oder
+gleich dieser sein.)
+
+Georg Cantor (1845 - 1918) wird oft als Erfinder der Mengenlehre bezeichnet.
+Sein Thema waren die unendlichen Mengen. Seine Gedanken entzündeten sich an der
+Frage, ob es unendlich viele transzendente Zahlen gibt. Die erste Stufe der
+Unendlichkeit ist die Abzählbarkeit. Man nennt eine Menge abzählbar, wenn man
+sie mit den natürlichen Zahlen nummerieren kann. Jede Teilmenge der
+natürlichen Zahlen ist abzählbar, z.B. kann man alle geraden Zahlen der Reihe
+nach aufschreiben: 2, 4, 6, 8, 10, ... Somit ist klar, dass es eine erste gerade
+Zahl, eine zweite, ... gibt und dass auf diese Weise alle geraden Zahlen erfasst
+werden. Die Menge der ganzen Zahlen ist abzählbar. Durch die Anordnung
+0, 1, -1, 2, -2, 3, -3, ... ist offensichtlich, dass in dieser Liste jede ganze
+Zahl vorkommt. Die rationalen Zahlen sind abzählbar. Dieses Ergebnis ist
+kontraintuitiv, weil man sich naiv denkt, dass es viel mehr Bruchzahlen als
+natürliche Zahlen gibt. Es gelang Cantor 1873 zu zeigen, dass die Menge aller
+algebraischen Zahlen abzählbar ist und dass die reellen Zahl nicht abzählbar
+sind. Die reellen Zahlen sind überabzählbar, das heißt, dass es substanziell
+mehr reelle Zahlen als algebraische Zahlen gibt. Da die Menge aller reellen
+Zahlen überabzählbar ist, ihre Teilmenge die algebraischen Zahlen aber nur
+abzählbar, muss der Rest, das sind die transzendenten Zahlen, überabzählbar,
+insbesondere also unendlich sein. Bis zu dieser Erkenntnis hatte man nur für
+spezielle Zahlen nachweisen können, dass sie transzendent sind. Joseph Liouville
+(1809-1882) hat die Transzendenz der Liouville'schen Zahl im Jahr 1844 bewiesen.
+Charles Hermite (1822-1901) hat die Transzendenz der Euler'schen Zahl e im Jahr
+1873 gezeigt. Cantor hingegen zeigte, dass es unendlich viele transzendente
+Zahlen gibt. Er zeigte, dass sogar schon die reellen Zahlen zwischen 0 und 1
+überabzählbar sind. Der Beweis geht so, dass die Behauptung, diese Zahlen seien
+endlich viele, widerlegt wird. Es lässt sich eine Zahl konstruieren, die sich
+von jeder Zahl auf der behaupteten endlichen Liste unterscheidet, indem man für
+die n-te Nachkommastelle eine beliebige andere Zahl wählt als an der n-ten
+Nachkommastelle der n-ten Zahl auf der Liste.
+
+Die Zahlengerade mit allen reellen Zahlen ist voll, an jeder Stelle liegt eine
+reelle Zahl. Obwohl schon die rationalen Zahlen dicht liegen, liegt fast überall
+keine rationale Zahl sondern eine transzendente.
+
+Um sich unendlich viele Zahlen vorzustellen, müssen alle diese Zahlen einem
+Muster folgen. Zum Beispiel glauben wir uns alle Wurzeln vorstellen zu können.
+Aber so bleiben wir immer im Abzählbaren hängen. Real vorstellen können wir uns
+also nur eine verschwindende Minderheit aller reellen Zahlen. Wir merken, dass
+es noch etwas ganz anderes gibt, etwas, das unseren Erfahrungshorizont um
+Größenordnungen transzendiert.
+
+Michael Stifel (1487 - 1567) beschrieb ein Verfahren zur Lösung quadratischer
+Gleichungen, das im Wesentlichen der p, q-Formel entspricht. Eine quadratische
+Gleichung hat im Allgemeinen zwei verschiedene Lösungen. Im Allgemeinen
+bedeutet in der Mathematik, dass es Ausnahmen geben kann.
+
+Gerolamo Cardano (1501 - 1576) veröffentlichte eine Formel für die Lösung von
+Gleichungen dritten Grades. Die Formel hatte eigentlich Tartaglia, ein
+venezianischer Rechenmeister, gefunden. Bis Heute wird sie allerdings
+Cardano'sche Formel genannt. Bei dieser Formel sind Wurzeln aus negativen Zahlen
+unvermeidlich. Zahlen mit der imaginären Einheit i bezeichnet man als komplexe
+Zahlen. i ist dabei die Wurzel aus -1.
+
+Lodovico Ferrari (1522 - 1565) fand eine Lösungsformel für Gleichungen vierten
+Grades.
+
+Im Jahr 1824 bewies das norwegische Mathematik-Genie Niels Henrik Abel, dass die
+allgemeine Gleichung fünften Grades keine Lösung durch Wurzelausdrücke hat. Das
+französische Mathematik-Genie Evariste Galois (1811 - 1832) erkannte, dass man
+jeder Gleichung eine algebraische Struktur, eine sogenannte Gruppe, zuordnen
+kann. Anhand der Struktur dieser Gruppe kann man entscheiden, ob die Gleichung
+eine Lösung durch Wurzelausdrücke hat ("Auflösbarkeit").
+
+Der Fundamentalsatz der Algebra sagt aus, dass jede Gleichung gelöst werden
+kann, wenn man komplexe Zahlen als Lösungen zulässt.
+
+Im Jahr 1799 interpretierte Casper Wessel (1745-1818) als Erster die komplexen
+Zahlen als Punkte in der Ebene.
+
+Der "Fürst der Mathematik", Carl Friedrich Gauß (1777-1855), hat insgesamt vier
+Beweise für den Fundamentalsatz der Algebra geliefert.
+
+Sollen die Zahlen die Lösungen von Gleichungen sein, dann bedeutet Zahl damit
+komplexe Zahl.
