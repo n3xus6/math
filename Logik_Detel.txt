@@ -1,0 +1,437 @@
+Buch Grundkurs Philosophie, Band 1: Logik
+Autor: Wolfgang Detel
+
+Eigene Notizen vom Durcharbeiten
+
+Ein Satz in dem die deskriptive Verwendung überwiegt heißt Aussage. Er dient zur
+Feststellung von Fakten. Eine Aussage mit der einzelne Gegenstände klassifiziert
+werden heißt Prädikation.
+Nominatoren sind Wörter die sich auf einzelne Gegenstände beziehen,
+z.B. Eigennamen. Prädikatoren sind Wörter die allgemeine Aspekte an einzelnen
+Gegenständen hervorheben, z.B. Eigenschaftswörter oder Verben. n-stellige
+Prädikatoren beziehen sich auf Beziehungen zwischen n einzelnen Gegenständen.
+2-stellige Prädikatoren heißen Relationen. Ein n-Tupel ist eine geordnete Menge
+von Gegenständen <x, y, z, ...>. Notation von Elementaraussagen:
+Die Gegenstände a₁, ..., aₙ sind P: P(a₁, ..., aₙ).
+Die Gegenstände a₁, ..., aₙ sind nicht P: nicht: P(a₁, ..., aₙ).
+Prädikationen setzen den Satz vom Widerspruch voraus, der verbietet, eine
+Feststellung zugleich mit ihrer Verneinung zu behaupten.
+Wenn in einer Sprache M über Ausdrücke einer Sprache L geredet wird, heißt L
+die Objektsprache und M die Metasprache. Die Wahrheitswerte "wahr" und "falsch"
+sind gewöhnlich metasprachliche Ausdrücke.
+Für Aussagenvariablen p, q, r, ..., können beliebige Sätze eingesetzt werden.
+Prädikationen sind wahrheitswertdefinite Sätze.
+Bedeutungen von "ist":
+a ist P: a ist Element der Menge P.
+a ist: a existiert.
+a ist b: a ist identisch mit b.
+Das P ist ein Q: Alle Gegenstände die P sind, sind auch Q.
+Prädikationen sind entweder wahr oder falsch. Das grundlegende logische
+Prinzip, der Satz vom ausgeschlossenen Dritten (lat. tertium non datur), gilt.
+Ein Argument ist eine Begründung einer Aussage K durch andere Aussagen
+P₁, ..., Pₙ.
+Schluss: P₁, ..., Pₙ ⇒ K.
+Jede Prämisse und die Konklusion bezeichnet man als Teilaussage des Arguments.
+Der Folgerungspfeil ⇒ steht für "wenn - dann".
+Wenn gilt "wenn p, dann q", dann heißt p hinreichende Bedingung für q.
+Wenn gilt "nur wenn p, dann q", dann heißt p notwendige Bedingung für q.
+Wenn gilt "wenn p, dann q" und "nur wenn p, dann q", dann gilt
+"p genau dann, wenn q".
+gdw: "genau dann, wenn".
+Ein induktives Argument folgert aus Einzelbeispielen eine Verallgemeinerung.
+Diese Form ist nicht von der Art, dass die Wahrheit der Prämissen die Wahrheit
+der Konklusion garantiert.
+Modus ponens: p ⇒ q
+Modus tollens, Widerlegung: ¬q ⇒ ¬p
+Indirekter Beweis: ¬q ⇒ p
+Bestätigung: q ⇒ p
+Performativer Selbstwiderspruch: Der Vollzug einer Äußerung oder eines Gedanken
+von einem Satz widerlegt den Inhalt des Satzes.
+Einige Formen von Argumenten scheinen zwingend zu sein, andere wirken
+allenfalls plausibel. Die Logik liefert ein objektives Kriterium für zwingende
+Argumente. Das psychologische Gefühl für die Qualität einfacher Argumente ist
+recht zuverlässig.
+Die Logik ist eine spezielle Theorie des Argumentierens. Sie zeigt was gute und
+zwingende Argumente sind. Man spricht von gültigen Schlüssen. Die Logik ist
+eine normative Theorie gültiger Schlüsse. Die Logik beschäftigt sich mit Formen
+von Schlüssen, sie ist daher formal, man spricht von formaler Logik. Einfachste
+Systeme der klassischen formalen Logik: Aussagenlogik und Prädikatenlogik.
+Reich der Fakten: Extensionen.
+Reich der Bedeutungen: Intensionen.
+Synthetischer/empirischer Satz: Ein Satz, dessen Wahrheitswert allein durch
+Beobachtung der Fakten in der Welt bestimmt werden kann.
+Analytischer Satz: Ein Satz, dessen Wahrheitswert allein durch die Bedeutung
+der in ihm vorkommenden Ausdrücke bestimmt ist.
+Empirische Wissenschaften produzieren synthetische Sätze,
+formale Wissenschaften produzieren analytische Sätze.
+Ein logisch wahrer/falscher Satz ist ein Satz, dessen Wahrheit/Falschheit
+allein durch die Bedeutung der in ihm vorkommenden logischen Ausdrücke "und",
+"oder", "nicht", "wenn - dann", "für alle Gegenstände gilt", "für mindestens
+einen Gegenstand gilt" bestimmt ist. Logische Wahrheit/Falschheit von Sätzen
+ist unabhängig vom Wahrheitswert ihrer Teilsätze und der Bedeutung ihrer
+nicht-logischen Ausdrücke. Ein logisch wahrer/falscher Satz ist wahr/falsch
+aufgrund seiner logischen Form.
+P₁, ..., Pₙ implizieren logisch q genau dann, wenn der Schluss P₁, ..., Pₙ ⊢ q
+logisch gültig ist. Der Schluss P₁, ..., Pₙ ⊢ q ist logisch gültig genau dann,
+wenn der Satz "Wenn p₁ und p₂ und ... und Pₙ, dann q" logisch wahr ist.
+Das Symbol ⊢ zeigt die logische Gültigkeit von Schlüssen an. Logische
+Gültigkeit bedeutet, dass wenn die Prämissen wahr sind, unabhängig ob sie es
+sind, dann muss auch die Konklusion wahr sein, unabhängig ob sie es ist.
+Sei der Schluss P₁, ..., Pₙ ⊢ q logisch gültig, dann gilt:
+Beweis: Sind die Prämissen als wahr bekannt, während der Wahrheitswert der
+        Konklusion unbekannt ist, so ist der Schluss ein Beweis der Konklusion.
+Bestätigung: Ist die Konklusion als wahr bekannt, während der Wahrheitswert der
+             Prämissen unbekannt ist, so ist der Schluss eine Bestätigung der
+             Prämissen.
+Widerlegung: Ist die Konklusion als falsch bekannt, während der Wahrheitswert
+             der Prämissen unbekannt ist, so ist der Schluss eine Widerlegung
+             der Gesamtheit der Prämissen.
+Es gibt verschiedene Arten von formaler Logik, auch verschiedene Arten von
+Aussagen- und Prädikatenlogik.
+Prinzipien der klassischen Logik:
+(1) Es gibt genau zwei Wahrheitswerte: wahr (w) und falsch (f)
+(2) Der Satz vom Widerspruch gilt: Jede Aussage hat höchstens einen Wahrheits-
+    wert.
+(3) Der Satz vom ausgeschlossenen Dritten gilt: Jede Aussage hat mindestens
+    einen Wahrheitswert.
+(4) Aus den vorangegangenen Punkten folgt das Bivalenzprinzip: Jede Aussage
+    hat genau einen der beiden Wahrheitswerte wahr bzw. falsch.
+Nicht-klassische Logiken dagegen bestreiten die Punkte (1) oder (3) oder beide
+zugleich.
+Gegenstandsvariablen  x, y, z, ... : Platzhalter für beliebige Nominatoren.
+Prädikatorenvariablen P, Q, R, ... : Platzhalter für beliebige Prädikatoren.
+Aussagenvariablen     p, q, r, ... : Platzhalter für beliebige Aussagen.
+Junktoren.
+¬: nicht (Negation)
+∧: und (Konjunktion)
+∨: oder (Disjunktion)
+⊃: wenn - dann (Implikation)
+≡: genau dann - wenn (Äquivalenz)
+↮: entweder - oder (Kontravalenz)
+Quantoren.
+∀x: für alle x gilt (Allquantor)
+∃x: für mindestens ein x gilt (Existenzquantor)
+Junktoren und Quantoren heißen auch logische Konstanten.
+Übersetzungsregeln.
+(p ≡ q) ⊃ (p ∨ q): wenn gilt: p genau dann, wenn q, dann gilt: p oder q.
+p ⊃ ¬q: wenn p, dann nicht-q.
+∀x P(x): Für jedes x gilt: x ist P (alle x sind P).
+∃x P(x): Es gibt ein x, so dass gilt: x ist P (einige x sind P).
+¬∀x P(x): Nicht für jedes x gilt: x ist P (nicht all x sind P).
+¬∃x P(x): Es gibt kein x, so dass gilt: x ist P (kein x ist P).
+Offener Satz: P(x₁, ..., xₙ)
+Offen, weil nicht bestimmt ist, auf welchen einzelnen Gegenstand er sich
+bezieht. Daher kein Wahrheitswert. Offene Sätze können komplexe Gestalt haben.
+Sie haben eine Extension.
+Singuläre Aussage: Verknüpfung endlich vieler Elementaraussagen durch
+Junktoren.
+Allaussage: Quantifizierter Satz, der nur Allquantoren enthält.
+Existenzaussage: Quantifizierter Satz, der nur Existenzquantoren enthält.
+Allmenge: Mensch(x) ⊃ sterblich(x)
+          Die Menge aller x, für die gilt: wenn x Mensch ist, dann ist x
+          sterblich. Es gibt kein x, das Mensch und nicht sterblich ist.
+Leere Menge: Kater(x) ∧ Fisch(x)
+             Die Menge aller x, für die gilt: x ist Kater und x ist Fisch.
+             Es gibt kein x, das Kater und zugleich Fisch ist.
+Herstellung aussagenlogischer Form:
+Wenn gilt: Wenn die Opposition Rechtsextremismus fördert, ist sie nicht
+wählbar. Die Opposition ist wählbar; dann gilt auch: Die Opposition fördert
+Rechtsextremismus nicht.
+(p ⊃ ¬q) ∧ q ⇒ ¬p
+Herstellung prädikatenlogischer Form:
+Alles lebt: ∀x L(x)
+Einiges ist unerträglich: ∃x U(x)
+Menschen sind fähig zu weinen: ∀x (M(x) ⊃ W(x))
+Sätze p und q stehen im Widerspruch wenn:
+Logischer Widerspruch: p und nicht-p
+Empirischer Widerspruch: "Wenn p, dann nicht q" ist synthetisch und wahr.
+Analytischer Widerspruch: "Wenn p, dann nicht q" ist analytisch wahr.
+Konträrer Widerspruch: p und q sind empirisch und analytisch unvereinbar.
+Aussagenlogik.
+Elementarste Form der Logik, arbeitet mit Aussagenvariablen und Junktoren.
+Ziel: Bestimmen welche Aussagen aussagenlogisch wahr und welche Schlüsse
+aussagenlogisch gültig sind.
+Logisch wahre Sätze sind wahr aufgrund der Bedeutung der Junktoren. Junktoren
+setzen komplexere Aussagen aus einfacheren Aussagen zusammen, so dass der
+Wahrheitswert der komplexen Aussage allein und eindeutig vom Wahrheitswert der
+einfacheren Aussagen abhängt.
+Wahrheitstafeln der wichtigsten Junktoren.
+
+Negation
+p | ¬p
+--|-----------
+w | f
+f | w
+
+Konjunktion
+p | q | p ∧ q
+--|---|-------
+w | w | w
+w | f | f
+f | w | f
+f | f | f
+
+Disjunktion
+p | q | p ∨ q
+--|---|-------
+w | w | w
+w | f | w
+f | w | w
+f | f | f
+
+Implikation
+p | q | p ⊃ q
+--|---|-------
+w | w | w
+w | f | f
+f | w | w
+f | f | w
+
+Äquivalenz
+p | q | p ≡ q
+--|---|-------
+w | w | w
+w | f | f
+f | w | f
+f | f | w
+
+Kontravalenz
+p | q | p ↮ q
+--|---|-------
+w | w | f
+w | f | w
+f | w | w
+f | f | f
+
+In der Umgangssprache werden Wenn-dann-Sätze und Oder-Sätze gerade dann
+gebraucht, wenn die Wahrheitswerte der Teilsätze nicht bekannt sind. Dagegen
+unterstellt die Semantik der materialen Implikation und der Disjunktion nach
+Definition, dass die Wahrheitswerte der Teilsätze immer schon bekannt sind.
+
+Um ein Theorem durch Ableitung aus wahren Prämissen zu beweisen wird Erfahrung
+und Phantasie benötigt. Hierfür gibt es kein definiertes Entscheidungs-
+verfahren.
+
+Aussageform: Aussage, in der für alle Teilaussagen Aussagenvariablen eingesetzt
+wurden.
+
+Aussagenlogischer Algorithmus.
+Die Aufgabe der Aussagenlogik ist die Ermittlung aussagenlogisch wahrer
+Aussagen und aussagenlogisch gültiger Schlüsse. Die Ausrechnung des Wahrheits-
+wertes einer mit Junktoren zusammengesetzten Aussage unter einer Wahrheits-
+annahme heißt Wahrheitswertanalyse. Eine Aussageform heißt aussagenlogisch wahr
+genau dann, wenn die Wahrheitswertanalyse für alle möglichen Wahrheitsannahmen
+wahr ergibt.
+Der Schluss P₁, ..., Pₙ ⊢ q heißt aussagenlogisch gültig genau dann, wenn die
+Aussage P₁ ∧ ... ∧ Pₙ ⊃ q aussagenlogisch wahr ist.
+Prüfung auf aussagenlogische Wahrheit.
+Beispiel.
+  Ist die Aussageform p ⊃ (¬q ∨ p) aussagenlogisch wahr?
+  Wahrheitsannahme und Wahrheitswertanalyse:
+  p=w, q=w
+   w ⊃ (¬w ∨ w)
+   w ⊃ (f ∨ w)
+   w ⊃ w
+   *w*
+  p=w, q=f
+   w ⊃ (¬f ∨ w)
+   w ⊃ (w ∨ w)
+   w ⊃ w
+   *w*
+  p=f, q=w
+   f ⊃ (¬w ∨ f)
+   f ⊃ (f ∨ f)
+   f ⊃ f
+   *w*
+  p=f, q=f
+   f ⊃ (¬f ∨ f)
+   f ⊃ (w ∨ f)
+   f ⊃ w
+   *w*
+  Prüfung auf aussagenlogische Wahrheit: Für alle Wahrheitsannahmen ergibt die
+  Wahrheitswertanalyse wahr, also: aussagenlogische Wahrheit.
+Beispiel.
+  Ist der Schluss p ⊃ (q ∧ r), ¬r ⊢ ¬p aussagenlogisch gültig?
+  Umwandlung in Aussageform: ((p ⊃ (q ∧ r)) ∧ ¬r) ⊃ ¬p
+  Gibt es eine Wahrheitsannahme, mit der die Gesamtheit der Prämissen wahr und
+  die Konklusion falsch wird? Wenn nicht, liegt aussagenlogische Wahrheit vor.
+  Die Konklusion ist für p=w falsch.
+  Damit die Prämisse wahr ist, muss r=f und (p ⊃ (q ∧ r))=w sein.
+  w ⊃ (q ∧ f) ergibt falsch, für q=w und q=f.
+  Keine Wahrheitsannahme macht die Implikation falsch, also: aussagenlogische
+  Wahrheit.
+Beispiel.
+  (i)   Wenn Peter Charlotte liebt, dann hat er Lust sie zu treffen.
+  (ii)  Peter hat Lust sie zu treffen.
+  (iii) Also: Peter liebt Charlotte.
+  Dieser Schluss sieht auf den ersten Blick plausibel aus. Manchmal täuscht das
+  logische Gefühl aber.
+  Denn die entsprechende Aussageform ((p ⊃ q) ∧ q) ⊃ p ist für p=f und q=w
+  aussagenlogisch falsch.
+Reduktion von Junktoren.
+Kontravalenz auf Negation und Äquivalenz reduzierbar.
+(p ↮ q) ≡ ¬(p ≡ q)
+Äquivalenz auf Konjunktion und Implikation reduzierbar.
+(p ≡ q) ≡ ((p ⊃ q) ∧ (q ⊃ p))
+Implikation auf Negation und Disjunktion reduzierbar.
+(p ⊃ q) ≡ (¬p ∨ q)
+Disjunktion auf Negation und Konjunktion reduzierbar.
+(p ∨ q) ≡ ¬(¬p ∧ ¬q)
+Konjunktion auf Negation und Disjunktion reduzierbar.
+(p ∧ q) ≡ ¬(¬p ∨ ¬q)
+Jede Aussageform kann demnach allein mit Negation und Konjunktion, oder allein
+mit Negation und Disjunktion oder auch allein mit Negation und Implikation
+ausgedrückt werden.
+Beispiel: ((p ∧ ¬q) ∨ (p ↮ q)) ≡ ... ≡ ((p ⊃ q) ⊃ ((p ⊃ q) ⊃ ¬(q ⊃ p))).
+
+Herstellung der prädikatenlogischen Form eines Schlusses mit quantifizierten
+Teilsetzen. Beispiel: Alle Frauen sind Menschen; alle Menschen sind sterblich;
+also alle Frauen sind sterblich.
+P(x): x ist Frau; Q(x): x ist Mensch; R(x): x ist sterblich.
+∀x(P(x) ⊃ Q(x)), ∀x(Q(x) ⊃ R(x)) ⇒ ∀x(P(x) ⊃ R(x))
+Prädikatenlogische Gültigkeit von Schlüssen und prädikatenlogische Wahrheit von
+Sätzen beruhen auf der Bedeutung der Junktoren und Quantoren.
+Die Prädikatenlogik untersucht die logische Wahrheit und Gültigkeit von
+Prädikatorenschemata und ihren Einsetzungsinstanzen.
+Prädikatorenschemata oder ihre Einsetzungsinstanzen sind prädikatenlogisch wahr
+genau dann, wenn sie wahr sind allein aufgrund der Bedeutung der Junktoren und
+Quantoren, die in ihnen vorkommen.
+Der Schluss P₁, ..., Pₙ ⇒ K (mit Pᵢ,K quantifizierte Teilsätze) ist prädikaten-
+logisch gültig genau dann, wenn der Satz  P₁ ∧ ... ∧ Pₙ ⊃ K prädikatenlogisch
+wahr ist.
+Reduktion von Quantoren.
+∀x  P(x) ≡ ¬∃x ¬P(x)
+∀x ¬P(x) ≡ ¬∃x  P(x)
+∃x  P(x) ≡ ¬∀x ¬P(x)
+∃x ¬P(x) ≡ ¬∀x  P(x)
+Quantifikationen mit zweistelligen Prädikatoren.
+∀x∀y R(x,y): Für jedes x und jedes y gilt:
+             x steht in der Relation R zu y.
+∀x∃y R(x,y): Für jedes x gilt: es gibt ein y, so dass gilt:
+             x steht in der Relation R zu y.
+∃x∀y R(x,y): Es gibt ein x, so dass für jedes y gilt:
+             x steht in der Relation R zu y.
+∃x∃y R(x,y): Es gibt ein x und ein y, so dass gilt:
+             x steht in der Relation R zu y.
+Beispiel: Keine Zahl ist größer als alle Zahlen.
+Es gibt kein x, so dass für alle y gilt: x ist größer als y.
+¬∃x∀y G(x,y)
+
+Aus einem logischen Widerspruch folgt Beliebiges: Die Aussageform (p ∧ ¬p) ⊃ q
+ist immer wahr. Die Prämisse ist für alle Wahrheitsannahmen für p falsch. Damit
+ist die Implikation wahr ungeachtet q. Wer also einen logischen Widerspruch
+behauptet, behauptet alles, oder nichts, denn alles zu behaupten bedeutet auch,
+jeden Satz und seine Negation zu behaupten.
+
+Das Symbol ⊢ zeigt die logische Gültigkeit von Schlüssen an.
+
+Beispiel:
+(1) Wenn Peter Charlotte wirklich liebt, hilft er ihr und hat Lust,
+    sie zu treffen.
+(2) Aber Peter hat keine Lust, sie zu treffen.
+(3) Also: Peter liebt Charlotte nicht wirklich.
+
+Wie mit einer Wahrheitswertanalyse leicht gezeigt wird, gilt (1), (2) ⊢ (3).
+Das bedeutet, der Schluss (1), (2) ⇒ (3) ist aussagenlogisch gültig.
+
+Die Axiomatisierung liefert einen Überblick über den gesamten Behauptungsgehalt
+einer großen Satzmenge in Gestalt weniger Axiome.
+
+Eine Einteilung von M (= Menge von Sätzen) in zwei Mengen A und B heißt
+Axiomatisierung von M, falls gilt:
+(a) A und B sind Teilmengen von M
+(b) A ∪ B = M
+(c) A ∩ B = ∅
+(d) Jeder Satz aus B folgt logisch aus Sätzen in A.
+A heißt Axiomensystem von M, jeder Satz aus A Axiom von M, B die Menge der
+Theoreme von M und M axiomatisierte Theorie.
+Ein Axiomensystem heißt widerspruchsfrei genau dann, wenn es keinen logischen
+Widerspruch enthält; und es heißt unabhängig genau dann, wenn kein Axiom aus
+anderen Axiomen logisch folgt.
+
+Kalkül
+Die vollständige Transparenz einer Theorie verlangt nicht nur eine
+Axiomatisierung der Theorie, sondern auch eine Darstellung ihrer Syntax und
+Semantik. Unter einem Kalkül versteht man einen möglichst expliziten und
+transparenten Aufbau einer Satzmenge oder Theorie M.
+
+Syntax von M
+(i)   Angabe des Alphabet von M.
+(ii)  Angabe der Formregeln zur Bildung wohlgeformter Formeln oder Sätze von M.
+(iii) Angabe der Deduktionsregeln in M.
+(iv)  Angabe des Axiomensystems von M.
+(v)   Deduktion der Theoreme von M.
+
+Semantik von M
+(i)   Semantische Interpretation der Syntax.
+(ii)  Nachweis, dass (i) ein semantisches Modell des Axiomensystems ist (die
+      Axiome wahr macht).
+(iii) Nachweis, dass das Axiomensystem unter dem semantischen Modell
+      widerspruchsfrei ist.
+(iv)  Prüfung, ob Axiomensystem unter dem semantischen Modell vollständig ist.
+
+Es kann verschiedene semantische Interpretationen und sogar verschiedene
+semantische Modelle einer Theorie geben.
+Im Rahmen der Syntax ist die Deduktion von Theoremen ein reines Spiel mit
+Symbolen.
+Die Bedeutung der logischen Junktoren wird aus der sprachlichen Funktion der
+Junktoren entwickelt.
+Die Wahl der Interpretation der logischen Zeichen ist grundsätzlich frei.
+In der Logik sind nur jene Interpretationen semantische Modelle der syntaktisch
+formulierten Axiomensysteme, die die Axiome wahr machen.
+Beschreibung der Junktoren als Wahrheitswertfunktionen.
+Funktion ¬ ordnet Sätzen mit Wahrheitswert (WW) "w" den WW "f" zu und
+umgekehrt. Funktion ∧ ordnet dem Satz p ∧ q den WW "w" zu, falls p und q beide
+den WW "w" haben; ansonsten wird der WW "f" zugeordnet. Funktion ∨ ordnet dem
+Satz p ∨ q den WW "f" zu, falls p und q beide den WW "f" haben; ansonsten wird
+der WW "w" zugeordnet. Funktion ⊃ ordnet dem Satz p ⊃ q den WW "f" zu, falls p
+den WW "w" und q den WW "f" hat, ansonsten wird der WW "w" zugeordnet.
+Widerspruchsfreiheit bedeutet, dass nur gültige Schlüsse im Kalkül ableitbar
+sind.
+Vollständigkeit bedeutet, dass alle gültigen Schlüsse (unendlich viele) im
+Kalkül ableitbar sind.
+Eine Satzmenge die keinen logischen Widerspruch impliziert heißt konsistent. Es
+gibt keinen Satz B mit M ⊢ B ∧ ¬B. Eine Satzmenge M heißt maximal konsistent,
+falls M konsistent ist und für jeden Satz A mit A ∉ M die Menge M ∪ {A} nicht
+konsistent ist.
+
+Ein Schluss A₁, ..., Aₙ ⊢ B heißt aussagenlogisch gültig genau dann, wenn für
+jede Bewertung V mit V(A₁) = ... = V(Aₙ) = w auch V(B) = w gilt.
+
+Wenn eine Ableitung A₁, ..., Aₙ, B ⊢ C logisch gültig ist, dann ist auch die
+Ableitung A₁, ..., Aₙ ⊢ B ⊃ C logisch gültig. Man kann also eine Prämisse mit
+Implikation in die Konklusion hineinziehen.
+Beweis. A₁, ..., Aₙ, B ⊢ C ist logisch gültig bedeutet, es folgt aus
+V(A₁) = ... = V(Aₙ) = w, V(B) = w, dass V(C) = w.
+Sei A₁, ..., Aₙ ⊢ B ⊃ C nicht logisch gültig, dann folgt aus
+V(A₁) = ... = V(Aₙ) = w, dass V(B) = w und V(C) = f. Das steht im Widerspruch
+dazu, dass gilt V(C) = w wenn V(A₁) = ... = V(Aₙ) = w und V(B) = w.
+
+Die Grundgesätze der Mengenlehre können auf die Aussagenlogik zurückgeführt
+werden.
+
+Idealismus: Die externe Realität ist vollständig von uns abhängig.
+Sokratischer Standpunkt: Die Antwort auf die Frage, welche Art von Person wir
+sein und welche Art von Leben wir führen wollen, muss konsistent sein und
+argumentativ gut gestützt werden.
+Performativ: Eine mit einer sprachlichen Äußerung beschriebene Handlung.
+zugleich vollziehend.
+Epistemologisch: Erkenntnistheoretisch.
+Kognitiv: Erkenntnisfähig.
+Normativ: Norm dienend.
+Deduktion: Prozess des Ziehens logisch zwingender Schlussfolgerungen.
+Deduktiv gültig: Zwingend.
+Disjunktion: Adjunktion.
+Materiale Implikation: Subjunktion, materiales Konditional.
+Materia: Das, woraus etwas besteht.
+Subiungere: Unterordnen.
+Implicare: Umfassen.
+Condicio: Beschaffenheit, Zustand, Bedingung, Verfassung.
+Algorithmus: Entscheidungsverfahren. Prozedur, die für ein gegebenes Problem in
+einem gegebenen Bereich in endlich vielen Schritten zu einer Lösung des
+Problems führt.
+
+₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ᵢ ⱼ xₙ
+→⇔⊃≡¬∧∨⊤⊥∀ ∃ ∃! ¬∃ ⊢⇒↮
+ℕℤℚℝℂ
+∅∩∪∈∉
