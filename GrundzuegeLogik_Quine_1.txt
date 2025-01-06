@@ -1,0 +1,714 @@
+Grundzüge der Logik, W. V. O. Quine (Suhrkamp 14. Auflage 2016)
+===============================================================
+
+1. Teil
+
+₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ᵢ ⱼ ₓ xₙ
+→⇔⊃≡¬∧∨⊤⊥∀ ∃ ∃! ¬∃ ⊢⇒↮⊤⊥↑|↓
+ℕℤℚℝℂ
+∅∩∪∈∉
+
+Konjunktion (und): pqr
+Alternation (nicht-ausschließendes oder): p ∨ q ∨ r
+Negation (nicht): ¬p, ¬(pq)
+Materiales Konditional: p ⊃ q
+Sheffer stroke (nicht p oder nicht q): |
+Sheffer stroke (weder p noch q): ↓
+wahr: ⊤
+falsch: ⊥
+
+Latein               | Deutsch
+---------------------+-----------------------------           
+terminus technicus   | Fachausdruck
+mutatis mutandis     | mit den nötigen Abänderungen
+
+Die Logik hat wie jede Wissenschaft die Aufgabe, wahre von falschen Sätzen zu
+trennen. Zu jedem Falschen gibt es eine Negation die wahr ist. Ein Satz ist
+wahr, wenn er der Realität entspricht. Ein grundsätzlich wichtiger Weg zu
+entscheiden, ob ein Satz wahr ist, besteht darin, ihn mit der Welt oder der
+Erfahrung von Welt zu vergleichen. Was wahr sein kann, sind genau genommen die
+einzelnen Vorkomnisse des Äußerns von Sätzen. Wenn ein Satz als wahr angesehen
+wird, muss das auch für jeden Satz gelten, der von ihm impliziert wird. Logisch
+wahre Sätze sind nur aufgrund der Bedeutungen der logischen Wörter (und, oder,
+nicht, wenn - dann, usw.) wahr.
+
+Mathematische Wahrheiten befassen sich explizit mit abstrakten nicht-
+sprachlichen Dingen, wie Zahlen und Funktionen; die logischen Wahrheiten haben
+nicht solche Entitäten zum spezifischen Gegenstand. Erweiterungen der logischen
+Theorie führen zur Mengenlehre, auf der die gesamte klassische Mathematik
+aufgebaut werden kann.
+
+Wenn wir einen Satz verneinen, bejahen wir damit einen anderen, den man die
+Negation oder das kontradiktorische Gegenteil des ersteren nennt.
+
+Das Zeichen für die Negation ¬ kann als "es ist nicht der Fall, dass" oder kurz
+als "nicht" gelesen werden.
+
+Die doppelte Negation ¬¬p, die Konjunktion pp und die Alternation p ∨ p sind
+gleichwertig mit p.
+
+Die Konjunktion ist
+assoziativ: p(qr) ≡ (pq)r ≡ pqr
+kommutativ: pq ≡ qp
+idempotent: pp ≡ p
+
+Die Alternation ist
+assoziativ: p ∨ (q ∨ r) ≡ (p ∨ q) ∨ r ≡ p ∨ q ∨ r
+kommutativ: p ∨ q ≡ q ∨ p
+idempotent: p ∨ p ≡ p
+
+Das Zeichen ∨ erinnert an das lateinische "vel" ("oder" im nicht-
+ausschließenden Sinn).
+
+De Morgansche Gesetze:
+¬(pq) ≡ ¬p ∨ ¬q
+¬(p ∨ q) ≡ ¬p¬q
+
+Eine Konjunktion ist falsch, wenn wenigstens eins ihrer Bestandteile falsch
+ist, und sonst wahr.
+
+Eine Alternation ist wahr, wenn wenigstens eins ihrer Bestandteile wahr
+ist, und sonst falsch.
+
+Wahrheit und Falschheit bezeichnet man als Wahrheitswerte. Negation,
+Konunktion, Alternation, etc. nennt man Wahrheitswertfunktionen. Der
+Wahrheitswert einer Wahrheitswertfunktion ist durch die Wahrheitswerte ihrer
+Bestandteile bestimmt.
+Die zusammengesetzten Sätze "p und q", "p oder q" und "nicht p" sind
+Wahrheitsfunktionen. Der zusammengesetzte Satz "p, weil q" ist keine
+Wahrheitsfunktion von p und q. Auch wenn die Teilsätze als wahr bekannt sind,
+kann über den Wahrheitswert dieses Satzes gestritten werden.
+
+Wenn für eine Wahrheitsfunktion angegeben ist, welchen Wahrheitswert sie
+für jede Wahl der Wahrheitswerte ihrer Bestandteile annimmt, dann kann eine
+Wahrheitsfunktion aus Negation und Konjunktion aufgebaut werden, die der
+Angabe entspricht. Verfahren:
+(1) Die Wahrheitsfunktion negieren
+(2) Konjunktionen bilden, die wahr sind dort wo (1) wahr ist
+(3) Alle Konjunktionen aus (2) negieren
+(4) Eine Konjunktion mit allen Bestandteilen aus (3) bilden
+Beispiel.
+p  q     ⊻     1: ¬⊻  2: pq  2: ¬p¬q  3: ¬(pq)  3: ¬(¬p¬q) 4: ¬(pq)¬(¬p¬q)
+w  w     f       w       w        f        f          w             f
+w  f     w       f       f        f        w          w             w
+f  w     w       f       f        f        w          w             w
+f  f     f       w       f        w        w          f             f
+Also gilt ⊻ ≡ ¬(pq)¬(¬p¬q).
+
+Eine Wahrheitsfunktion von p, q, ..., s die in allen Fällen wahr ist, schreibt
+man mit Negation und Konjunktion ¬(¬ppq...s). Der Bestandteil ¬pp macht die
+Konjunktion in jedem Fall falsch und daher liefert die Negation in jedem Fall
+wahr, was der Angabe entspricht.
+
+An p ∨ q ≡ ¬(¬p¬q) bzw. pq ≡ ¬(¬p ∨ ¬q) erkennt man, dass auch Negation und
+Alternation ein ausreichendes Bezeichnungssystem für alle Wahrheitsfunktionen
+aufbauen.
+
+Reduktionen auf | und ↓, Sheffer 1913. Allein mit | oder allein mit ↓ kann man
+Negation und Konjunktion ausdrücken.
+p q   p | q   p ↓ q         ¬p ≡  p | p                  ¬p ≡  p ↓ p
+w w     f       f           pq ≡ (p | q) | (p | q)       pq ≡ (p ↓ p) ↓ (q ↓ q)
+w f     w       f        p ∨ q ≡ (p | p) | (q | q)    p ∨ q ≡ (p ↓ q) ↓ (p ↓ q)
+f w     w       f
+f f     w       w
+
+Materiales Konditional "wenn p, dann q"
+
+p q   p ⊃ q
+w w     w
+w f     f
+f w     w
+f f     w
+
+p und q sind selbstständige Sätze.
+
+Es gilt p ⊃ q ≡ ¬(p¬q) ≡ ¬p ∨ q.
+
+Das Materiale Konditional hat sich höchstens als eine Formularisierung des
+gewöhnlichen Konditionals im Indikativ erwiesen, wird aber als unnatürlich
+empfunden. Das Konditional "Wenn Frankreich in Australien liegt, ist die
+See salzig" ist wahr.
+
+Der Satz "Wenn etwas ein Wirbeltier ist, hat es ein Herz." ist kein materiales
+Konditional sondern ein Generalisiertes Konditional. Das Materiale Konditional
+ist die gewünschte Interpretation für einzelne Sätze die darin zusammengefasst
+sind.
+
+Beim Hypothetischen Konditional steht der Bedingungssatz im Konjunktiv. Es
+gehört nicht zur reinen Logik.
+
+Materiales Bi-Konditional
+"p genau dann, wenn q" ("p dann und nur dann, wenn q")
+
+p q p ≡ q              Es gilt (p ≡ q) ≡ (p ⊃ q)(q ⊃ p).
+w w   w
+w f   f
+f w   f
+f f   w
+
+Es gilt (p ⊻ q) ≡ (p ≡ ¬q).
+
+Klammern zeigen Gruppierungen unmißverständlich an. Längere Formeln neigen
+dazu, von Klammern zu stotzen. Konventionen zur Klammerersparnis:
+
+pq ∨ r entspricht (pq) ∨ r.
+pq ⊃ r entspricht (pq) ⊃ r.
+¬(pq)r entspricht (¬(pq))r.
+¬(p ∨ q)r entspricht (¬(p ∨ q))r.
+usw.
+
+Hilfssystem von Punkten als systematisches Gegenstück zu dem Verfahren der
+Umgangssprache die Gruppierung anzudeuten.
+
+Punkt um die Konjunktion stärker trennen zu lassen:
+p . q ∨ r entspricht p(q ∨ r)
+
+Punkt um ∨, ⊃, ≡ stärker trennen zu lassen als die gepunktete Konjunktion:
+p ⊃ q . r .∨ s entspricht (p ⊃ q . r) ∨ s
+
+Der Punkt kommt an die Seite an der die Verstärkung gebraucht wird:
+p ⊃. q . r ≡ s entspricht p ⊃ (q . r ≡ s)
+
+Doppelpunkt um Konjunktion stärker trennen zu lassen als gepunktetes ∨, ⊃, ≡:
+s ∨: p . q ⊃ r .≡. p ∨ q . r :t entspricht
+s ∨ (p . q ⊃ r .≡. p ∨ q . r)t entspricht
+s ∨ (p(q ⊃ r) ≡ (p ∨ q)r)t
+
+Wahrheitsfunktionen von gegebenen Bestandteilen sind alle Sätze, die man aus
+ihnen aufbauen kann, wenn man ausschließlich Konjunktion, Negation und die
+entbehrlichen weiteren Verknüpfunhszeichen ∨, ⊃, ≡ verwendet.
+Die Buchstaben p, q, usw. und alle daraus gebildeten Wahrheitsfunktionen werden
+satzlogische Schemata genannt.  Die Buchstaben p, q, usw. ersetzen Teilsätze,
+löschen die inneren Sachverhalte aus. In der Logik wird die äußere Struktur
+untersucht. Eine Interpretation von p, q, usw. kann die Angabe eines wirklichen
+Satzes oder eines Wahrheitswertes sein.
+
+Beispiel: Auswertung des Schemas ¬(pq ∨ ¬p¬q) mit der Interpretation p=w, q=f.
+
+¬(⊤⊥ ∨ ⊥⊤)
+ ¬(⊥ ∨ ⊥)
+     ⊤
+
+Das Schema erweist sich unter der angegebenen Interpretation als wahr.
+
+Auswertungsregeln:
+* Man schreibe ¬⊤ bzw. ¬⊥ unmittelbar als ⊥ bzw. ⊤.
+* Man lasse ⊤ als Konjunktionsglied weg.
+* Man lasse ⊥ als Alternationsglied weg.
+* Man reduziere eine Konjunktion mit einem ⊥ als Glied auf ⊥.
+* Man reduziere eine Alternation mit einem ⊤ als Glied auf ⊤.
+* Wenn ein Konditional ⊤ als Vorder-/Hinterglied hat, Vorderglied weglassen.
+* Wenn ein Konditional ⊥ als Vorder-/Hinterglied hat, Vorderglied negieren
+  und Hinterglied weglassen.
+* Man lasse ⊤ als Glied eines Bi-Konditionals weg.
+* Man lasse ⊥ als Glied eines Bi-Konditionals weg, und andere Seite negieren.
+* Man reduziere offenkundig unerfüllbare Schemata, z.B. pq¬pr, auf ⊥.
+* Man reduziere offenkundig allgemeingültige Schemata, z.B. p ⊃ p, auf ⊤.
+
+Die Wahrheitswertanalyse ist die Auswertung aller möglichen Interpretationen
+eines Schemas.
+
+Verkürzung: Den Buchstaben mit den meisten Wiederholungen wählen, Zwischen-
+schritte weglassen, da offensichtlich.
+
+Beispiel: Wahrheitswertanalyse des Schemas 'pq ∨ ¬p¬r .⊃. q ≡ r'.
+
+p=⊥:
+¬r .⊃. q ≡ r
+  r=⊤:
+  ⊥ .⊃. q ≡ ⊤
+     ⊤
+  r=⊥:
+  ⊤ .⊃. q ≡ ⊥
+     q ≡ ⊥
+    q=⊥: q=⊤:
+     ⊤    ⊥
+p=⊤:
+q .⊃. q ≡ r
+  q=⊥:
+  ⊥ .⊃. ⊥ ≡ r
+     ⊤
+  q=⊤:
+  ⊤ .⊃. ⊤ ≡ r
+      ⊤ ≡ r
+    r=⊤: r=⊥:
+     ⊤    ⊥
+
+Schema falsch wenn p falsch, q wahr und r falsch ist oder wenn p wahr, q wahr
+und r falsch ist. Unter allen anderen Interpretation ist das Schema wahr.
+
+Ein satzlogisches Schema heißt erfüllbar, wenn es eine Interpretation gibt, die
+das Schema wahr macht; sonst unerfüllbar. Ein Schema heißt allgemeingültig,
+wenn es unter jeder Interpretation wahr wird.
+
+Ein Schema ist genau dann allgemeingültig, wenn seine Negation unerfüllbar ist;
+und genau dann unerfüllbar, wenn seine Negation allgemeingültig ist. Beispiel:
+
+     p ⊃ p
+⊤ ⊃ ⊤   ⊥ ⊃ ⊥
+  ⊤        ⊤
+Schema ist allgemeingültig.
+      ¬(p ⊃ p)
+¬(⊤ ⊃ ⊤)   ¬(⊥ ⊃ ⊥)
+    ⊥           ⊥
+Schema ist unerfüllbar.
+
+Sätze in Form eines allgemeingültigen Schemas sind in dem Sinn trivial, dass
+sie keine echte Information über den behandelten Gegenstand liefern. Sie sind
+nicht in dem Sinn trivial, dass man die Allgemeingültigkeit immer auf den
+ersten Blick erkennt.
+
+Beispiel: p ∨ q . p ∨ ¬q .∨ ¬pq :≡ q .:⊃. pr ∨ p¬r
+
+⊤ ∨ q . ⊤ ∨ ¬q .∨ ⊥q :≡ q .:⊃. ⊤r ∨ ⊤¬r
+                 q ⊃ r ∨ ¬r
+                    q ⊃ ⊤
+                      ⊤
+
+⊥ ∨ q . ⊥ ∨ ¬q .∨ ⊤q :≡ q .:⊃. ⊥r ∨ ⊥¬r
+              ¬(q¬q ∨ q .≡ q)
+               ¬(⊥ ∨ q .≡ q)
+                  ¬(q ≡ q)
+                      ⊥
+
+Das Schema erweist sich als erfüllbar aber nicht als allgemeingültig.
+
+Einsätzen von Schemata für Buchstaben erhält Allgemeingültigkeit und
+Unerfüllbarkeit aber im allgmeinen nicht Erfüllbarkeit.
+
+Zum Beispiel erfolgt die Allgemeingültigkeit des Schemas qr ∨ ¬(qr) aus der
+Allgemeingültigkeit von p ∨ ¬p.
+
+Implikation
+-----------
+
+Implikation ist die Allgemeingültigkeit des Konditionals.
+
+Beispiel: Rechtfertigung der Schlussweise "Cassius ist nicht sowohl mager als
+auch hungrig" folgt logisch aus "Cassius ist nicht hungrig".
+
+Sei "Cassius ist mager" mit p und "Cassius ist hungrig" mit q bezeichnet. Das
+erste Schema S₁ ist ¬q und das zweite Schema S₂ ist ¬(pq). S₁ impliziert S₂
+bedeutet, p und q können nicht so interpretiert werden, dass S₁ wahr und S₂
+falsch wird. Also ist zu zeigen, dass das Konditional ¬q ⊃ ¬(pq)
+allgemeingültig ist.
+
+        ¬q ⊃ ¬(pq)
+⊥ ⊃ ¬(p⊤)    ⊤ ⊃ ¬(p⊥)
+  ⊤            ¬(p⊥)
+                 ⊤
+
+Vom Standpunkt der logischen Theorie ist die Schlussweise gerechtfertigt.
+
+Beispiel: Impliziert p ∨ q das Schema pq?
+
+       p ∨ q .⊃ pq
+
+⊤ ∨ q .⊃ ⊤q
+    ⊤ ⊃ q
+      q
+     ⊤ ⊥
+
+Das Konditional ist nicht allgemeingültig. Implikation liegt nicht vor.
+
+Allgemeine Gesetze:
+
+* Jedes Schema impliziert sich selbst.
+       S ⊃ S
+  ⊤ ⊃ ⊤   ⊥ ⊃ ⊥
+    ⊤        ⊤
+
+* Wenn ein Schema ein anderes impliziert und dieses andere ein drittes, dann
+  impliziert das erste das dritte.
+
+  S₁ ⊃ S₂ . S₂ ⊃ S₃ .⊃ S₁ ⊃ S₃
+
+  Beweis. Behauptung S₁ ⊃ S₃ sei keine Implikation, d.h. S₁ kann wahr und S₃
+  falsch annehmen. Einsetzen in das allgemeingültige Schema 'S₁⊃S₂ . S₂⊃S₃':
+  ⊤⊃S₂ . S₂⊃⊥
+      S₂¬S₂
+        ⊥
+  S₁ wahr und S₃ falsch widerpsrpicht der Tatsache, dass S₁⊃S₂ . S₂⊃S₃ allge-
+  meingültig ist. S₁ ⊃ S₃ ist eine Implikation.
+
+  Alternativer Beweis: S₁ ⊃ S₂ und S₂ ⊃ S₃ sind Implikationen. Alle erlaubten
+  Interpretationen sind bekannt. Man stelt fest, dass es darunter keine gibt,
+  die S₁ ⊃ S₃ falsch macht. S₁ ⊃ S₃ ist eine Implikation.
+
+* Ein unerfüllbares Schema impliziert jedes Schema
+  ⊥ ⊃ Sₓ
+    ⊤
+  und wird nur durch unerfüllbare impliziert.
+
+* Ein allgemeingültiges Schema wird durch jedes Schema impliziert
+  Sₓ ⊃ ⊤
+    ⊤
+  und impliziert nur allgemeingültige.
+
+Beispiele für offensichtliche Implikationen:
+
+p ⊃. p ∨ q
+q ⊃. p ∨ q
+pq ⊃. p ∨ q
+¬p ⊃ q .⊃. p ∨ q
+
+p ∨ q .⊃. p ∨ q ∨ r
+p ∨ q .⊃. ¬p ⊃ q
+
+¬p ⊃. p ⊃ q
+q ⊃. p ⊃ q
+qr ⊃. p ⊃ q
+¬p ∨ q .⊃. p ⊃ q
+¬q ⊃ ¬p .⊃. p ⊃ q
+p ⊃ qr .⊃. p ⊃ q
+p ∨ r .⊃ q :⊃. p ⊃ q
+
+p ⊃ q .⊃. ¬p ∨ q
+p ⊃ q .⊃. ¬q ⊃ ¬p
+p ⊃ q .⊃: p ⊃. q ∨ r
+p ⊃ q .⊃: p ⊃ q .∨ r
+
+"Pfeilwurf"-Verfahren zur Feststellung ob Schema S' von Schema S impliziert
+wird.
+Anwendbar, wenn es eine und nur eine Interpretation gibt, die S wahr macht. Ist
+S' unter dieser Interpretation wahr, dann wird S' von S impliziert, sonst
+nicht.
+
+Beispiel: Wird ¬(pq) von ¬q impliziert?
+
+¬(pq) ist unter der einzigen Bedingung die ¬q wahr macht, q gleich falsch,
+wahr. ¬(pq) wird von ¬q impliziert.
+
+Umgedrehte Variante des "Pfeilwurf"-Verfahren. Anwendbar, wenn es eine und nur
+eine Interpretation gibt, die S' falsch macht. Ist S unter dieser
+Interpretation falsch, dann wird S' von S impliziert, sonst nicht.
+
+Beispiel: Wird p ⊃ r von p ⊃ q . q ⊃ r impliziert?
+
+p ⊃ q . q ⊃ r ist unter der einzigen Bedingung die p ⊃ r falsch macht,
+p wahr und r falsch, falsch. p ⊃ r wird von p ⊃ q . q ⊃ r impliziert.
+
+"⊃" approximiert "wenn-dann", nicht aber "impliziert".
+
+Impliziert kann nicht zwischen Sätze geschrieben werden, sondern zwischen ihre
+Bezeichnungen. Bei der Bezeichnung wird der Satz in Anführungszeichen gesetzt.
+Es wird über die Sätze gesprochen. Anders bei "⊃" / "wenn-dann". Hier werden
+die Sätze selbst und nicht ihre Bezeichnungen gebraucht.
+
+Logisches Schließen führt von Prämissen zu Konsequenzen, die wahr sind, wenn
+die Prämissen wahr sind, wie man rein logisch beweisen kann. Die Beziehung
+zwischen Prämissen und Konsequenzen liegt in der Logik begründet, die Prämissen
+und Konsequenzen selbst nicht.
+
+In der Umgangssprache wird die Konunktion neben "und" auch durch "aber" und
+"obwohl" ausgedrückt. Die Umstände die "Müller ist da, aber Schmidt ist fort."
+und "Müller ist da, obwohl Schmidt fort ist." wahr machen, sind die gleichen
+wie bei "Müller ist da, und Schmidt ist fort.". Der Bedeutungsunterschied
+zwischen "und", "aber" und "obwohl" ist rethorischer, nicht logischer Natur.
+
+Wird die Bezeichnung p ⊃ q als "wenn p, dann q" angesehen, gibt sie alle diese
+Wendungen wieder:
+- wenn p, dann q
+- q, wenn p
+- q, falls p
+- q im Fall, dass p
+- nicht p, wenn nicht q
+  Hinweis:
+  p ⊃ q bedeutet ¬p ∨ q, somit entspricht "wenn nicht" dem "oder".
+- p nur dann, wenn q
+
+Beispiel.
+Sei p "promovieren" und q "Gebühren bezahlen".
+Die Bezeichnung "p ⊃ q" wird gelesen
+- in der Form "wenn p, dann q" als
+  "Wenn Sie promovieren, dann sind Ihre Gebühren bezahlt"
+- in der Form "p nur dann, wenn q" als 
+  "Sie werden nur dann promovieren, wenn Ihre Gebühren bezahlt sind".
+
+Der Sinn von "≡" ist ein anderer: "p dann und nur dann, wenn q". Das ist eine
+Konjunktion aus "p dann, wenn q" und "p nur dann, wenn q".
+Symbolisch "q ⊃ p . p ⊃ q" (bzw. "p ⊃ q . q ⊃ p" da Konjunktion kommutativ).
+
+Beispiel.
+Sei wieder p "promovieren" und q "Gebühren bezahlen".
+Die Bezeichnung "p ≡ q" kann gelesen werden als 
+"Wenn Sie promovieren, dann sind Ihre Gebühren bezahlt und wenn Sie Ihre
+Gebühren bezahlen, dann sind Sie promoviert".
+
+Die Zuverlässigkeit der logischen Analyse und des logischen Schließens hängt
+davon ab, nicht ein und denselben Ausdruck verschieden zu interpretieren. Die
+Verletzung dieses Grundsatzes ist bekannt als Trugschluß durch Äquivokation
+(= Wortgleichheit, obwohl sich die bezeichnenden Dinge grundlegend
+unzterschieden).
+
+Beispiel: Die zwei Konjunktionen
+  "Er ging nach Ogenbargen, und ich ging mit"
+  "Er ging nach Negenbargen, und ich ging nicht mit"
+können beide wahr sein. Mit "ich ging mit" als q ist die Kombination allerdings
+unerfüllbar: pqr¬q! Mit "Ich ging mit nach Ogenbargen" als q und "Ich ging mit
+nach Negebbargen" als s verschwindet die scheinbare Unerfüllbarkeit: pqr¬s.
+
+Umformulieren von Sätzen, dass ihre logische Struktur hervortritt, hat drei
+Aspekte:
+ 1. Entsprechende Wörter in logische Zeichen übersetzen.
+ 2. Sätze umformulieren, um den Trugschluß durch Äquivokation zu vermeiden.
+ 3. Umformulierte Sätze in Strukturganzheit einfügen. Zuerst nach der äußersten
+    Struktur suchen und dann von außen nach innen umformulieren.
+
+Beispiel:
+"Der Admiral wird sprechen, und entweder der Dekan oder der Rektor werden ihn
+einführen".
+
+Mit p als "Der Admiral wird sprechen", q als "Der Dekan wird ihn einführen",
+r als "Der Rektor wird ihn einführen". Symbolisch: "p . q ∨ r".
+
+p . q ∨ r und pq ∨ pr sind äquivalent.
+
+⊤ . q ∨ r ≡ ⊤q ∨ ⊤r
+    q ∨ r ≡ q ∨ r
+          ⊤
+
+⊥ . q ∨ r ≡ ⊥q ∨ ⊥r
+        ⊥ ≡ ⊥
+          ⊤
+
+Gerechtfertigt durch die Äquivalenz kann der Satz umgeformt werden in "Entweder
+wird der Admital sprechen und der Dekan wird ihn einführen, oder der Admiral
+wird sprechen und der Rektor wird ihn einführen".
+
+Die Aufgabe der Logik in ihrer Anwendung im gewöhnlichen Sprechen ist die
+Rechtfertigung von und die Kritik an Schlußweisen.
+
+Äquivalenz.
+
+Äquivalenz heißt Allgemeingültigkeit des Bi-Konditionals.
+
+Damit S₁ äquivalent S₂, muss für alle Interpretationsmöglichkeiten gelten,
+entweder sind S₁ und S₂ beide wahr oder beide falsch.
+
+Das entspricht der wechselseitigen Implikation:
+
+S₁ impliziert S₂, wenn für alle Interpretationsmöglichkeiten ¬S₁ oder S₂ wahr.
+S₂ impliziert S₁, wenn für alle Interpretationsmöglichkeiten ¬S₂ oder S₁ wahr.
+
+   ¬S₁ ∨ S₂ . ¬S₂ ∨ S₁
+≡ ¬S₁¬S₂ ∨ ¬S₁S₁ ∨ S₂¬S₂ ∨ S₂S₁
+≡ S₁S₂ ∨ ¬S₁¬S₂
+
+Allgemeine Gesetze:
+
+* Jedes Schema ist zu sich selbst äquivalent.
+
+  Begründung:
+  Das Bi-Konditional S ≡ S muss also allgemeingültig sein, d.h., S ∨ ¬S für
+  jede mögliche Interpretation wahr sein. Das ist offensichtlich der Fall (es
+  handelt sich um eine Tautologie).
+
+* Wenn ein Schema zu einem zweiten äquivalent ist und das zweite zu einem
+  dritten, dann ist das erste äquivalent zum dritten.
+
+  Begründung:
+  Sei S₁ wahr (falsch). Dann ist S₂ wahr (falsch), weil S₁ äquivalent S₂ gilt.
+  S₂ wahr (falsch) bedeutet, dass S₃ wahr (falsch) ist, weil S₂ äquivalent S₃
+  gilt. S₁ und S₃ sind also beide entweder wahr oder falsch, also äquivalent.
+
+* Wenn ein Schema zu einem zweiten äquivalent ist, dann ist das zweite auch zum
+  ersten äquivalent.
+  
+  Begründung:
+  S₁ ≡ S₂ und S₂ ≡ S₁ bedeuten das gleiche.
+
+  S₁ ≡ S₂
+  ≡ S₁ ⊃ S₂ . S₂ ⊃ S₁
+  ≡ S₂ ⊃ S₁ . S₁ ⊃ S₂
+  ≡ S₂ ≡ S₁
+  
+  Handelt es sich also bei S₁ ≡ S₂ um Äquivalenz, dann auch bei S₂ ≡ S₁.
+
+* Allgemeingültige Schemata sind zueinander, aber nicht zu anderen äquivalent;
+  und entsprechend für unerfüllbare Schemata.
+
+  Begründung:
+  Jedes allgemeingültige (unerfüllbare) Schema ist für alle Interpretationen
+  wahr (falsch). Also sind alle allgemeingültigen (unerfüllbaren) Schemata
+  zueinander äquivalent, da ihr Wahrheitswert immer wahr (falsch) ist. Zu
+  nicht-allgemeingültigen (nicht-unerfüllbaren) sind sie nicht äquivalent,
+  da bei diesen der Wahrheitswert von der Interpretation abhängt.
+
+Erstes Ersetzungsgesetz:
+"...p..." ist irgendein Schema und "...q..." ist daraus hervorgegangen durch
+Ersetzung von p durch q an einer oder an mehreren Stellen; dann gilt:
+"p ≡ q" impliziert "...p... .≡. ...q...".
+
+Mit p, q beide wahr oder beide falsch, bezeichnen "...p..." und "...q..." das
+gleiche Schema. Wenn also "p ≡ q" wahr, dann auch "...p... .≡. ...q..." wahr.
+Wenn p, q verschieden, dann ist "p ≡ q" falsch und das Hinterglied beeinflusst
+den gesamten Wahrheitswert wahr nicht. Für alle Interpretationen von p, q ist
+das Konditional allgemeingültig. Also liegt Implikation vor.
+
+Zweites Ersetzungsgesetz:
+Wenn S₁ und S₂ äquivalent sind und S'₂ aus S'₁ durch Ersetzen von S₁ durch S₂
+an einer oder mehreren Stellen entsteht, dann sind S'₁ und S'₂ äquivalent.
+
+S₁ und S₂ äquivalent bedeutet, dass S₁ und S₂ immer den gleichen Wahrheitswert
+besitzen. Der Wahrheitswert von S'₁ und S'₂ bleibt beim Ersetzen von S₁ durch
+S₂ dadurch unverändert, d.h. gleich. Also S'₁ und S'₂ äquivalent.
+
+Beispiel: "p ⊃ q" kann in "p ⊃ q .∨ r" durch "¬(p¬q)" ausgetauscht werden,
+wodurch das äquivalente Schema "¬(p¬q) .∨ r" entsteht.
+
+Drittes Ersetzungsgesetz:
+Ersetzen von Äquivalentem erhält Erfüllbarkeit, Unerfüllbarkeit,
+(Nicht-)Allgemeingültigkeit, (Nicht-)Implikation und (Nicht-)Äquivalenz.
+
+Beispiel: "p ∨ ¬p" ist allgemeingültig. p und pp sind äquivalent. Das erlaubt
+auf die Allgemeingültigkeit zu schließen von "pp ∨ ¬(pp)", "pp ∨ ¬p" und
+"p ∨ ¬(pp)".
+
+Im Gegensatz zum Ersetzen von Äquivalentem muss das Einsetzen einheitlich und
+vollständig durchgeführt werden.
+
+Bei der Wahrheitswertanalyse können Schemata durch einfachere äquivalente
+ersetzt werden, um die Rechnungen zu verkürzen.
+
+Morgansche Gesetze.
+
+* ¬(p ∨ q ∨ ... ∨ s) und ¬p¬q ... ¬s sind äquivalent.
+
+  Begründung mit Äquivalenz von p ∨ q und ¬(¬p¬q):
+  ¬(p ∨ q ∨ ... ∨ s) ≡ ¬(¬(¬p¬q ... ¬s)) ≡ ¬p¬q ... ¬s.
+
+* ¬(pq ... s) und ¬p ∨ ¬q ∨ ... ∨ ¬s sind äquivalent.
+
+  Begründung mit Äquivalenz von pq und ¬(¬p ∨ ¬q):
+  ¬(pq ... s) ≡ ¬(¬(¬p ∨ ¬q ∨ ... ∨ ¬s)) ≡ ¬p ∨ ¬q ∨ ... ∨ ¬s.
+
+* ¬(p ⊃ q) und p¬q sind äquivalent.
+
+  Begründung mit Äquivalenz von p ⊃ q und ¬p ∨ q, und 1. Morgansche Gesetz:
+  ¬(p ⊃ q) ≡ ¬(¬p ∨ q) ≡ ¬(¬(¬(¬p)¬q)) ≡ ¬(¬p)¬q ≡ p¬q.
+
+* ¬(p ≡ q) und ¬p ≡ q und p ≡ ¬q sind äquivalent.
+
+  Ausführlicher Beweis ¬(p ≡ q) und p ≡ ¬q äquivalent:
+
+    ¬(p ≡ q)
+  ≡ ¬(p ⊃ q . q ⊃ p)                  Äquivalenz
+  ≡ p¬q ∨ ¬pq                          Morgansche Gesetze
+  ≡ ¬(pq ∨ ¬p¬q)                       Umformulieren
+  ≡ ¬(¬(¬p ∨ ¬q) ∨ ¬(p ∨ q))           Morgansche Gesetze
+  ≡ ¬(¬(¬(¬(¬p ∨ ¬q)) . ¬(¬(p ∨ q))))
+  ≡ ¬p ∨ ¬q . p ∨ q
+  ≡ ¬p ∨ ¬q . q ∨ p                    Kommutativgesetz
+  ≡ p ⊃ ¬q . ¬q ⊃ p                    Äquivalenzen
+  ≡ p ≡ ¬q
+
+  Ausführlicher Beweis p ≡ ¬q und ¬p ≡ q äquivalent:
+    p ≡ ¬q
+  ≡ p ⊃ ¬q . ¬q ⊃ p     Äquivalenzen
+  ≡ ¬p ∨ ¬q . q ∨ p     
+  ≡ q ∨ p . ¬p ∨ ¬q     Kommutativgesetze
+  ≡ p ∨ q . ¬q ∨ ¬p
+  ≡ ¬p ⊃ q . q ⊃ ¬p     Äquivalenzen
+  ≡ ¬p ≡ q
+
+  Weil ¬(p ≡ q) mit p ≡ ¬q und p ≡ ¬q mit ¬p ≡ q äquivalent, ist nach
+  allgemeinem Gesetz auch ¬(p ≡ q) mit ¬p ≡ q äquivalent.
+
+Äquivalente Schemata auf p reduzierbar:
+p, ¬¬p, pp, p ∨ p, p ∨ pq, p . p ∨ q, pq ∨ p¬q, p ∨ q . p ∨ ¬q
+
+Wenn sich alle Negationszeichen nur auf einzelne Buchstaben beziehen, ist ein
+Schema klarer und leichter zu verstehen.
+
+Gesetz der Distributivität der Konjunktion gegenüber der Alternation:
+
+* p . q ∨ r ∨ ... ∨ t ist äquivalent mit pq ∨ pr ∨ ... ∨ pt
+* q ∨ r ∨ ... ∨ t . p ist äquivalent mit qp ∨ rp ∨ ... ∨ tp
+
+Beispiel: p ∨ t . q ∨ r ∨ s
+  ≡ p . q ∨ r ∨ s .∨. t . q ∨ r ∨ s
+  ≡ pq ∨ pr ∨ ps ∨ tq ∨ tr ∨ ts
+
+Schemata in reduzierter disjunktiver Normalform.
+
+Ein normales Schema hat die Eigenschaften
+* ⊃, ≡ kommen nicht vor
+* die Negation ist auf einzelne Buchstaben beschränkt
+* die Konjunktion ist auf einzelne Buchstaben und deren Negation beschränkt
+* kein Buchstabe erscheint mehr als einmal in einer Konjunktion
+
+Lettern: Einzelne Buchstaben und deren Negation (p, ¬q, ...)
+Fundamentales Schema: Konjunktion von Lettern in denen keine Lettern zweimal
+                      erscheinen (p, ¬q, s¬pq, ...)
+Normales Schema: Ein fundamentales Schema oder eine Alternation von
+                 fundamentalen Schemata.
+
+Verfahren zur Umformung eines Schemas in sein äquivalentes normales Schema:
+* p ⊃ q ersetzen durch ¬p ∨ q
+* p ≡ q ersetzen durch pq ∨ ¬p¬q
+* Negation auf einzelne Buchstaben beschränken mit Morgansche Gesetze
+  ¬(p ∨ q ∨ ... ∨ s) ersetzen durch ¬p¬q...¬s
+  ¬(pq...s) ersetzen durch ¬p ∨ ¬q ∨ ... ∨ ¬s
+* Konjunktion auf Lettern beschränken durch fortgesetztes distributives Rechnen
+  p . q ∨ r ∨ ... ∨ t ersetzen durch pq ∨ pr ∨ ... ∨ pt
+
+Sind alle Alternationsglieder unerfüllbar, wird das Ergebnis p¬p aufgestellt.
+
+Jedes satzlogische Schema kann in ein äquivalentes umgeformt werden, das
+entweder das Schema p¬p oder normal ist. Das Verfahren zur Umformung in ein
+normales Schema reduziert jedes satzlogische Schema auf ein äquivalentes, p¬p
+wenn es unerfüllbar ist und ein normales Schema wenn es erfüllbar ist.
+
+Alternativer Weg: Ein normales Schema kann direkt aus der Wahrheitswertanalyse
+abgelesen werden, falls ⊤s als Endergebnisse herauskommen. Falls alle Endergeb-
+nisse ⊥ sind,kann direkt p¬p als ein äquivalentes Schema hingeschrieben werden.
+
+Dualität.
+
+Die Schemata S und S' sind dual zueinander, wenn ihre Wahrheitswerte entgegen-
+gesetzt sind sofern man die Buchstaben in S und S' entgegengesetzt
+interpretiert.
+
+Die Konjunktion "pq" und die Alternation "p ∨ q" sind dual zueinander, denn sie
+verhalten sich gleich, bis auf die durchgängige Vertauschung der Rollen von
+wahr und falsch.
+
+Selbstdualität: p und p sowie ¬p und ¬p sind dual zueinander.
+
+1. Dualitätsgesetz: Wenn man in einem Schema S ohne ⊃, ≡ alle Alternationen
+   in Konjunktionen umändert und umgekehrt, dann ist dieses neue Schema S' dual
+   zu S.
+
+   Soll geprüft werden ob S' zu S dual ist, wird nach diesem Gesetz ein neues
+   Schema S'' aus S erstellt. Ist S'' äquivalent zu S', dann ist S' dual zu S.
+
+2. Dualitätsgesetz: Negiert man alle Buchstaben und dann das ganze Schema,
+   erhält man ein duales Schema.
+
+   Beispiel: pq und ¬(¬p¬q) sind dual zueinander.
+
+3. Dualitätsgesetz: Ein Schema ist genau dann allgemeingültig, wenn das dazu
+   duale Schema unerfüllbar ist.
+
+4. Dualitätsgesetz: Ein Schema S₁ impliziert genau dann ein Schema S₂, wenn das
+   duale Schema zu S₂ das zu S₁ duale impliziert.
+
+5. Dualitätsgesetz: Schemata sind genau dann äquivalent, wenn die dazu dualen
+   Schemata äquivalent sind.
+
+Herleitung des Gesetzes der Distributivität der Alternation gegenüber der
+Konjunktion:
+
+Nach dem Distributivgesetz sind p . q ∨ r ∨ t und pq ∨ pr ∨ pt äquivalent.
+Nach dem 1. Dualitätsgesetz sind die dualen Schemata dazu p ∨ qrt und
+p ∨ q . p ∨ r . p ∨ t.
+Nach dem 5. Dualitätsgesetz sind p ∨ qrt und p ∨ q . p ∨ r . p ∨ t äquivalent.
+Neben dem Gesetz der Distributivität der Konjunktion gegenüber der Alternation,
+p . q ∨ r ∨ t und pq ∨ pr ∨ pt äquivalent,
+folgt daraus das Gesetz der Distributivität der Alternation gegenüber der
+Konjunktion,
+p ∨ qrt und p ∨ q . p ∨ r . p ∨ t äquivalent.
+Konjunktion und Alternation sind also noch inniger verwandt als Multiplikation
+und Addition, denn es gilt p * (q + r + t) = pq + pr + pt, aber
+p + (qrt) ≠ (p+q)(p+r)(p+t).
