@@ -7,3 +7,6 @@
 [Zahlen - Geschichte, Gesetze, Geheimnisse, Albrecht Beutelspacher, 2021](./Notes_zahlen_beutespacher_thurston.txt)
 
 [Grundkurs Philosophie - Band 1: Logik, Wolfgang Detel, 2007](./Logik_Detel.txt)
+
+[Grundzüge der Logik, W. V. O. Quine, Suhrkamp 14. Auflage 2016](./GrundzuegeLogik_Quine_1.txt)
+
