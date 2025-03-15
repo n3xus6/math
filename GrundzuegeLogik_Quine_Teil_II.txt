@@ -1,0 +1,554 @@
+₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ᵢ ⱼ ₓ xₙ
+→⇔⊃≡¬∧∨⊤⊥∀ ∃ ∃! ¬∃ ⊢⇒↮⊤⊥↑|↓∴
+ℕℤℚℝℂ
+∅∩∪∈∉
+
+Notizen zu
+
+        W. V. O. Quine
+      Grundzüge der Logik
+   Suhrkamp 14. Auflage 2016
+
+Teil II
+
+Glossar
+
+Kategorisch - unbedingt, ohne Vorbehalt
+Kontradiktorisch - widersprechend
+Lemma - Zwischenschluss
+Nomina appelativa - Gattungsbezeichnung
+Uniform - einheitlich gestaltet
+Universum - Bereich (von Bereich der Rede)
+
+§ 12 Kategorische Sätze
+
+Dass logisch korrekte Schlüsse korrekt sind, liegt an den Strukturen der
+benutzten Sätze. Wesentlich können die groben äußeren Strukturen sein oder
+die feineren Teilstrukturen. Teilsätze sind aus Termini (Gattungsbezeichnungen)
+zusammengesetzt. Termini sind keine Sätze. Ein Satz ist wahr oder falsch. Ein
+Terminus dagegen trifft auf einige Gegenstände zu und auf den Rest nicht. Ob
+ein Terminus im Singular oder Plural steht ist logisch unwichtig.
+
+Beispiele für kategorische Sätze:
+
+F, G und H stehen für Termini.
+
+                                      Schematisch
+Kein Philosoph ist böse
+Keine Philosophen sind böse           Kein G ist H
+
+Einige Griechen sind Philosophen
+Manche Griechen sind Philosophen
+Mancher Grieche ist ein Philosoph     Einige F sind G
+
+Einige Griechen sind nicht böse       Einige F sind nicht H
+
+Alle Philosophen sind böse
+Jeder Philosoph ist böse              Alle G sind H
+
+----------------------------------
+
+Einige Fische fliegen
+Einige Fische sind fliegende Dinge    Einige F sind G
+
+Die Klasse aller Gegenstände, auf die ein Terminus zutrifft, wird Extension des
+Terminus genannt. Beispiel: Die Extension von "Erdtrabant" ist die Klasse,
+dessen einziges Element der Mond ist.
+
+Die vier grundlegenden Arten, Termini paarweise zu kategorischen Sätzen
+zusammenzusetzen:
+    A (universell bejahend):   Alle F sind G.
+    E (universell verneinend): Kein F ist G.
+    I (partikulär bejahend):   Einige F sind G.
+    O (partikulär verneinend): Einige F sind nicht G.
+
+Umschreibungen für A, Alle F sind G:
+- Jedes F ist ein G
+- F sind ausschließlich G
+- F sind G
+- Wenn etwas ein F ist, ist es ein G
+- Was ein F ist, ist ein G
+- Nur G sind F
+
+Umschreibungen für E, Kein(e) F ist (sind) G:
+- Nichts ist sowohl ein F als auch ein G
+- Nichts, das ein F ist, ist ein G
+- Es gibt kein(e) FG ("Es gibt keine rosa Elefanten")
+- FG existieren nicht
+
+Umschreibungen für I, Einige F sind G:
+- Manches ist sowohl ein F als auch ein G
+- Manches, das ein F ist, ist ein G
+- Es gibt ein FG
+- FG existieren
+
+Oft sind die Termini F und G nicht direkt zu erkennen. Beispiele:
+
+"Ich fahre nirgendwohin mit dem Zug, wohin ich mit dem Flugzeug kommen kann".
+Form E, Kein F ist G: "Kein Ort, zu dem ich mit dem Zug fahre, ist ein Ort, zu
+dem ich mit dem Flugzeug fliegen kann".
+
+"Jeder im Raum spricht Deutsch".
+Form A, Alle F sind G: "Alle Personen in diesem Raum sind Personen, die Deutsch
+sprechen":
+
+"Die Summe der Winkel eines Dreiecks ist immer zwei Rechte".
+Form A, Alle F sind G: "Alle Summen der Winkel von Dreiecken sind zwei Rechte".
+
+"Ich kannte ihn, bevor er sein Vermögen verlor".
+Form I, Einige F sind G: "Einige Zeitpunkte, in denen ich ihn kannte, sind
+Zeitpunkte, bevor er sein Vermögen verlor."
+
+Es ist wichtig, über den Kontext und Sinnzusammenhang nachzudenken:
+
+"Ein Siamese isst mit Essstäbchen" ist von der Form A, Alle F sind G.
+"Ein Pfadfinder ist ehrerbietig" ist von der Form A, Alle F sind G.
+"Eine Dame ist anwesend" ist von der Form I, Einige F sind G.
+
+A und O sowie E und I sind kontradiktorisch zueinander, d.h. die Negation
+voneinander. A ist genau dann wahr, wenn O falsch ist. E ist dann und nur dann
+wahr, wenn I falsch ist.
+
+§ 13 Venn-Diagramm
+
+Graphisches Verfahren von Venn (1880) benutzt sich überschneidende Kreise um
+beide Termini eines kategorischen Satzes darzustellen.
+
+Schraffur bedeutet Leere.
+Kreuz (Strich) bedeutet Nicht-Leere.
+Weißes Gebiet bedeutet fehlende Information.
+
+Siehe an dieser Stelle Venn-Diagramme.jpg.
+
+Mit Venn-Diagrammen kann auch festgestellt werden, ob überhaupt irgendeine
+Konsequenz folgen kann. Ob es sich um die Konsequenz eines Syllogismus handelt
+wird dadurch sichtbar, dass die beiden unteren Kreise einem der Diagramme zu
+den Formen A, E, I oder O entsprechen.
+"Alle H sind G" und "Alle F sind G" können nicht die Prämissen eines gültigen
+Syllogismus sein. Die beiden unteren Kreise entsprechen keinem der vier
+bekannten Muster.
+
+"Kein F ist G" und "Kein G ist F" sowie "Einige F sind G" und "Einige G sind F"
+sind gleichwertig. Solche Vertauschung der Termini heißt Einfache Konversion.
+
+§ 14 Syllogismen
+
+Schlüsse, in denen ein kategorischer Satz als Konsequenz aus zwei kategorischen
+Sätzen als Prämissen gefolgert wird. Zusammen kommen in ihnen drei Termini vor,
+von denen jeder in zwei Sätzen steht. Ein gültiger Syllogismus kann unmöglich
+von wahren Prämissen zu einer falschen Konsequenz führen.
+
+Terminologie am Beispiel
+
+    Kein G ist H,
+    Einige F sind G;
+    ∴ Einige F sind nicht H.
+
+Das Zeichen ∴ bedeutet "folglich".
+
+Oberer Terminus: Das Prädikat der Konsequenz (= H).
+Unterer Terminus: Das Subjekt der Konsequenz (= F).
+Mittlerer Terminus: Der restliche Terminus (= G).
+
+Obere Prämisse: Enthält mittleren und oberen Terminus.
+Untere Prämisse: Enthält mittleren und unteren Terminus.
+
+Modus: Legt die Aufeinanderfolge der Formen fest (= EIO).
+
+Figur: Legt fest, ob die obere Prämisse den oberen Terminus als Subjekt und den
+       mittleren Terminus als Prädikat hat oder umgekehrt, und entsprechend für
+       die untere Prämisse. Es gibt vier Figuren.
+
+                         Figur 1    Figur 2    Figur 3    Figur 4
+       Obere Prämisse    GH         HG         GH         HG
+       Untere Prämisse   FG         FG         GF         GF
+       Konsequenz        FH         FH         FH         FH
+
+       (Beispiel hat Figur 1)
+
+Es gibt genau fünfzehn Formen von Syllogismen die gültig sind.
+
+Figur 1    AAA, EAE, AII, EIO
+Figur 2    EAE, AEE, EIO, AOO
+Figur 3    IAI, AII, OAO, EIO
+Figur 4    AEE, IAI, EIO
+
+Es gibt neun weitere Formen von gültigen Syllogismen, wenn man die Prämisse
+"Es gibt" dazu nimmt.
+
+           Es gibt F    Es gibt G    Es gibt H
+Figur 1    AAI, EAO
+Figur 2    AEO, EAO
+Figur 3                 AAI, EAO
+Figur 4    AEO          EAO          AAI
+
+Der Nachteil von Venn-Diagrammen ist, sie lassen sich weniger leicht auf
+Schlüsse mit mehr als drei Termini anwenden. Man kann versuchen den Schluss
+in Teile mit weniger Termini zu zerlegen, so dass man mit ihnen umgehen kann.
+Die Methode der Venn-Diagramme bricht zusammen, wenn Wahrheitsfunktionen
+zwischengemischt sind.
+
+§ 16 Quantifizieren
+
+Existenzquantor (∃x) "es gibt ein Ding x, so dass"
+
+Anwenden von (∃x) auf Ausdrücke.
+
+(∃x)(x ist ein Buch . x ist langweilig)
+"Es gibt etwas, das ein Buch ist und langweilig ist."
+Dieser Satz ist wahr, denn im Universum gibt es zumindest ein langweiliges
+Buch.
+
+(∃x)(x ist ein Quadrat . x ist rund)
+"Es gibt etwas, das ein Quadrat ist und rund ist."
+Dieser Satz ist falsch, denn im Universum gibt es kein rundes Quadrat.
+
+Allquantor (x) "jedes Ding x ist so, dass"
+
+(x)(x ist ein Mensch ⊃ x ist sterblich)
+"Jedes Ding ist so, dass es, wenn es ein Mensch ist, sterblich ist."
+Dieser Satz ist wahr, denn welches Ding im Universum man auch für x in Betracht
+zieht, bleibt der Ausdruck wahr.
+
+(x)(x ist identisch mit x)
+"Jedes Ding ist so, dass es mit sich identisch ist." (wahr)
+
+(x)[x ist rot ∨ ¬(x ist rot)]
+"Jedes Ding ist so, dass es rot ist oder nicht rot ist." (wahr)
+
+(x)(x ist rot) ∨ (x)¬(x ist rot)
+"Jedes Ding ist so, dass es rot ist, oder jedes Ding ist so, dass es nicht rot
+ist." (falsch)
+
+(∃x) und (x) sind in ihrer Bedeutung durch ¬ verknüpft.
+
+Fx lies "x ist ein F".
+
+Es gibt F bedeutet, dass nicht alles ein nicht-F ist.
+Also kann man (∃x)Fx auch als ¬(x)¬Fx wiedergeben.
+Alles ist F bedeutet, dass es keine nicht-F gibt.
+Also kann man (x)Fx auch als ¬(∃x)¬Fx wiedergeben.
+Daraus folgt, man könnte auch nur mit dem Existenzquantor oder auch nur mit dem
+Allquantor auskommen.
+
+Kategorische Formen in Quantorenschreibweise
+
+A: Alle F sind G
+   (x)(Fx ⊃ Gx)
+
+E: Kein F ist G
+   (x)(Fx ⊃ ¬Gx)
+
+I: Einige F sind G
+   (∃x)(Fx . Gx)
+
+O: Einige F sind nicht G
+   (∃x)(Fx . ¬Gx)
+
+Die Form (∃x)(Fx ⊃ Gx) gibt I nicht wieder. Der Satz "es gibt mindestens ein
+nicht-F oder ein G" ist bis auf den Extremfall, dass alles F ist und nichts G,
+immer wahr.
+
+Beschränkt man das Universum auf eine endliche Menge von Objekten a, b, ..., h
+kann man Existenzquantoren in Alternationen und Allquantoren in Konjunktionen
+entwickeln.
+
+(∃x)Fx wird zu Fa ∨ Fb ∨ ... ∨ Fh
+(x)Fx wird zu Fa . Fb . ... . Fh
+
+Ohne Quantoren kommt man aber nicht aus, denn es gibt viele Probleme, deren
+zugehöriger Bereich Objekte enthält, die nicht als a, b, ..., h aufgeschrieben
+werden können, z.B. unendlich viele Objekte.
+
+§ 17 Uniforme Quantorenschemata
+
+- Offene Sätze -
+
+x ist ein Buch
+  entspricht umgangssprachlich "es ist ein Buch"
+  trifft auf jedes Buch zu und auf alles andere nicht
+
+x = x
+  entspricht umgangssprachlich "es ist mit sich identisch"
+  trifft auf jedes Objekt zu
+
+x ist ein Mensch ⊃ x ist sterblich
+  entspricht umgangssprachlich "wenn es ein Mensch ist, ist es sterblich"
+  trifft auf jedes Objekt zu
+
+Offene Sätze sind weder wahr noch falsch.
+Offene Sätze treffen zu oder treffen nicht zu auf Objekte.
+
+Die Extension eines offenen Satzes ist die Klasse all der Objekte, auf welche
+der offene Satz zutrifft.
+
+- Abgeschlossene Sätze -
+
+(∃x)(x ist ein Buch)
+(x)(x = x)
+(x)(x ist ein Mensch ⊃ x ist sterblich)
+
+Abgeschlossene Sätze haben Wahrheitswerte.
+
+- Uniforme offene Quantorenschemata, kurz offene Schemata -
+
+Wahrheitsfunktionen von Ausdrücken.
+
+¬Fx
+Fx . Gx ∨ Fx
+¬Fx ≡. Gx ⊃ Hx
+
+Offene Schemata zeichnen die Sätze nach, die man erhält, wenn man offene Sätze
+für Fx, Gx usw. einsetzt.
+
+- Uniforme abgeschlossene Quantorenschemata, kurz abgeschlossene Schemata -
+
+Quantifikationen offener Schemata und Wahrheitsfunktionen davon.
+
+(x)(Fx . Gx .⊃ Hx) ⊃ (∃x)(Fx . ¬Gx)
+Alle F, die G sind, sind H ⊃ einige F sind nicht G.
+
+(x)(Fx ⊃ Gx) ∨ (x)(Fx ⊃ Hx)
+Alle F sind G ∨ alle F sind H.
+
+(x)(Fx . Hx .⊃ Gx) ⊃ (∃x)(Fx . ¬Hx . Gx)
+Alle F, die H sind, sind G ⊃ einige F, die nicht H sind, sind G.
+
+'p', 'q' usw. und 'F', 'G' usw. können nicht in Sätzen auftauchen; es sind
+Platzhalter für Sätze und Termini, die in Schemata benutzt werden, die ihrer
+äußeren Form nach Sätzen gleichen. 'x' kann in Sätzen auftauchen. 'F', 'G' usw.
+kommen immer in der Form 'Fx', 'Gx' usw. vor.
+
+Man braucht in einem offenen Satz nicht nach dem Terminus für den 'F' steht zu
+suchen. Stattdessen wird 'Fx' direkt als der offene Satz interpretiert. Das
+Denken in Termini wird aufgegeben.
+
+Bei Sätzen die mittels Wahrheitsfunktionen zu einem längeren Satz
+zusammengesetzt sind, hängt der Wahrheitswert des zusammengesetzten Satzes
+ausschließlich von den Wahrheitswerten der Teilsätze ab.
+
+Bei offenen Sätzen die mittels Wahrheitsfunktionen und Quantoren zu einem
+abgeschlossenen Satz zusammengesetzt sind, hängt der Wahrheitswert des
+abgeschlossenen Satzes ausschließlich von den Extensionen der offenen Teilsätze
+ab.
+
+Ein Satz mit einem Allquantor ist wahr oder falsch je nachdem, ob die Extension
+des darunterliegenden offenen Satzes den ganzen Bereich ausschöpft.
+
+Ein Satz mit einem Existenzquantor ist wahr oder falsch je nachdem, ob die
+Extension des darunterliegenden offenen Satzes nicht leer ist oder leer.
+
+Der einfachste Weg, eine Klasse als Extension von Fx zu spezifizieren, ist,
+einen offenen Satz anzugeben, dessen Extension diese Klasse ist. Jeder
+angeführte offene Satz bestimmt eine Klasse als seine Extension.
+
+Einige Dinge werden an dieser Stelle wiederholt bevor es mit § 18 weitergeht.
+
+Ein Konditional ist ein zusammengesetzter Satz, der wahr oder falsch sein kann.
+Das Konditional "wenn p, dann q" in der Bedeutung ¬(p . ¬q) wird p ⊃ q
+geschrieben und materiales Konditional genannt. p, q usw. sind vollständige
+Sätze die einen Wahrheitswert besitzen.
+
+Beispiel: "Wenn a ein Wirbeltier ist, hat a ein Herz."
+
+Kein materiales Konditional: "Wenn etwas ein Wirbeltier ist, hat es ein Herz."
+"es hat ein Herz" ist kein selbständiger Satz. Hier handelt es sich um ein
+generalisiertes Konditional, das als Bündel von materialen Konditionalen
+aufgefasst werden kann.
+
+Ein satzlogisches Schema heißt allgemeingültig, wenn es unter jeder
+Interpretation der darin enthaltenen Buchstaben wahr wird.
+
+Implikation ist Allgemeingültigkeit des Konditionals.
+
+Der Satz "Cassius ist nicht sowohl mager als auch hungrig" folgt logisch aus
+"Cassius ist nicht hungrig". Die beiden Sätze haben die logische Form ¬(pq)
+bzw. ¬q. Es gibt keine zwei Sätze, die ¬q wahr machen und ¬(pq) falsch. Dieser
+Tatbestand wird umschrieben als: "¬q" impliziert "¬(pq)".
+
+Das Verb "impliziert" verknüpft Bezeichnungen von Sätzen zu Sätzen über Sätze
+("p" impliziert "q" vs. p ⊃ q).
+
+Ein allgemeingültiges Schema impliziert nur allgemeingültige
+(⊤ impliziert "q", wenn q durch ⊤ ersetzt werden kann, und sonst nicht).
+
+Beispiel für einen Schluss, dessen Korrektheit mit der Wahrheitswertanalyse für
+satzlogische Schemata nicht bestimmt werden kann:
+
+Kei G ist H,
+Einige F sind G;
+∴ Einige F sind nicht H.
+
+Hier hängt die Korrektheit von den Termini F, G und H in den Teilsätzen ab. Das
+sind Gattungsbezeichnungen die auf einige Gegenstände zutreffen und den Rest
+nicht.
+
+Beispiele für Termini: "Philosoph(en)", "böse", "fliegen", "tragen Messingringe
+                       in ihren Nasen"
+
+Die Extension eines Terminus ist die Klasse aller Gegenstände, auf die der
+Terminus zutrifft.
+
+Existenzquantor (∃x): "Es gibt ein Ding x, so dass"
+
+Beispiel: (∃x)(x ist ein Buch . x ist langweilig)
+          "Einige Bücher sind langweilig"
+
+Allquantor (x): "Jedes Ding ist so, dass"
+
+Beispiel: (x)(x ist ein Mensch ⊃ x ist sterblich)
+          "Alle Menschen sind sterblich"
+
+Die Bestimmung des Universums ("Bereich der Rede") legt fest, welche Objekte
+mit x bezeichnet werden können.
+
+Offene Sätze sind weder wahr noch falsch. Beispiel:
+"x ist ein Mensch ⊃ x ist sterblich".
+
+Für einen offenen Satz gilt das gleiche wie für einen Terminus, dass er auf
+einige Gegenstände zutrifft und auf den Rest nicht, und dass seine Extension
+die Klasse aller Gegenstände ist, auf die er zutrifft. Ein offener Satz, der
+auf ein gegebenes Objekt zutrifft, wird zu einem wahren Satz, wenn man x als
+Bezeichnung dieses Objekts auffasst.
+
+Schema-Buchstaben F, G usw. die für Termini stehen, setzen sich mit x zu Fx, Gx
+usw. zusammen. Fx steht für "x ist ein F". Fx, Gx usw. und alle Wahrheitsfunk-
+tionen davon werden uniforme offene Quantorenschemata, kurz offene Schemata,
+genannt.
+
+Beispiel: Fx ⊃ Gx
+
+Ein offenes Quantorenschemata zeichnet die Sätze nach, die man erhält, wenn man
+offene Sätze für Fx, Gx usw. einsetzt.
+
+Abgeschlossene Sätze hingegen haben einen Wahrheitswert. Beispiel:
+"(x)(x ist ein Mensch ⊃ x ist sterblich)".
+
+Quantifikationen offener Schemata und alle Wahrheitsfunktionen davon werden
+uniforme abgeschlossene Quantorenschemata, kurz abgeschlossene Schemata,
+genannt.
+
+Beispiel: (x)(Fx ⊃ Gx)
+
+Der Satz (x)(x ist ...) ist wahr, wenn die Extension des offenen Satzes unter
+dem Allquantor mit dem Bereich der Rede übereinstimmt, und sonst falsch. Ist
+der Bereich leer, kann die Extension auch nur leer sein und der quantifizierte
+Satz wird wahr.
+
+Der Satz (∃x)(x ist ...) ist wahr, wenn die Extension des offenen Satzes
+unter dem Existenzquantor nicht leer ist, und sonst falsch. Ist der Bereich der
+Rede leer, kann die Extension auch nur leer sein und der quantifizierte Satz
+wird falsch.
+
+Sind offene Sätze mittels Wahrheitsfunktionen und Quantoren zu einem abge-
+schlossenen Satz zusammengesetzt, so hängt der Wahrheitswert des zusammenge-
+setzten Satzes von keiner anderen Eigenschaft der offenen Teilsätze ab als
+deren Extensionen.
+
+Fx, Gx usw. können durch Angabe ihrer Extensionen interpretiert werden.
+
+Beispiel: Die Extension von Fx sei die Klasse mit den Objekten Merkur, Venus,
+          Erde, Mars, Jupiter, Saturn, Uranus, Neptun.
+
+Jedoch ist es einfacher, einen offenen Satz anzugeben, dessen Extension die
+Klasse mit den Objekten ist.
+
+Beispiel: "x ist ein Planet unseres Sonnensystems".
+
+Mehrere Interpretationen von Fx berühren den Wahrheitswert des Quantorenschemas
+nicht, wenn sie die gleiche Extension haben.
+
+Beispiel: "x ist deutscher Staatsbürger" und "x darf an der Bundestagswahl
+          teilnehmen" haben die gleiche Extension (das zugelassene Alter nicht
+          berücksichtigt). Für den Wahrheitswert des Quantorenschemas spielt es
+          keine Rolle, welche der Interpretationen für Fx darin verwendet wird.
+
+§ 18 Allgemeingültigkeit
+
+Ein abgeschlossenes Schema ist genau dann allgemeingültig, wenn es bei jeder
+Wahl eines nichtleeren Bereichs U für jede Teilklasse von U als Extension von
+Fx, Gx usw. wahr wird.
+
+Ob ein Schema im leeren Bereich wahr wird entscheidet sich bei der Auswertung
+vom Setzen von ⊤ für alle Allsätze und ⊥ für alle Existenzsätze.
+
+Beispiel 1: (x)Fx ⊃ (∃x)Fx
+
+  - Allgemeingültig. Wenn alle Dinge in einem nicht leeren Bereich F sind,
+    dann gibt es einige F in diesem Bereich.
+  - Im leeren Bereich falsch. Es gibt kein Ding, auf das F nicht zutrifft,
+    somit ist (x)Fx wahr; weil es kein Ding gibt, ist (∃x)Fx falsch. Also:
+    falsch wegen ⊤ ⊃ ⊥.
+
+Beispiel 2: (∃x)(Fx . Gx) ⊃ (∃x)Fx
+
+  - Allgemeingültig. Wenn einige Dinge in einem nicht leeren Bereich beides
+    sind, F und G, dann gibt es in diesem Bereich mindestens genau so viele F.
+  - Im leeren Bereich wahr. Es gibt keine Dinge, somit ist (∃x)(Fx . Gx)
+    falsch und (∃x)Fx ist falsch. Also: wahr wegen ⊥ ⊃ ⊥.
+
+Für gewöhnlich weiß man, dass der Bereich sogar viele Elemente enthält, handelt
+es sich doch um Schlüsse, die der Quantorenlogik bedürfen.
+
+Wenn ein Schema unter allen Interpretationen von Fx, Gx usw. in einem großen
+Bereich wahr wird, dann ebenso in jedem kleineren nichtleeren Bereich.
+
+Um zu entscheiden, ob ein Schema im leeren Bereich wahr wird, haben wie nur ⊤
+für alle Allsätze und ⊥ für alle Existenzsätze zu setzen und auszuwerten.
+
+Beispiel 3: (x)Fx . (∃x)Gx .⊃ (x)Fx
+
+  - Allgemeingültig. Hat die Struktur des allgemeingültigen satzlogischen
+    Schemas pq ⊃ p.
+  - Im leeren Bereich wahr. Setzen von ⊤ für (x)Fx und ⊥ für (∃x)Gx ergibt
+    wahr.
+
+Die Beispiel (1) und (2) sind allgemeingültig aufgrund Überlegungen zu den
+Quantoren und ihrem Bereich. (3) ist allgemeingültig unabhängig von der
+Bedeutung der Quantoren, nur aufgrund der äußeren satzlogischen Struktur.
+
+Mechanisches Prüfverfahren für die Allgemeingültigkeit offener Schemata: Man
+behandle Fx, Gx usw. als wären es p, q usw. und prüfe mit Wahrheitswertanalyse
+auf Allgemeingültigkeit. Soweit es sich um Allgemeingültigkeit handelt,
+verhalten sich offene Schemata wie satzlogische Schemata.
+
+(i)   Ein offenes Schema ist genau dann allgemeingültig, wenn der zugehörige
+      Allsatz es ist.
+(ii)  Einsetzen von Quantorenschemata für p, q usw. in allgemeingültige satzlo-
+      gische Schemata gibt allgemeingültige Resultate.
+(iii) Einsetzen von offenen Schemata für Fx, Gx usw. in allgemeingültige
+      Schemata ergibt allgemeingültige Resultate.
+
+Ein abgeschlossenes Schema ...
+  ... ist allgemeingültig, wenn es unter allen Interpretationen in jedem nicht-
+  leeren Bereich war wird.
+  ... ist erfüllbar, wenn es unter mindestens einer Interpretation in mindes-
+  tens einem nichtleeren Bereich wahr wird.
+  ... impliziert ein anderes, wenn in jedem nichtleeren Bereich jede Interpre-
+  tation, die das erste Schema wahr macht, auch das zweite wahr macht.
+  ... und ein zweites Schema sind äquivalent, wenn sie in jedem nichtleeren
+  Bereich unter allen Interpretationen den gleichen Wahrheitswert erhalten.
+
+Die Gesetze für die Implikation und die Äquivalenz satzlogischer Schemata
+gelten auch für offene und abgeschlossene Schemata.
+
+Beispiel: Allgemeingültige Schemata implizieren nur allgemeingültige.
+
+Ein abgeschlossenes Schema "---" impliziert ein zweites "...." bedeutet, dass
+"---" ⊃ "...." allgemeingültig ist. Also machen alle Interpretationen von Fx,
+Gx usw. die beiden Schemata "---" und "---" ⊃ "...." wahr, also auch das Schema
+"...."; denn ein wahres Konditional mit wahrem Vorderglied hat ein wahres
+Hinterglied.
+
+Ein Schema impliziert ein anderes genau dann, wenn die Konjunktion aus dem
+einen und der Negation des anderen unerfüllbar ist. Es ist bequem Implikation
+dadurch zu beweisen, dass man die Unerfüllbarkeit von ---.¬(....) zeigt,
+anstatt dass man die Allgemeingültigkeit des Konditionals zeigt.
+
+§ 19 Äquivalenz. Kanonische Schemata
+
+Wenn S₁ und S₂ äquivalent sind und S'₂ sich von S'₁ nur dadurch unterscheidet,
+dass es an einer oder mehreren Stellen S₂ statt S₁ enthält, dann sind S'₁ und
+S'₂ äquivalent.
+
+[...]
