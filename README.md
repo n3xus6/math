@@ -8,5 +8,5 @@
 
 [Grundkurs Philosophie - Band 1: Logik, Wolfgang Detel, 2007](./Logik_Detel.txt)
 
-[Grundzüge der Logik, W. V. O. Quine, Suhrkamp 14. Auflage 2016](./GrundzuegeLogik_Quine_1.txt), [Teil II](./GrundzuegeLogik_Quine_Teil_II.txt).
+[Grundzüge der Logik, W. V. O. Quine, Suhrkamp 14. Auflage 2016](./GrundzuegeLogik_Quine_Teil_I.txt), [Teil II](./GrundzuegeLogik_Quine_Teil_II.txt).
 
