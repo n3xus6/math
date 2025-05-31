@@ -1,0 +1,548 @@
+Meine Notizen aus der Lektüre von
+
+    "Philosophie der Mathematik"
+    5. Auflage
+    DE GRUYTER
+
+₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ᵢ ⱼ ₓ xₙ ₊ ₋ ₙ₋₁ π ψ ≠ ℕ ℤ ℚ ℝ ℂ ∈ ∉ → ⊃ ⇒ ∧
+-------------------------------------------------------------------------------
+
+Ontologie - Lehre von der Existenz und vom Wesen der Dinge
+ratio - Vernunft
+apodiktisch - unumstößlich
+d.i. - das ist
+Antinomie - zueinander in Widerspruch stehende Aussagen die gleichermaßen gut
+            begründet sind
+
+-------------------------------------------------------------------------------
+
+Griechische Buchstaben
+
+α - Alpha
+φ - Phi
+ψ - Psi
+
+-------------------------------------------------------------------------------
+
+In diesem Abschnitt soll nur die Menge der rationalen Zahlen ℚ bekannt sein.
+
+Welche Zahl quadriert ergibt 2?
+
+x = m/n; x^2 = (m/n)^2 = 2
+m^2 = 2n^2; m ist gerade, m = 2a
+(2a)^2 = 2n^2
+n^2 = 2a^2; n ist gerade, n = 2b
+x = a/b
+
+x kann unendlich oft durch 2 gekürzt werden. Für eine Zahl kann man das nicht.
+Also: x ist keine Zahl.
+
+Wechselwegnahme: Bestimmung eines gemeinsamen Maßes für je zwei gegebene
+                 Strecken.
+
+b von a wegnehmen, so oft es geht:
+a = n1*b + r1
+r1 von b wegnehmen, so oft es geht:
+b = n2*r1 + r2
+r2 von r1 wegnehmen, so oft es geht:
+r1 = n3*r2 + r3
+usw.
+
+Das gemeinsame Maß, wenn es denn existiert, ist die gemeinsame Strecke die ohne
+Rest weggenommen werden kann.
+
+Beispiel.
+
+Die Wechselwegnahme ist gegeben durch
+
+a = n1*b + r1
+b = n2*r1
+
+r1 von b wegnehmen ergibt keinen Rest. r1 ist das gemeinsame Maß. Das
+Streckenverhältnis ist a/b = (n1*b + r1) / (n2*r1) = (n1*n2+1) / n2.
+
+Hat b ein mal in a gepasst und r1 drei mal in b ohne Rest, dann ist das
+Streckenverhältnis von a und b die Zahl 4/3.
+
+Zwei Strecken ohne ein gemeinsames Maß werden als inkommensurabel bezeichnet.
+
+Beispiel.
+
+Diagonale und Seite im regelmäßigen Fünfeck sind inkommensurabel. Also: ihr
+Verhältnis ist keine Zahl.
+
+Das Streckenverhältnis von Diagonale und Seite im regelmäßigen Fünfeck ist das
+Verhältnis des goldenen Schnittes.
+
+d/a = d1/a1; d1 = d-a; a1 = a-d1 = 2a-d
+
+d/a = (d-a)/(2a-d)
+a^2=d^2-ad
+a^2/a(d-a) = (d^2-ad)/a(d-a)
+d/a = a/(d-a)
+
+Also: das Verhältnis des goldenen Schnittes ist keine Zahl.
+
+Die Länge d der Diagonalen im Einheitsquadrat mit Hilfe des Heron-Verfahren
+annähern.
+
+Arithmetisches Mittel aₙ = (aₙ₋₁ + bₙ₋₁) / 2; aᵢ*bᵢ = 2
+Startwerte a₀ = 2, b₀ = 1
+                                            a₀-b₀ = 1
+a₁ = (2 + 1) / 2 = 3/2; b₁ = 4/3            a₁-b₁ = 1/6
+a₂ = (3/2 + 4/3) / 2 = 17/12; b₂ = 24/17    a₂-b₂ = 1/204
+usw.
+
+aᵢ-bᵢ nähert sich dem Wert 0.
+aᵢ und bᵢ nähern sich d.
+Kein Intervall [aᵢ, bᵢ] enthält d, weil d keine Zahl ist.
+
+Um dennoch einen Wert dür d angeben zu können, wird eine neue Zahl gefordert,
+die in allen Intervallen [aᵢ, bᵢ] enthalten ist. Diese Zahl liegt außerhalb von
+ℚ und soll mit √2 bezeichnet werden. Erst dadurch gibt es eine Zahl, die der
+Länge d der Diagonalen im Einheitsquadrat entspricht.
+
+Forderung der Menge ℝ. Für die Elemente von ℝ gelten die gleichen Rechenregeln
+wie für die Elemente von ℚ und auch die gleiche Anordnung, mit der zusätzlichen
+Eigenschaft der Vollständigkeit.
+
+Axiom der Vollständigkeit. Sei ([rₙ, sₙ]) eine Intervallschachtelung in ℝ. Dann
+gibt es genau eine Zahl x ∈ ℝ, die in allen Intervallen [rᵢ, sᵢ] liegt.
+
+Axiom (griechisch) bedeutet Forderung. Axiome sind evidente Aussagen.
+
+Das Vollständigkeitsaxiom stellt sicher, dass jedem Punkt auf einer Geraden
+eine reelle Zahl entspricht und jeder reellen Zahl ein Punkt auf einer Geraden.
+Die geometrische Gerade als Kopie von ℝ wird zur Zahlengerade.
+
+Beim linearen Kontinuum spricht man in der Arithmetik von der Menge der reellen
+Zahlen und in der Geometrie von der Punktmenge einer Geraden.
+
+Archimedisches Axiom. Ist ϵ eine positive reelle Zahl, dann gibt es ein
+natürliche Zahl n mit 1/n < ϵ.
+
+Unendlich kleine, infinitesimale Zahlen und Abstände werden damit
+ausgeschlossen.
+
+Sei die Differenz ϵ = a-b noch so klein, es gibt eine kleinere Zahl 1/n.
+Geometrisch betrachtet ist ϵ der Abstand von zwei Punkten auf einer Geraden,
+die den Zahlen a und b entsprechen. Der Abtsand lässt sich immer bemessen
+bedeutet, dass er nicht unendlich klein sein kann.
+
+Die Zahl √2 ist eine unendliche Menge von Intervallschachtelungen. Eine
+einzelne Intervallschachtelung repräsentiert dann √2.
+ℝ ist die Menge aller Mengen äquivalenter Intervallschachtelungen. Reelle
+Zahlen sind bei dieser Konstruktion keine Einzelobjekte, sondern unendliche
+Mengen. Damit haben diese Zahlen keinen Bezug mehr zur Wirklichkeit.
+
+-------------------------------------------------------------------------------
+
+Die Folge der natürlichen Zahlen 1, 2, 3, ... ist ein nicht endender Prozess,
+signalisiert durch "...". Fasst man die Folge als potentiell unendlich auf,
+entziehen sich die Folgenglieder einer Zusammenfassung.
+
+Das Unendlichkeitsaxiom der Mengenlehre verlangt, dass man unendliche Mengen
+als aktual unendlich auffasst: {1, 2, 3, ...}. Die abschließende Klammer
+signalisiert das Ende dieses Prozesses. Unendliche Folgen denkt man als ein
+Ganzes. Man geht davon aus, dass die unendlich vielen Nachkommastellen von √2
+in ihrer Ganzheit vorliegen.
+
+Dilemma. ψ beginne mit '0,'. Die n-te Stelle sei eine 1, wenn die n-te Stelle
+von π eine 0 gefolgt von 123456789 ist. Sonst sei die n-te Stelle von ψ eine 0.
+Ist ψ = 0 oder ψ ≠ 0? Als es noch keine Hochleistungsrechner gab, konnte diese
+Frage nicht beantwortet werden. Die Zahl soll betrachtet werden, als lägen alle
+Nachkommastellen vor, obwohl nicht einmal klar ist, ob die Zahl von 0
+verschieden ist.
+
+-------------------------------------------------------------------------------
+
+Zenons Paradaxon vom Wettlauf der Schildkröte mit dem schnellen Achilles.
+Achilles (A) und die Schildkröte (S) treten zum Wettlauf an, wobei S einen
+Vorsprung bekommt. Beide laufen zum gleichen Zeitpunkt los. Sobald A den Start-
+punkt von S erreicht hat, befindet sich S bereits ein Stück weiter von ihrem
+Startpunkt entfernt. Als A auch diese neue Position von S erreicht hat,
+befindet sich S schon wieder ein Stückchen davon entfernt. Jedes mal wenn A an
+der Stelle vorbeikommt, die S bereits passiert hat, trennt beide eine Distanz,
+die zwar kleiner wird aber nicht ganz verschwindet. Der schnelle Achilles holt
+die Schildkröte niemals ein. Nach Zenon folgt daraus, dass die erfahrbare Welt,
+in der die Schildkröte sehr wohl von Achilles eingeholt und überholt wird, eine
+Illusion ist. Das Paradoxon beruht darauf, dass die geistige Welt das potentiell
+unendliche kennt, was es in der materiellen Welt nicht gibt.
+
+Die Erfahrung, dass S von A eingeholt wird, deckt sich aber mit der
+mathematischen Betrachtungsweise. Nehmen wir ohne Einschränkung an, dass S
+immer den halben Weg von A zurücklegt. Bei einem Vorpsung von x Einheiten legt
+A also die Strecke x + x/2 + x/4 + x/8 + ... zurück, weil ja A überall dort
+vorbeikommen muss, wo sich S befand, bevor er S einholen kann. Mathematisch
+ist die unendliche Summation 1 + 1/2 + 1/4 + 1/8 + ... = 2. Also wird S von A
+nach 2x eingeholt. Bei z.B. einem Vorsprung von 50m überholt Achilles die
+Schildkröte bereits nach 100m. In der Mathematik fasst man die unendliche
+Summation als aktual unendlich auf, sie hat ein endliches Ergebnis. Das ist der
+Grund, weshalb das mathematische Resultat mit der Beobachtung übereinstimmt.
+
+-------------------------------------------------------------------------------
+
+Pythagoras (570 - 500)
+
+Pythagoreer: "Alles ist Zahl".
+Zahlen sind aus der Einheit kommende Elemente einer höheren Welt. Sie sind
+geistige Formkräfte über den Dingen. Mit der Entdeckung der Inkommensurabilität
+endete jedoch die absolute Herrschaft der Zahlen.
+Sie erforschten die höhere Welt der Zahlen, um die materielle Welt zu
+verstehen. Die Struktur der realen Welt war für sie ein Abbild der höheren Welt
+der Zahlen.
+
+Platon (427 - 347)
+
+Ideenlehre. Es gibt die unveränderliche, konstante Welt der Ideen, die eigent-
+liche Welt des Seins, die die materielle Welt durchdringt. Es gibt die
+materielle Welt der veränderlichen Dinge. Ideen existieren wirklich, unabhängig
+vom menschlichen Erkennen. Physische Dinge entspringen aus Ideen. Ideen sind
+einzig. Es gibt z.B. nur eine Idee des Kreises, aber viele kreisförmige Dinge.
+Mathematische Begriffe sind wie Ideen, real und unveränderlich. Der Mathemati-
+ker findet sie vor und beschreibt sie, er erfindet keine mathematischen Begrif-
+fe. Die mathematische Welt existiert unabhängig vom menschlichen Erkennen, sie
+ist ewig und unveränderlich.
+Zahlen sind immaterielle Vermittler zwischen den Ideen und der materiellen
+Wirklichkeit. Zahlen bilden wie die Geometrie das Tor zur Welt der Ideen.
+
+Aristoteles (384 - 322)
+
+Mathematische Objekte werden aus den realen Dingen im Prozess einer Abstraktion
+und Idealisierung gewonnen. Diese Abstraktionen existieren nicht losgelöst von
+den Dingen, sie gehören untrennbar dazu.
+Zahlen sind geistige Formkräfte in den Dingen. Sie werden im Denken in einer
+Art Abstraktion erkannt.
+Begriffe sollten definiert und Sätze bewiesen werden auf Basis undefinierter
+Grundbegriffe und Ausgangshypothesen.
+Aristoteles hat als erster zwischen potentieller und aktualer Unendlichkeit
+unterschieden. Potentielle Unendlichkeit hat er zugelassen, aktuale Unendlich-
+keit nicht. Er ließ z.B. die offene Reihe der natürlichen Zahlen zu, nicht
+aber deren Menge.
+
+Euklid (365 - 300)
+
+Dank Euklid und seit seinen Elementen, 13 Büchern in denen er die axiomatisch-
+deduktive Methode verwendete und das Fundament für die weitere Entwicklung der
+Mathematik legte, hat die Mathematik sich als ein aus sich heraus organisiertes
+System entwickelt.
+Einheit ist das, wonach jedes Ding eines genannt wird. Zahl ist die aus
+Einheiten zusammengesetzte Vielheit.
+
+Proklos (410 - 485)
+
+Für die Mathematik ist das diskursive Denken charakteristisch, also das Denken,
+das aus allgemein akzeptierten oder hypothetischen Voraussetzungen schließt.
+Er bemerkte, dass eine unendliche Menge genauso viele Elemente enthalten kann
+wie eine ihrer echten Teilmengen. Das veranlasste ihn, allein die potentielle
+Unendlichkeit zu akzeptieren und die Möglichkeit einer aktualen Unendlichkeit
+zu verneinen.
+
+Nicolaus Cusanus (1401 - 1464)
+
+Zahlen für den Menschen sind rationale Rekonstruktionen göttlich-geistiger
+Zahlen. Sie werden durch Vergleich und Unterscheidung aus den realen Dingen ge-
+wonnen, in denen die göttlichen Zahlen verwirklicht sind. Alles Endliche hat
+seinen Ursprung im Prinzip des Unendlichen.
+
+René Descartes (1596 - 1650)
+
+Unter Intuition verstand Descartes eine "so einfache und klare Auffassung der
+reinen und achtsamen Vernunft, dass wir an dem, was wir erkennen, überhaupt
+nicht zweifeln können". Unter Deduktion verstand er "all das, was mit Notwen-
+digkeit aus anderen Dingen, die mit Sicherheit erkannt werden, abgeleitet
+werden kann".
+"Jede zu untersuchende Frage in soviel einfachere aufzulösen, als es möglich
+und zur besseren Beantwortung erforderlich war" (analytische Methode).
+
+Blaise Pascal (1623 - 1662)
+
+Einerseits vermeide man es, "wenn sie nicht ganz klar und eindeutig sind",
+Begriffe zu verwenden, ohne sie zuvor zu definieren, und meide Aussagen, ohne
+sie zu prüfen und zu beweisen. Andererseits verzichte man auf Definitionen von
+Grundbegriffen, die aus sich heraus klar sind, und auf Beweise von Grundaussa-
+gen, die jedermann akzeptiert.
+
+Gottfried Wilhelm Leibniz (1646 - 1716)
+
+"Oft kann der Geist die Vorstellungen nicht miteinander verbinden, vergleichen
+oder in unmittelbare Beziehung setzen, was ihn nötigt, sich anderer vermit-
+telnder Vorstellungen (einer oder mehrerer) zu bedienen, um die Übereinstim-
+mung oder Nichtübereinstimmung, welche gesucht wird, zu entdecken, und dies
+nennt man eben schließen".
+Mathematische Axiome und Sätze sind Vernunftwahrheiten, also in der Konsequenz
+notwendig und ewig. Sie beziehen sich nicht aus Tatsachen. Sie sind gültig in
+allen "möglichen Welten".
+"Während Gott rechnet und Gedanken ausführt, entsteht die Welt."
+Als eine partielle Realisierung der Leibnizschen Idee der mathesis universalis
+kann man die mathematische Logik betrachten.
+
+Immanuel Kant (1724 - 1804)
+
+Zahl ist das "reine Schema" des Verstandesbegriffs der Quantität, d.h. die
+Vorstellung, "die die sukzessive Addition von Einem zu Einem (gleichartigen)
+zusammenbefasst".
+Arithmetische Sätze sind synthetische Urteile a priori.
+
+John Stuart Mill (1806 - 1873)
+
+Zahlen haben ihren Ursprung in der Realität. Zahlen sind das Resultat einer
+Abstraktion von sukzessiv wiederkehrenden Empfindungen.
+
+Bernard Bolzano (1781 - 1848)
+
+Bolzano definiert eine unendliche Vielheit als "eine Vielheit, die größer ist
+als jede endliche, d.h. eine Vielheit, die so beschaffen ist, dass jede endli-
+che Menge nur ein Teil von ihr darstellt".
+Eine Größe ist unendlich klein, wenn jedes Vielfache dieser Größe kleiner ist
+als die Einheit.
+
+Carl Friedrich Gauß (1777 - 1855)
+
+"Zahlen" zeigen an, "wie viele male man sich die unmittelbar gegebene Größe
+wiederholt vorstellen müsse".
+
+Georg Cantor (1845 - 1918)
+
+Hat die Mengenlehre entwickelt und durchgesetzt. Mathematische Gegenstände
+werden nicht gebildet oder erfunden, sondern sie werden entdeckt.
+Er war davon überzeigt, dass die unendliche Menge ℕ der natürlichen Zahlen und
+das Kontinuum in der wirklichen, materiellen Welt existieren.
+"Unter einer 'Menge' verstehen wir jede Zusammenfassung M von bestimmten wohl-
+unterschiedenen Objekten m unserer Anschauung oder unseres Denkens (welche die
+'Elemente' von M genannt werden) zu einem Ganzen."
+"Unter einer Menge verstehe ich allgemein jedes Viele, welches sich als Eines
+denken lässt, d.h. jeden Inbegriff bestimmter Elemente, welche durch ein Gesetz
+zu einem Ganzen verbunden werden können."
+Eine Klasse ist eine solche Vielheit, die nicht als "Eines" oder als "ein
+fertiger Gegenstand" und damit nicht als Element neuer Vielheiten betrachtet
+werden kann.
+Cantor hat die Existenz aktualer Unendlichkeit propagiert und gleichzeitig
+aktual unendlich kleine Größen abgelehnt.
+Zahlen sind endliche Kardinalzahlen. Sie sind einerseits als ideelle Realitäten
+gegeben - unabhängig vom menschlichen Denken -, andererseits als Projektionen
+von Mengen im Denken existent und durch Abstraktion erworben.
+
+Richard Dedekind (1831 - 1916)
+
+Die Arbeit "Stetigkeit und irrationale Zahlen" ist die Entwicklung einer
+Theorie der irrationalen Zahlen auf der Basis von Schnitten im Bereich der
+rationalen Zahlen, heute Dedekindsche Schnitte genannt.
+Die Arbeit "Was sind und was sollen die Zahlen?" enthält eine mengentheoreti-
+sche Begründung der natürlichen Zahlen, der vollständigen Induktion und der
+Rekursion in einer Axiomatik der Arithmetik der natürlichen Zahlen. Diese
+Axiome sind heute als "Peano-Axiome" bekannt.
+"Wenn man bei der Betrachtung eines einfach unendlichen, durch eine Abbildung
+φ geordneten Systems N von der besonderen Beschaffenheit der Elemente gänzlich
+absieht, lediglich ihre Unterscheidbarkeit festhält und nur die Beziehungen
+auffasst, so heißen diese Elemente natürliche Zahlen. In Rücksicht auf diese
+Befreiung der Elemente von jedem anderen Inhalt (Abstraktion) kann man die
+Zahlen mit Recht eine freie Schöpfung des menschlichen Geistes nennen."
+"Jedes mal nun, wenn ein Schnitt vorliegt, welcher durch keine rationale Zahl
+hervorgebracht wird, so erschaffen wir eine neue, eine irrationale Zahl α,
+welche wir als durch diesen Schnitt vollständig definiert ansehen. Wir werden
+sagen, dass die Zahl α diesem Schnitt entspricht, oder dass sie diesen Schnitt
+hervorbringt."
+Zahlen sind Abstraktionen von Stellen in unendlichen Zählreihen.
+Definition des Begriffs der unendlichen Menge, die klassisch geworden ist:
+"Ein System S heißt unendlich, wenn es einem echten Teile seiner selbst ähnlich
+ist; im entgegengesetzten Falle heißt S ein endliches System."
+Dedekinds Charakterisierung der natürlichen Zahlen gibt sie als aktual unendli-
+che Menge vor. Die einzelnen natürlichen Zahlen werden nicht mehr Schritt für
+Schritt im Zählprozess konstruiert gedacht. Sie entstehen nicht mehr, sondern
+sie sind von vornherein da. Über natürliche zahlen wird in den Axiomen nur
+gesprochen.
+
+Henri Poincaré (1854 - 1912)
+
+Mit Intuition verknüpfte Poincaré die Empfindung von Einfachheit, Harmonie,
+Symmetrie und Schönheit, die er auch in der Mathematik findet. Intuition sollte
+durch diskursives Erkennen ergänzt werden.
+Zur Intuition gehört nach Poincaré auch die mathematische Induktion. Sie liegt
+der Arithmetik und damit der gesamten Mathematik zugrunde. Nach Poincaré
+ermöglicht sie das Formulieren von Urteilen, die unser Wissen erweitern. Die
+vollständige Induktion macht es möglich, allgemeine Behauptungen zu formulie-
+ren. Sie kommt nicht aus der Erfahrung, sie kann auch nicht aus der Logik be-
+gründet werden. In der Induktion entspricht eine Formel unendlich vielen
+Schlüssen. "Die Induktion bleibt in ihrer Anwendung in den physikalischen Wis-
+senschaften immer unsicher, weil sie auf den Glauben an eine allgemeine Gesetz-
+mäßigkeit des Universums beruht, und diese Gesetzmäßigkeit liegt außerhalb von
+uns selbst. Die mathematische Induktion dagegen, d.h. der Beweis durch rekur-
+rierendes Verfahren, zwingt sich uns mit Notwendigkeit auf, weil sie nur die
+Bestätigung einer Eigenschaft unseres eigenen Verstandes ist."
+Mathematische Objekte werden vom Subjekt erschaffen, und der Verstand ist nicht
+in der Lage, unendlich viele Objekte aktual zu konstruieren. Also ist aktuale
+Unendlichkeit mathematisch unmöglich.
+Poincaré kritisierte sogenannte nichtprädikative (nicht wohlbestimmte) Defini-
+tionen, d.h. solche Definitionen, die einen Gegenstand N definieren durch den
+Bezug auf eine Gesamtheit E von Objekten, zu der das definierte N gehört. Nach
+Poincaré sind die nichtprädikativen Definitionen, die den Makel eines Zirkel-
+schlusses in sich tragen, die Ursache der Paradoxien in der Mathematik.
+"Die geometrischen Axiome sind also weder synthetische Urteile a priori noch
+experimentelle Tatsachen. Es sind auf Übereinkommen beruhende Festsetzungen;
+unter allen möglichen Festsetzungen wird unsere Welt von experimentellen Tatsa-
+chen geleitet; aber sie bleiben frei und sind nur durch die Notwendigkeit
+begrenzt, jeden Widerspruch zu vermeiden."
+
+Charles Sanders Peirce (1839 - 1914)
+
+Peirce studierte intensiv Aristoteles und Leibniz. Peirces Lehre der drei uni-
+versellen Kategorien - des unmittelbar und einfach Gegebenen (Erstheit), des
+schlichten Gegenübers (Zweitheit) und der Verbindung und Allgemeinheit (Dritt-
+heit) - entstand in langer Auseinandersetzung aus diesem Studium.
+Peirce hatte einen Punktbegriff, wie er sich heute in der Nichtstandard-
+Analysis zeigt. Punkte waren Umgebungen potentieller Punkte und "ohne getrennte
+Individualität" wie Augenblicke oder Zeitpunkte, die durch Folgen infinitesima-
+ler Schritte mit der Vergangenheit stetig verbunden sind.
+Aussagen und Urteile sind, wenn sie erkenntnisbildend sind, Hypothesen. Peirce
+spricht von der "Abduktion", die aus einzelnen Erfahrungen die Hypothesen bil-
+det, und stellt sie der Deduktion und Induktion gegenüber, die in bloßen Ablei-
+tungen oder Verallgemeinerungen keine eigentliche Erkenntniserweiterung bring-
+en.
+Zentral und epochal ist die Bindung des Erkennens bei Peirce an Zeichen und
+deren Bezüge und die Verlagerung des Erkenntnisproblems in die Welt der Zei-
+chen.
+
+Edmund Husserl (1859 - 1938)
+
+Ziel des Weierstraßschen Programms war es, in der Arithmetik der gesamten
+Mathematik eine feste Grundlage zu geben und von dort her alle ihre Grundbe-
+griffe exakt zu definieren. Husserl stellte sich die Aufgabe, dieses Programm
+durch seine Untersuchung des Zahlbegriffs philosophisch und psychologisch zu
+begründen. Sein Ziel war, Philosophie als strenge Wissenschaft zu etablieren
+und sie zur universellen Grundlage aller Wissenschaften zu machen.
+Aus der empirischen Beobachtung wird in der Reduktion die tiefe Anschauung des
+"eidetischen Phänomens", das intentional in die Wirklichkeit zurückweist.
+Husserls Lehre ist die "eidetischen Phänomenologie". Für Husserl war Mathema-
+tik ein typisches Beispiel einer eidetischen Wissenschaft.
+"Vielheit ist nichts weiter als: irgend Etwas und irgend Etwas und irgend Etwas
+u.s.w.; oder irgend Eines und irgend Eines und irgend Eines u.s.w.; oder kür-
+zer: Eins und Eins und Eins u.s.w."
+Zahlen bei Husserl sind Anzahlen. Anzahlen sind unterschiedene Vielheiten ab-
+strakter Einheiten.
+Mathematik allgemein ist für Husserl eine formale Ontologie. Die kategorische
+Abstraktion und die eidetische Intuition bilden die Basis des mathematischen
+Wissens.
+
+LOGIZISMUS
+
+Logizismus heißt die Richtung in der Philosophie der Mathematik, die davon
+ausgeht, dass die gesamte Mathematik auf Logik zurückgeführt werden kann.
+Der Begründer des Logizismus ist Gottlob Frege (1848 - 1925) und die Haupt-
+repräsentanten sind Bertrand Russell (1872 - 1970) und Alfred North Whitehead
+(1861 - 1947). Freges Begriffsschrift enthielt das erste formale axiomatische
+System in der Geschichte der Logik. In einem solchen System geht jede Aussage-
+form durch lückenlose Ableitungen aus den Axiomen hervor.
+
+Die Arithmetisierung der Mathematik besteht darin, zu zeigen, wie die Theorie
+der reellen Zahlen aus der Theorie der natürlichen Zahlen abgeleitet werden
+kann. Das Werk Dedekinds, Stetigkeit und irrationale Zahlen, hatte gezeigt, wie
+das möglich ist. In dieser Situation entstand das Bedürfnis, die natürlichen
+Zahlen selbst zu begründen und eine elementare Basis zu finden, aus der die
+Arithmetik der natürlichen Zahlen gewonnen werden kann. Ein erster Lösungsan-
+satz wurde von Frege vorgestellt. Frege fasste Zahlen als Anzahlen auf: Zahlen
+sind Anzahlen. Diese waren Klassen gleichmächtiger Mengen, und Mengen wieder
+waren Umfänge von Begriffen. Begriffe zuletzt waren als Elemente des reinen
+Denkens Gegenstände der Logik. Das heißt: Zahlen sind Elemente der Logik, d.h.
+des reinen Denkens.
+
+Giuseppe Peano (1858 - 1932) entwickelte eine transparente und praktische logi-
+sche und mathematische Symbolik. Er zeigte, wie man mit seiner Symbolik
+axiomatisch-deduktiv mathematische Gesetze ordnen und systematisieren kann.
+Insbesondere demonstrierte Peano, wie die ganze Arithmetik der natürlichen
+Zahlen aus fünf Axiomen, die man heute Peano-Axiome nennt, abgeleitet werden
+kann.
+
+Russellsche Antinomie. Sei Z = { X | X ∉ X }. Ist Z ∈ Z oder Z ∉ Z? Nimmt man
+Z ∈ Z an, dann bedeutet das, dass Z die Eigenschaft besitzt, die die Elemente
+von Z besitzen. Also ist Z ∉ Z. Das ist ein Widerspruch. Nimmt man Z ∉ Z, dann
+hat Z die Eigenschaft der Elemente von Z, was bedeutet, dass Z ∈ Z ist. Auch
+dies ist ein Widerspruch. Ein solcher nicht auflösbarer Konflikt heißt
+Antinomie.
+
+Die Reduktion der Mathematik auf Logik führte Russell in dem monumentalen
+Werke Principia Mathematica aus. Man findet dort ein von Russell vollständig
+umgebautes System der Logik, die sogenannte Typentheorie.
+
+Alle mathematischen Begriffe, also insbesondere alle Grundbegriffe mathemati-
+scher Theorien, lassen sich explizit mithilfe rein logischer Begriffe definie-
+ren. Alle Gesetze der Mathematik kann man aus den logischen Axiomen und Defini-
+tionen ableiten. Die Basis dieser Definition ist die Logik. Dies gilt für alle
+mathematischen Theorien. Das heißt die Rechtfertigung der Sätze mathematischer
+Theorien beruft sich auf die gleichen Grundprinzipien, die die Logik bilden.
+Diese Logik ist die Grundlage für die gesamte Mathematik. Das bedeutet, dass
+alles Argumentieren in der Mathematik formalisiert werden kann.
+
+Die von Frege vorgeschlagene Definition der natürlichen Zahlen kann man wie
+folgt beschreiben.
+  1. Die Mächtigkeit einer Menge X ist die Gesamtheit aller Mengen, die gleich-
+     mächtig zu X sind.
+  2. n ist eine Zahl, wenn eine Menge X existiert, sodass n die Mächtigkeit von
+     X ist.
+  3. 0 ist die Mächtigkeit der leeren Menge.
+  4. 1 ist die Mächtigkeit der Menge, die nur aus 0 besteht.
+  5. Die Zahl n ist der Nachfolger der Zahl m, wenn es eine Menge X und ein
+     Element a von X gibt, sodass n die Mächtigkeit von X ist und m die Mäch-
+     tigkeit der Menge X ohne das Element a (also X \ {a}).
+  6. n ist eine endliche natürliche Zahl, wenn n ein Element aller Mengen Y
+     ist, für die gilt: 0 ist Element von Y, und ist k Element von Y, dann auch
+     der Nachfolger von k.
+Für den Beweis, dass jede natürliche Zahl einen Nachfolger hat, braucht man das
+Unendlichkeitsaxiom. Es besagt hier, dass es unendlich viele Individuen gibt.
+Dieser Satz hat aber keinen rein logischen Charakter. Damit war die Russellsche
+Reduktion der Mathematik keine Reduktion allein auf Logik, sondern auf eine
+breitere Basis.
+
+Der Deduktionssatz der Logik besagt: Ist ein Satz φ eine Folgerung aus den
+Sätzen ψ₁, ψ₂, ..., ψₙ, dann ist die Subjunktion ψ₁ ∧ ψ₂ ∧ ... ∧ ψₙ → φ ein
+logisches Theorem, d.h., eine Implikation.
+
+In den dreißiger Jahren des 20. Jahrhunderts wurde die Typentheorie von den
+meisten Logikern als Grundlage der Mathematik akzeptiert. In der Mitte der
+fünfziger Jahre änderte sich die Situation, als ihre natürliche Konkurrentin,
+die axiomatische Mengenlehre, ihren Platz übernahm.
+
+Die Doktrin des Logizismus gilt heute in der Form, dass die Mathematik ins-
+gesamt auf Logik und Mengenlehre rückführbar ist. Es gibt aber eine Version des
+Logizismus, die man Hypothetismus nennt und die versucht, die Reduktion auf
+Logik allein zu retten.
+
+In den dreißiger Jahren des 20. Jahrhunderts formierte sich eine Gruppe von
+Mathematikern in Frankreich, die den Namen Nicolas Bourbaki als Pseudonym ver-
+wendete. Ihr Projekt war die Systematisierung allen mathematischen Wissens. Für
+die Bourbakisten besteht die mathematische Welt aus Strukturen. Der Begriff der
+Struktur ist mengentheoretisch definiert.
+
+INTUITIONISMUS
+
+Der Intuitionismus entwickelte sich als eine Gegenströmung zum Logizismus. Sein
+Begründer war Luitzen Egbertus Jan Brouwer (1881 - 1966). Die Ideen Brouwers
+wurden u.a. von Arend Heyting (1898 - 1980) und Anne Sjerp Troelstra
+(geb. 1939) weiterentwickelt. Die Intuitionisten kritisieren die Konzeption von
+Cantor, die von ihm entwickelte Mengenlehre, darin insbesondere seine Theorie
+des Unendlichen und die Ersetzung des linearen Kontinuums durch die Menge der
+reellen Zahlen. Die Intuitionisten betrachteten solche Philosophen und Mathe-
+matiker als ihre Vorgänger, für die Mathematik eine Wissenschaft mit realem und
+nicht nur formalen Inhalt war und die davon ausgingen, dass dem menschlichen
+Verstand die mathematischen Objekte unmittelbar gegeben sind und Sätze über sie
+synthetische Sätze a priori sind.
+
+Leopold Kronecker (1823 - 1891): "Die ganzen Zahlen hat der liebe Gott gemacht,
+alles andere ist Menschenwerk."
+"Ich untersuche Mathematik nur als eine Abstraktion der arithmetischen Wirk-
+lichkeit."
+Den Beweis der Existenz eines Objektes akzeptierte Kronecker nur dann, wenn er
+eine Methode angibt, das Objekt zu konstruieren.
+
+Léon Lebesgues (1875 - 1941) Überzeugung war, dass ein mathematisches Objekt
+nur dann existiert, wenn es mithilfe von endlich vielen Worten definiert worden
+ist. Lebesgue akzeptierte den Begriff einer beliebigen Zahlenfolge nicht,
+sondern allein Reihenfolgen, die nach bestimmten Regeln und Gesetzen gebildet
+werden.
+
+Als Anhänger der Signifika meinte Gerrit Mannoury (1867 - 1956), dass eine
+mathematische Formel eine Bedeutung nicht per se besitzt, sondern nur in der
+Folge des Zweckes, für den sie formuliert und verwendet wird. Seine Ansicht
+war, dass die Auswahl der Axiome in der Mathematik nur erklärt werden kann,
+wenn man die psychologischen und emotionalen Elemente berücksichtigt, die in
+der Mathematik liegen.
