@@ -1,11 +1,24 @@
-Meine Notizen aus der Lektüre von
+Notizen aus der Lektüre von
 
     "Philosophie der Mathematik"
     5. Auflage
     DE GRUYTER
 
-₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ᵢ ⱼ ₓ xₙ ₊ ₋ ₙ₋₁ π ψ ≠ ℕ ℤ ℚ ℝ ℂ ∈ ∉ → ⊃ ⇒ ∧
--------------------------------------------------------------------------------
+Symbole: 
+₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ᵢ ⱼ ₓ xₙ ₊ ₋ ₙ₋₁ ≠ ℕ ℤ ℚ ℝ ℂ ∈ ∉ → ↔ ⊃ ⇒ ⇔ ∧ ∨ ⊥ ¬ ∃ ∀
+
+Griechische Buchstaben:
+
+Α, α - Alpha
+Ε, ε - Epsilon
+Π, π - Pi
+Ρ, ϱ - Rho
+Τ, τ - Tau
+Φ, φ - Phi
+Ψ, ψ - Psi
+Ω, ω - Omega
+
+Begriffe:
 
 Ontologie - Lehre von der Existenz und vom Wesen der Dinge
 ratio - Vernunft
@@ -13,14 +26,27 @@ apodiktisch - unumstößlich
 d.i. - das ist
 Antinomie - zueinander in Widerspruch stehende Aussagen die gleichermaßen gut
             begründet sind
+Absurdität - Widerspruch (⊥)
+Tertium non datur - Gesetz des ausgeschlossenen Dritten (p ∨ ¬p)
+Duplex negatio affirmat - Gesetz der Doppelnegation (¬¬p ↔ p)
 
--------------------------------------------------------------------------------
+Personen:
 
-Griechische Buchstaben
-
-α - Alpha
-φ - Phi
-ψ - Psi
+Alfred Tarski (1901-1983)
+Arend Heyting (1898-1980)
+Christian Thiel (1937-)
+David Hilbert (1862-1943)
+Harvey Friedman (1948-)
+Jeff Paris (1944-)
+L. E. J. Brouwer (1881-1966)
+Laurence Kirby (1952-)
+Leo Harrington (1946-)
+Leopold Kronecker (1823-1891)
+Paul Lorenzen (1915-1994)
+Hilary Putnam (1926-2016)
+Stephen Cole Kleene (1909-1994)
+Thoralf Skolem (1887-1963)
+Willard Van Orman Quine (1908-2000)
 
 -------------------------------------------------------------------------------
 
@@ -546,3 +572,244 @@ Folge des Zweckes, für den sie formuliert und verwendet wird. Seine Ansicht
 war, dass die Auswahl der Axiome in der Mathematik nur erklärt werden kann,
 wenn man die psychologischen und emotionalen Elemente berücksichtigt, die in
 der Mathematik liegen.
+
+Der Intuitionismus verkündet die Thesen des Konzeptualismus. In der Mathematik
+gibt es nur das, was im menschlichen Intellekt konstruierbar ist.
+
+Eine der Konsequenzen des konzeptualistischen Standpunktes ist die Ablehnung
+der axiomatischen Methode für den Aufbau der Mathematik. Es ist nicht zulässig,
+die Existenz irgendwelcher Objekte zu postulieren, wie man es in der Axiomatik
+tut, ohne zu zeigen, wie man sie konstruiert. Das Gleiche trifft auf die
+Eigenschaften der mathematischen Objekte zu. Daher lehnte der Intuitionismus
+speziell die Peanosche Axiomatik der Arithmetik der natürlichen Zahlen sowie
+die Zermelosche Axiomatik der Mengenlehre ab.
+
+Eine andere Konsequenz ist die Ablehnung des aktual Unendlichen. Der
+menschliche Intellekt ist nicht in der Lage, unendlich viele Konstruktionen
+durchzuführen. Also kann man eine unendliche Menge nur als eine Regel
+verstehen, die angibt, wie immer neue Elemente gebildet werden. Solche
+potentiell unendliche Mengen aber sind abzählbar. Überabzählbare Mengen sind
+undenkbar.
+
+Der Konzeptionalismus der Intuitionisten führt zur Ablehnung aller nicht
+konstruktiven Existenzbeweise, d.h. solcher Beweise, in denen keine
+Konstruktion der postulierten Objekte angegeben wird. In Beweisen dieser Art
+sah Brouwer die Quelle grundlegender Probleme in der Mathematik. Die Ablehnung
+nicht konstruktiver Beweise führte zwangsläufig zur Ablehnung der klassischen
+Logik, in der jeder Satz entweder wahr oder falsch ist. Diese Logik nämlich ist
+die Grundlage für solche Beweise.
+
+Beispiel 1: 
+Folgt aus der Annahme ¬∃xφ(x) "es gibt kein Objekt x mit der Eigenschaft φ" ein
+Widerspruch, erhalten wir ∃xφ(x), also die Existenz eines Objektes x mit der
+Eigenschaft φ, ohne es konstruiert zu haben. Für die Intuitionisten existierte
+nur das, was in Gedanken konstruiert werden kann. Die Widderlegung des Satzes
+¬∃xφ(x) ist daher noch kein Beweis des Satzes ∃xφ(x).
+
+Beispiel 2:
+X = { x | x = 1 ∨ (x = 2 ∧ φ) }, wo φ irgendeine nicht entschiedene
+mathematische Hypothese ist, z.B. die Riemannsche Hypothese. Die Menge X ist
+dann eine Teilmenge der endlichen Menge { 1, 2 }. In der klassischen Mathematik
+ist X endlich. In der intuitionistischen Mathematik kann man darüber gar nicht
+sprechen. Denn um die Behauptung der Endlichkeit von X aufstellen zu können,
+müsste zuvor entschieden sein, welche Elemente X besitzt, d.h. man müsste φ
+entscheiden. Auf diese Weise erhalten wir ein schwaches Gegenbeispiel zur
+Aussage, dass eine Teilmenge einer endlichen Menge endlich ist.
+
+Beispiel 3:
+(a) Sei k die größte Primzahl, für die auch k - 1 Primzahl ist, oder, wenn es
+    eine solche Zahl nicht gibt, sei k = 1.
+(b) Sei l die größte Primzahl, für die auch l - 2 Primzahl ist, oder, wenn es
+    eine solche Zahl nicht gibt, sei l = 1.
+
+vom klassischen Standpunkt haben beide Definitionen die gleiche Struktur. Im
+intuitionistischen Sinne ist das aber nicht so. Denn in der intuitionistischen
+Mathematik kann man berechnen, dass k = 3 ist, aber man kann nicht sagen was
+l ist, da man nicht weiß, ob es unendlich viele Primzahlzwillinge gibt. Für
+einen Intuitionisten ist die Definition (b) keine Definition, weil eine Zahl zu
+definieren, bedeutet, die Konstruktion anzugeben, die ermöglicht, ihren genauen
+Wert zu berechnen.
+
+Beispiel 4:
+Betrachten wir die dezimale Entwicklung der Zahl π und schreiben wir darunter
+den Dezimalbruch ϱ = 0,3333... so lange, bis in der Dezimalentwicklung von π
+von einer Stelle k an die Ziffernfolge 7777...7 mit der Länge k auftritt. Für
+dieses k wäre ϱ = (10^k - 1) / (3 * 10^k). Die klassische Mathematik sagt, dass
+ϱ rational ist. Nehmen wir an, ϱ ist nicht rational. Dann ist die Gleichung
+für ϱ falsch und es gibt von keiner Stelle k an die Ziffernfolge 7777...7 mit
+der Länge k. Dann aber ist ϱ = 1 / 3, also rational. Das ist ein Widerspruch
+zur Annahme, ϱ sei nicht rational. Damit ist gezeigt, dass die Zahl ϱ rational
+ist.
+Kein Intuitionist wird diese Argumentation akzeptieren. Man kann nicht
+annehmen, dass ϱ rational ist, da das bedeutet, dass man natürliche Zahlen p
+und q finden kann, sodass ϱ = p / q ist. Dazu müsste man aber entweder die
+Stelle der Ziffernfolge 7777...7 der Länge k finden oder beweisen, dass es
+diese Folge nicht gibt. Wir können aber weder das eine noch das andere. Also
+dürfen wir nicht behaupten, dass die Zahl ϱ rational ist.
+
+Für die Intuitionisten ist Logik gar nicht die Basis für die Mathematik.
+Brouwer meinte, dass Logik für die Mathematik sekundär sei und vielmehr Logik
+sich auf die Mathematik stütze. Der Mathematik liegt die Urintuition der
+apriorischen Zeit zugrunde. Brouwer spricht von den natürlichen Zahlen als
+"inhaltlose Abstraction des Zeitempfindens". Mit der Annahme der apriorischen
+Zeit sind arithmetische Sätze synthetische Sätze a priori.
+
+Die Aussage, dass Mathematik eine freie Aktivität des Verstandes ist und nicht
+ein System von Axiomen, Regeln und Gesätzen, führt zu dem Schluss, dass
+mathematische Konstruktionen gänzlich unabhängig von jeder Sprache sind.
+
+Es ist unsinnig, wenn man die mathematische Sprache analysiert und nicht das
+mathematische Denken. Diese Ansicht unterscheidet sich von all den Philosophen,
+für die die Sprache dem abstrakten Denken vorausgeht oder Denken sprachlich
+ist.
+
+Die Intuitionisten behaupten zudem, dass es eine Sprache für die Mathematik
+nicht geben kann, die wirkliche Sicherheit gäbe und die Möglichkeit von
+Widersprüchen und Paradoxien ausschlösse.
+
+Die intuitionistische Mathematik ist ärmer als die klassische Mathematik. Man
+verliert in ihr einen Teil der Analysis, es fehlt fast die gesamte Mengenlehre.
+Zudem ist sie weit komplizierter und eignet sich daher kaum für die
+Anwendungen.
+
+Nach diesem einfachen Kalkül ℕ
+
+      ⇒  |
+ℕ {
+    n ⇒ n|
+
+entstehen die Zählzeichen |, ||, |||, ||||, ... Zahlen sind fiktive
+Gegenstände, die durch Abstraktion von den Zählzeichen in unterschiedlichen
+Zählzeichensystemen entstehen.
+
+Der Intuitionismus hat nicht viele konsequente Anhänger gefunden, obwohl er
+einen großen Einfluss auf die Grundlagenforschungen ausgeübt hat.
+
+
+KONSTRUKTIVISMUS
+
+Der Konstruktivismus ist eine normative Haltung, die postuliert, dass man
+nicht nach Grundlagen und Rechtfertigungen für die existierende Mathematik
+Ausschau halten, sondern Mathematik mit konstruktiven Methoden und Instrumenten
+entwickeln und betreiben sollte.
+
+Hauptprinzipien des Finitismus: Gegenstände der Mathematik sind nur konkret und
+endlich gegebene Strukturen; alle Operationen auf solchen Strukturen sollen
+kombinatorischen Charakter haben; abstrakte Begriffe sind nicht zugelassen. Der
+Begründer des Finitismus ist Leopold Kronecker.
+
+Ultraintuitionismus (Aktualismus): Beginnt in der Beobachtung, dass schon der
+Begriff der natürlichen Zahl mit einer Idealisierung verbunden ist. Normal ist,
+alle natürlichen Zahlen als gleichberechtigt und gleichartig anzusehen. Wenn
+man die einzelnen natürlichen Zahlen als Reihen von Einheiten auffasst, dann
+kann man daran zweifeln, ob (10^10)^10 wirklich eine reale Zahl ist. Denn, so
+schätzt man, die Anzahl der Atome im Weltall beträgt weniger als 10^80. Hieraus
+entstand die Vorstellung, die Mathematik allein aus den aktualen, realen
+Erkenntnismöglichkeiten des Menschen heraus zu entwickeln.
+
+Prädikativismus: Vorläufer des Prädikativismus sind H. Poincaré und B. Russell.
+Sie waren der Auffassung, dass die Ursache der Probleme und Schwierigkeiten in
+der Mathematik in den nichtprädikativen Definitionen liegt. Daher kommt der
+Gedanke, in der gesamten Mathematik nur prädikative Definitionen und
+Konstruktionen zuzulassen.
+
+In der klassischen rekursiven Mathematik untersucht man nur die berechenbaren
+reellen Zahlen - diejenigen Zahlen, deren Dezimalentwicklung durch rekursive,
+effektiv gegebene Reihen dargestellt werden können. Über dem Bereich der
+rekursiven reellen Zahlen entwickelt man dann die Analysis.
+
+FORMALISMUS
+
+Begründer war David Hilbert (1862-1943). Das "Hilbertsche Programm", der Kern
+des Formalismus, hatte das Ziel, die klassische Mathematik zu begründen und zu
+rechtfertigen.
+
+Zahlen sind bedeutungslose Zeichen.
+
+Sätze über das Unendliche haben für Hilbert keine reale Bedeutung. Sie haben
+keinen Wirklichkeitswert und sind daher weder wahr noch falsch. Sie können
+nicht Teil korrekt gebildeter Aussagen sein. Hilbert unterscheidet
+finitistische und infinitistische Mathematik. In der finitistischen Mathematik
+hat man es mit "realen Sätzen" zu tun. Diese sind real und sinnvoll, weil sie
+sich auf konkrete Objekte beziehen. Die infinitistische Mathematik dagegen
+enthält "ideale Sätze", die sich auf unendliche, ideale Objekte beziehen.
+
+Hilbert war überzeugt, dass man für jeden realen Satz einen finitistischen
+Beweis geben kann.
+
+Die infinitistische Mathematik soll und kann, so meinte Hilbert, auf der Basis
+finitistischer Methoden begründet und rechtfertigt werden. Dann nur diese
+Methoden können die notwendige Sicherheit gewährleisten. Sein Hauptziel war es,
+zu zeigen, dass Beweise in der infinitistischen Mathematik mit idealen Objekten
+immer zu korrekten Resultaten führen.
+
+Die Lösung des Problems der Widerspruchsfreiheit besteht darin, dass man durch
+finitistische Methoden zeigt, dass die infinitistische Mathematik
+widerspruchsfrei ist. Um das Problem der Konservativität zu lösen, ist zu
+zeigen, dass jeder reale Satz, der in der infinitistischen Mathematik bewiesen
+werden kann, auch finitistisch bewiesen werden kann. Um diese Aufgaben zu
+lösen, begründete Hilbert die Theorie, die man "Beweistheorie" oder
+"Metamathematik" nennt.
+Hilbert betonte, dass die Mathematik nicht aus der Logik allein deduziert
+werden könne, dass Logik nicht ausreicht, um die Mathematik zu begründen.
+
+Erster Gödelscher Unvollständigkeitssatz.
+
+Jedes formalisierte System, das die Arithmetik der natürlichen Zahlen enthält
+und widerspruchsfrei ist, muss unvollständig sein. D.h., es gibt immer Sätze in
+der Sprache eines solchen Systems, die weder bewiesen noch widerlegt werden
+können. Solche Sätze nennt man unentscheidbar.
+
+Zweiter Gödelscher Unvollständigkeitssatz.
+
+Es kann keinen Beweis der Widerspruchsfreiheit irgendeiner formalisierten und
+widerspruchsfreien Theorie geben. Vorausgesetzt wird, dass die Theorie die
+Arithmetik der natürlichen Zahlen enthält und dass keine Mittel außerhalb
+dieser Theorie verwendet werden. Eine besondere Konsequenz ist: Das Unendliche
+kann nicht aus dem Endlichen gerechtfertigt werden.
+
+Die Gödelschen Resultate haben gezeigt, dass das Hilbertsche Programm nicht
+realisiert werden kann.
+
+Ergebnisse der reversen Mathematik zeigen, wie große und wichtige Bereiche der
+klassischen Mathematik finitistisch begründet werden können. Das ursprüngliche
+Hilbertsche Programm also ist zwar nicht voll, aber doch partiell realisierbar.
+
+Zahlen sind Begriffe, in denen der Selbstbezug des Denkens repräsentiert ist.
+
+Die Idee der Unterscheidung von wahr und beweisbar, philosophische Bedingung
+der Unvollständigkeitssätze, setzte früh eine platonistische Grundhaltung
+voraus, die Gödel in den folgenden Jahrzehnten formulierte und vertiefte.
+Die philosophische Grundposition Gödels kann man als platonischen Realismus
+charakterisieren. Gödel nahm an, dass die mathematischen Gegenstände real
+außerhalb von Raum und Zeit und unabhängig vom erkennenden Subjekt existieren.
+Gödels Ansicht war es, dass "Logik und Mathematik sich [...] auf Axiome mit
+einem realen Inhalt" stützen, so, wie die Physik von Hypothesen über die
+Realität ausgeht.
+
+Die mathematischen Gegenstände sind etwas anderes als ihre Repräsentanten in
+mathematischen Theorien. Sie sind im Vergleich zu letzteren transzendent.
+Axiome beschreiben die Eigenschaften der mathematischen Objekte nur
+unvollständig. Das erkennende Subjekt prägt den Objekten keinerlei Strukturen
+auf.
+
+Für Gödel ist die Intuition die Quelle des mathematischen Wissens. Die Objekte
+der Mengenlehre sind zwar weit von der Sinneserfahrung entfernt, dennoch nehmen
+wir sie irgendwie wahr.
+
+"Es zeigt sich, dass bei der systematischen Zusammensetzung mathematischer
+Axiome immer wieder neue Axiome evident werden, die nicht formal-logisch aus
+den vorher aufgestellten folgen. Es ist trotz der früher genannten negativen
+Ergebnisse nicht ganz ausgeschlossen, dass jede klar gestellte
+Ja-oder-Nein-Frage auf diese Weise eine Antwort finden wird. Gerade dieses
+Evidentwerden von immer neuen Axiomen auf der Basis der Bedeutung der
+Grundbegriffe ist das, was eine Maschine nie imitieren kann."
+
+Nach 150 Jahren der praktischen Bewährung der Mathematik auf einem
+mengentheoretisch-logisch-axiomatischen Untergrund scheint das Bewusstsein für
+die Besonderheit der mengentheoretischen Prägung der Mathematik verschüttet zu
+sein. Das Bewusstsein für die prinzipielle Unsicherheit, die Grenzen und die
+Unvollständigkeit der Mathematik und für die Bedeutung der fundamentalen
+Unabhängigkeitsresultate ist kaum präsent. Es geht um Anwendung und
+innermathematisch um Beweisbarkeit. Wahrheit ist ein fremder, ein
+philosophischer Begriff.
